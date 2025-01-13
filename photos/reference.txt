@@ -1,0 +1,2 @@
+echo "Photos are stored locally at: /Users/gnb/Documents/assets/g85 pieces/" > project/photos/photos_reference.txt
+echo "Photos are also available on Google Drive: [Insert Google Drive link here]" >> project/photos/photos_reference.txt

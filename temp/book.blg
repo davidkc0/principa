@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'temp/book.blg'
+[89] biber-darwin:340> INFO - === Sun Jan 12, 2025, 15:46:59
+[111] Biber.pm:419> INFO - Reading 'temp/book.bcf'
+[198] Biber.pm:979> INFO - Found 17 citekeys in bib section 0
+[213] Biber.pm:4419> INFO - Processing section 0
+[225] Biber.pm:4610> INFO - Looking for bibtex file 'references/references.bib' for section 0
+[227] bibtex.pm:1713> INFO - LaTeX decoding ...
+[243] bibtex.pm:1519> INFO - Found BibTeX data source 'references/references.bib'
+[374] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[374] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[374] Biber.pm:4239> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[374] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[395] bbl.pm:660> INFO - Writing 'temp/book.bbl' with encoding 'UTF-8'
+[402] bbl.pm:763> INFO - Output to temp/book.bbl
+[402] Biber.pm:131> WARN - ISBN '9781681375333' in entry 'gafori' is invalid - run biber with '--validate_datamodel' for details.
+[402] Biber.pm:131> WARN - legacy year field 'n.d.' in entry 'vetro' is not an integer - this will probably not sort properly.
+[402] Biber.pm:131> WARN - legacy year field 'n.d.' in entry 'tmc' is not an integer - this will probably not sort properly.
+[402] Biber.pm:133> INFO - WARNINGS: 3

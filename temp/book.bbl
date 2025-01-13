@@ -1,0 +1,552 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{newton}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7a621e01239c1fe6557cf9c9d2f85bd3}{%
+           family={Newton},
+           familyi={N\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of London}%
+      }
+      \strng{namehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{fullhash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{bibnamehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authorbibnamehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authornamehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authorfullhash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \field{labelalpha}{New87}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Translated by I.\ Bernard Cohen and Anne Whitman in 1999}
+      \field{title}{Philosophiae Naturalis Principia Mathematica}
+      \field{year}{1687}
+    \endentry
+    \entry{guna}{book}{}
+      \name{author}{1}{}{%
+        {{hash=686643770b4613c0be2056f3e1e01b1c}{%
+           family={Gunaratana},
+           familyi={G\bibinitperiod},
+           given={Bhante\bibnamedelima Henepola},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wisdom Publications}%
+      }
+      \strng{namehash}{686643770b4613c0be2056f3e1e01b1c}
+      \strng{fullhash}{686643770b4613c0be2056f3e1e01b1c}
+      \strng{bibnamehash}{686643770b4613c0be2056f3e1e01b1c}
+      \strng{authorbibnamehash}{686643770b4613c0be2056f3e1e01b1c}
+      \strng{authornamehash}{686643770b4613c0be2056f3e1e01b1c}
+      \strng{authorfullhash}{686643770b4613c0be2056f3e1e01b1c}
+      \field{extraname}{1}
+      \field{labelalpha}{Gun91}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mindfulness in Plain English}
+      \field{year}{1991}
+    \endentry
+    \entry{sicp}{book}{}
+      \name{author}{3}{}{%
+        {{hash=9d498f19d0ecec78ed8839d5d872ba8b}{%
+           family={Abelson},
+           familyi={A\bibinitperiod},
+           given={Harold},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8b6dca222a717cf221b28f2c044f22a4}{%
+           family={Sussman},
+           familyi={S\bibinitperiod},
+           given={Gerald\bibnamedelima Jay},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=702820fa64fb9a23eec0260d619b4a1e}{%
+           family={Sussman},
+           familyi={S\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{c36778b14a6bf49b4362a8bcd6c1c591}
+      \strng{fullhash}{c36778b14a6bf49b4362a8bcd6c1c591}
+      \strng{bibnamehash}{c36778b14a6bf49b4362a8bcd6c1c591}
+      \strng{authorbibnamehash}{c36778b14a6bf49b4362a8bcd6c1c591}
+      \strng{authornamehash}{c36778b14a6bf49b4362a8bcd6c1c591}
+      \strng{authorfullhash}{c36778b14a6bf49b4362a8bcd6c1c591}
+      \field{labelalpha}{ASS96}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{isbn}{9780262510875}
+      \field{note}{Commonly referred to as "The Wizard Book"}
+      \field{title}{Structure and Interpretation of Computer Programs}
+      \field{year}{1996}
+      \verb{urlraw}
+      \verb https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html
+      \endverb
+      \verb{url}
+      \verb https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html
+      \endverb
+    \endentry
+    \entry{dragon}{book}{}
+      \name{author}{4}{}{%
+        {{hash=87e9142329f09390b038692270dc2168}{%
+           family={Aho},
+           familyi={A\bibinitperiod},
+           given={Alfred\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=2935cefbbdea2e46ed9635bd5cf1db28}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Monica\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=b0e677112f976b0ff780553fcb888351}{%
+           family={Sethi},
+           familyi={S\bibinitperiod},
+           given={Ravi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cafe1d770c56825ebccdb81e9f7c9b3b}{%
+           family={Ullman},
+           familyi={U\bibinitperiod},
+           given={Jeffrey\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{e81f18fe5b19a688d5145730fb236624}
+      \strng{fullhash}{b955b20997f1b0d8317cbada66b20151}
+      \strng{bibnamehash}{e81f18fe5b19a688d5145730fb236624}
+      \strng{authorbibnamehash}{e81f18fe5b19a688d5145730fb236624}
+      \strng{authornamehash}{e81f18fe5b19a688d5145730fb236624}
+      \strng{authorfullhash}{b955b20997f1b0d8317cbada66b20151}
+      \field{labelalpha}{Aho+06}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{isbn}{9780321486813}
+      \field{note}{Commonly referred to as "The Dragon Book"}
+      \field{title}{Compilers: Principles, Techniques, and Tools}
+      \field{year}{2006}
+    \endentry
+    \entry{davar}{book}{}
+      \name{author}{1}{}{%
+        {{hash=dbd50ba58acc6052dd09bfb2bbe99f76}{%
+           family={Khoshnevisan},
+           familyi={K\bibinitperiod},
+           given={Davar},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Providence, RI}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society}%
+      }
+      \strng{namehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
+      \strng{fullhash}{dbd50ba58acc6052dd09bfb2bbe99f76}
+      \strng{bibnamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
+      \strng{authorbibnamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
+      \strng{authornamehash}{dbd50ba58acc6052dd09bfb2bbe99f76}
+      \strng{authorfullhash}{dbd50ba58acc6052dd09bfb2bbe99f76}
+      \field{labelalpha}{Kho07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Hardback Edition}
+      \field{title}{Graduate Studies in Mathematics}
+      \field{year}{2007}
+    \endentry
+    \entry{green}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4ac99fe681a9cd06fc995a4d9f973fa3}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Dutton}%
+      }
+      \strng{namehash}{4ac99fe681a9cd06fc995a4d9f973fa3}
+      \strng{fullhash}{4ac99fe681a9cd06fc995a4d9f973fa3}
+      \strng{bibnamehash}{4ac99fe681a9cd06fc995a4d9f973fa3}
+      \strng{authorbibnamehash}{4ac99fe681a9cd06fc995a4d9f973fa3}
+      \strng{authornamehash}{4ac99fe681a9cd06fc995a4d9f973fa3}
+      \strng{authorfullhash}{4ac99fe681a9cd06fc995a4d9f973fa3}
+      \field{labelalpha}{Gre21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780525555216}
+      \field{note}{A collection of essays reviewing facets of the human experience in the Anthropocene era}
+      \field{title}{The Anthropocene Reviewed: Essays on a Human-Centered Planet}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.penguinrandomhouse.com/books/623940/the-anthropocene-reviewed-by-john-green/
+      \endverb
+      \verb{url}
+      \verb https://www.penguinrandomhouse.com/books/623940/the-anthropocene-reviewed-by-john-green/
+      \endverb
+    \endentry
+    \entry{gafori}{book}{}
+      \name{author}{1}{}{%
+        {{hash=70076d6163708584634eae1d828298c4}{%
+           family={Gafori},
+           familyi={G\bibinitperiod},
+           given={Haleh\bibnamedelima Liza},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {New York Review Books}%
+      }
+      \strng{namehash}{70076d6163708584634eae1d828298c4}
+      \strng{fullhash}{70076d6163708584634eae1d828298c4}
+      \strng{bibnamehash}{70076d6163708584634eae1d828298c4}
+      \strng{authorbibnamehash}{70076d6163708584634eae1d828298c4}
+      \strng{authornamehash}{70076d6163708584634eae1d828298c4}
+      \strng{authorfullhash}{70076d6163708584634eae1d828298c4}
+      \field{labelalpha}{Gaf22}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781681375333}
+      \field{title}{Gold: Rumi}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.amazon.com/Gold-Rumi/dp/1681375338
+      \endverb
+      \verb{url}
+      \verb https://www.amazon.com/Gold-Rumi/dp/1681375338
+      \endverb
+    \endentry
+    \entry{bradway}{book}{}
+      \name{author}{2}{}{%
+        {{hash=f00493d3a3158a13833352413c363bcf}{%
+           family={Bradway},
+           familyi={B\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod}}}%
+        {{hash=68692c5f6d277e62077a96b332a4270b}{%
+           family={Ngo},
+           familyi={N\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {https://www.archive.org}%
+      }
+      \strng{namehash}{0bb9f664312491fe4c56c7f13b5a74df}
+      \strng{fullhash}{0bb9f664312491fe4c56c7f13b5a74df}
+      \strng{bibnamehash}{0bb9f664312491fe4c56c7f13b5a74df}
+      \strng{authorbibnamehash}{0bb9f664312491fe4c56c7f13b5a74df}
+      \strng{authornamehash}{0bb9f664312491fe4c56c7f13b5a74df}
+      \strng{authorfullhash}{0bb9f664312491fe4c56c7f13b5a74df}
+      \field{labelalpha}{BN25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Principia Mathematica II: Electric Bugaloo}
+      \field{year}{2025}
+    \endentry
+    \entry{eulerarchive}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b36c61bc8cf469db4e351c4020b6f9e8}{%
+           family={Dominic\bibnamedelima Klyve},
+           familyi={D\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Lee\bibnamedelima Stemkoski},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b36c61bc8cf469db4e351c4020b6f9e8}
+      \strng{fullhash}{b36c61bc8cf469db4e351c4020b6f9e8}
+      \strng{bibnamehash}{b36c61bc8cf469db4e351c4020b6f9e8}
+      \strng{authorbibnamehash}{b36c61bc8cf469db4e351c4020b6f9e8}
+      \strng{authornamehash}{b36c61bc8cf469db4e351c4020b6f9e8}
+      \strng{authorfullhash}{b36c61bc8cf469db4e351c4020b6f9e8}
+      \field{labelalpha}{Dom25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-01-12}
+      \field{title}{The Euler Archive}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb http://eulerarchive.maa.org/
+      \endverb
+      \verb{url}
+      \verb http://eulerarchive.maa.org/
+      \endverb
+    \endentry
+    \entry{mit}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=44573a441e1c8d442ce057dd052e4987}{%
+           family={Technology},
+           familyi={T\bibinitperiod},
+           given={Massachusetts\bibnamedelima Institute},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{44573a441e1c8d442ce057dd052e4987}
+      \strng{fullhash}{44573a441e1c8d442ce057dd052e4987}
+      \strng{bibnamehash}{44573a441e1c8d442ce057dd052e4987}
+      \strng{authorbibnamehash}{44573a441e1c8d442ce057dd052e4987}
+      \strng{authornamehash}{44573a441e1c8d442ce057dd052e4987}
+      \strng{authorfullhash}{44573a441e1c8d442ce057dd052e4987}
+      \field{labelalpha}{Tec25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-01-12}
+      \field{title}{MIT - Massachusetts Institute of Technology}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.mit.edu
+      \endverb
+      \verb{url}
+      \verb https://www.mit.edu
+      \endverb
+    \endentry
+    \entry{yale}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e7acd5faef65a7453e095bf979ed0e05}{%
+           family={University},
+           familyi={U\bibinitperiod},
+           given={Yale},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7acd5faef65a7453e095bf979ed0e05}
+      \strng{fullhash}{e7acd5faef65a7453e095bf979ed0e05}
+      \strng{bibnamehash}{e7acd5faef65a7453e095bf979ed0e05}
+      \strng{authorbibnamehash}{e7acd5faef65a7453e095bf979ed0e05}
+      \strng{authornamehash}{e7acd5faef65a7453e095bf979ed0e05}
+      \strng{authorfullhash}{e7acd5faef65a7453e095bf979ed0e05}
+      \field{labelalpha}{Uni25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-01-12}
+      \field{title}{Yale University}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.yale.edu
+      \endverb
+      \verb{url}
+      \verb https://www.yale.edu
+      \endverb
+    \endentry
+    \entry{berkeley}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=92f08c7b7116d4d002013057c26849e9}{%
+           family={University\bibnamedelimb of\bibnamedelima California},
+           familyi={U\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Berkeley},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{92f08c7b7116d4d002013057c26849e9}
+      \strng{fullhash}{92f08c7b7116d4d002013057c26849e9}
+      \strng{bibnamehash}{92f08c7b7116d4d002013057c26849e9}
+      \strng{authorbibnamehash}{92f08c7b7116d4d002013057c26849e9}
+      \strng{authornamehash}{92f08c7b7116d4d002013057c26849e9}
+      \strng{authorfullhash}{92f08c7b7116d4d002013057c26849e9}
+      \field{labelalpha}{Uni25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-01-12}
+      \field{title}{UC Berkeley - University of California, Berkeley}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.berkeley.edu
+      \endverb
+      \verb{url}
+      \verb https://www.berkeley.edu
+      \endverb
+    \endentry
+    \entry{utah}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=903dd1268c08e7491bc61f20520cb5b8}{%
+           family={Utah},
+           familyi={U\bibinitperiod},
+           given={University},
+           giveni={U\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{903dd1268c08e7491bc61f20520cb5b8}
+      \strng{fullhash}{903dd1268c08e7491bc61f20520cb5b8}
+      \strng{bibnamehash}{903dd1268c08e7491bc61f20520cb5b8}
+      \strng{authorbibnamehash}{903dd1268c08e7491bc61f20520cb5b8}
+      \strng{authornamehash}{903dd1268c08e7491bc61f20520cb5b8}
+      \strng{authorfullhash}{903dd1268c08e7491bc61f20520cb5b8}
+      \field{extraname}{1}
+      \field{labelalpha}{Uta25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-01-12}
+      \field{title}{University of Utah}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.utah.edu
+      \endverb
+      \verb{url}
+      \verb https://www.utah.edu
+      \endverb
+    \endentry
+    \entry{bhavana}{book}{}
+      \name{author}{1}{}{%
+        {{hash=686643770b4613c0be2056f3e1e01b1c}{%
+           family={Gunaratana},
+           familyi={G\bibinitperiod},
+           given={Bhante\bibnamedelima Henepola},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{686643770b4613c0be2056f3e1e01b1c}
+      \strng{fullhash}{686643770b4613c0be2056f3e1e01b1c}
+      \strng{bibnamehash}{686643770b4613c0be2056f3e1e01b1c}
+      \strng{authorbibnamehash}{686643770b4613c0be2056f3e1e01b1c}
+      \strng{authornamehash}{686643770b4613c0be2056f3e1e01b1c}
+      \strng{authorfullhash}{686643770b4613c0be2056f3e1e01b1c}
+      \field{extraname}{2}
+      \field{labelalpha}{Gun}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bhavana Society}
+      \verb{urlraw}
+      \verb https://bhavana-society.github.io/
+      \endverb
+      \verb{url}
+      \verb https://bhavana-society.github.io/
+      \endverb
+    \endentry
+    \entry{teapot}{book}{}
+      \name{author}{1}{}{%
+        {{hash=903dd1268c08e7491bc61f20520cb5b8}{%
+           family={Utah},
+           familyi={U\bibinitperiod},
+           given={University},
+           giveni={U\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{903dd1268c08e7491bc61f20520cb5b8}
+      \strng{fullhash}{903dd1268c08e7491bc61f20520cb5b8}
+      \strng{bibnamehash}{903dd1268c08e7491bc61f20520cb5b8}
+      \strng{authorbibnamehash}{903dd1268c08e7491bc61f20520cb5b8}
+      \strng{authornamehash}{903dd1268c08e7491bc61f20520cb5b8}
+      \strng{authorfullhash}{903dd1268c08e7491bc61f20520cb5b8}
+      \field{extraname}{2}
+      \field{labelalpha}{Uta}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Utah Tea Pot}
+      \verb{urlraw}
+      \verb https://users.cs.utah.edu/~dejohnso/models/teapot.html
+      \endverb
+      \verb{url}
+      \verb https://users.cs.utah.edu/~dejohnso/models/teapot.html
+      \endverb
+    \endentry
+    \entry{tmc}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2f765268626a9186809a01f589af236c}{%
+           family={{Tathagata Meditation Center}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f765268626a9186809a01f589af236c}
+      \strng{fullhash}{2f765268626a9186809a01f589af236c}
+      \strng{bibnamehash}{2f765268626a9186809a01f589af236c}
+      \strng{authorbibnamehash}{2f765268626a9186809a01f589af236c}
+      \strng{authornamehash}{2f765268626a9186809a01f589af236c}
+      \strng{authorfullhash}{2f765268626a9186809a01f589af236c}
+      \field{labelalpha}{Tatnd}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-01-12}
+      \field{title}{{Tathagata Meditation Center}}
+      \field{year}{n.d.}
+      \verb{urlraw}
+      \verb https://www.tathagata.org/
+      \endverb
+      \verb{url}
+      \verb https://www.tathagata.org/
+      \endverb
+    \endentry
+    \entry{vetro}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ffdcd4f1c1b635c14987c321895cb006}{%
+           family={{Vetro Editions}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffdcd4f1c1b635c14987c321895cb006}
+      \strng{fullhash}{ffdcd4f1c1b635c14987c321895cb006}
+      \strng{bibnamehash}{ffdcd4f1c1b635c14987c321895cb006}
+      \strng{authorbibnamehash}{ffdcd4f1c1b635c14987c321895cb006}
+      \strng{authornamehash}{ffdcd4f1c1b635c14987c321895cb006}
+      \strng{authorfullhash}{ffdcd4f1c1b635c14987c321895cb006}
+      \field{labelalpha}{Vetnd}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-01-12}
+      \field{title}{{Vetro Editions}}
+      \field{year}{n.d.}
+      \verb{urlraw}
+      \verb https://vetroeditions.com/
+      \endverb
+      \verb{url}
+      \verb https://vetroeditions.com/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

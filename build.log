@@ -1,0 +1,218 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./book.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/bk12.clo))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+))) (/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/bookmark/bkm-pdftex.def))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/alphabetic.bbx
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/alphabetic.cbx)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty)))
+(./book.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx)
+No file book.bbl.
+(./title/title.tex
+
+LaTeX Warning: Citation 'newton' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'sicp' on page 1 undefined on input line 14.
+
+
+LaTeX Warning: Citation 'dragon' on page 1 undefined on input line 14.
+
+[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
+ures/dino.png>]) (./title/dedication.tex [2]
+
+LaTeX Warning: Citation 'gafori' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'bradway' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'green' on page 1 undefined on input line 7.
+
+
+LaTeX Warning: Citation 'guna' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'bhavana' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'yale' on page 1 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'davar' on page 1 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'utah' on page 1 undefined on input line 13.
+
+
+LaTeX Warning: Citation 'mit' on page 1 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'berkeley' on page 1 undefined on input line 15.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \end{titlepage}
+                     [1{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-s
+uper/cm-super-ts1.enc}]) (./title/yded.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            *{Dedication to ChatGPT} [2]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./title/namotassa.tex [3] [4 <./figures/clown.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6--9
+
+
+Overfull \hbox (9.25714pt too wide) in paragraph at lines 17--18
+[] \OT1/cmtt/m/n/12 Homage to the Blessed One, the Worthy One, the Fully Self-A
+wakened One. 
+)
+Underfull \hbox (badness 10000) in paragraph at lines 37--35
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--35
+
+(./title/copyright.tex [5] [6]
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd)) [7] [8]
+(./book.toc [9]) (./chapters/context.tex [10]
+Chapter 1.
+[11]) (./chapters/readme.tex [12]
+Chapter 2.
+[13]) (./chapters/installoverview.tex [14]
+Chapter 3.
+
+LaTeX Warning: Citation 'vetro' on page 15 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'bhavana' on page 15 undefined on input line 18.
+
+
+LaTeX Warning: Citation 'tmc' on page 15 undefined on input line 18.
+
+[15] [16] [17]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./chapters/clickme.tex [18] [19 <./figures/copypasta.jpg>])
+
+LaTeX Warning: Empty bibliography on input line 47.
+
+(./references/code.tex
+No file /Users/gnb/Projects/principa-master-localcomp/references/book.tex.
+(./chapters/pip.tex [20] [21] [22])) (./outro/outded.tex [23]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+
+LaTeX Warning: Citation 'teapot' on page 24 undefined on input line 27.
+
+
+LaTeX Warning: Citation 'eulerarchive' on page 24 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'eulerarchive' on page 24 undefined on input line 33.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [24 <./figures/utah.png (PNG copy)>] [25 <./figures/aocp.jpg>] (./book.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                book
+(biblatex)                and rerun LaTeX afterwards.
+
+ )
+(see the transcript file for additional information)</usr/local/texlive/2024/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-di
+st/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on book.pdf (27 pages, 5855735 bytes).
+Transcript written on book.log.

@@ -1,0 +1,84 @@
+cat << 'EOF' >> ~/.zshrc
+
+# Function to run LaTeX build process
+latexbuild() {
+  echo "Creating build_latex.sh..."
+  cat << 'SCRIPT' > build_latex.sh
+#!/bin/bash
+
+# Configuration
+TEX_FILE="book_fixed_v2.tex"
+BASE_NAME="book_fixed_v2"
+
+echo "Starting LaTeX build process for $TEX_FILE"
+
+# Step 1: Clean up old auxiliary files
+echo "Cleaning up old auxiliary files..."
+rm -f ${BASE_NAME}.{aux,bbl,bcf,blg,log,out,run.xml,toc}
+
+# Step 2: Compile LaTeX to generate .bcf file
+echo "Running pdflatex (1st pass)..."
+pdflatex -interaction=nonstopmode $TEX_FILE
+if [ $? -ne 0 ]; then
+    echo "Error: pdflatex failed. Check the log file ${BASE_NAME}.log for details."
+    exit 1
+fi
+
+# Step 3: Run Biber
+if [ -f "${BASE_NAME}.bcf" ]; then
+    echo "Running Biber..."
+    biber $BASE_NAME
+    if [ $? -ne 0 ]; then
+        echo "Error: Biber failed. Check the log file ${BASE_NAME}.blg for details."
+        exit 1
+    fi
+else
+    echo "Error: ${BASE_NAME}.bcf file not found. Ensure pdflatex runs successfully."
+    exit 1
+fi
+
+# Step 4: Compile LaTeX twice to resolve references
+echo "Running pdflatex (2nd pass)..."
+pdflatex -interaction=nonstopmode $TEX_FILE
+if [ $? -ne 0 ]; then
+    echo "Error: pdflatex failed on 2nd pass. Check the log file ${BASE_NAME}.log for details."
+    exit 1
+fi
+
+echo "Running pdflatex (3rd pass)..."
+pdflatex -interaction=nonstopmode $TEX_FILE
+if [ $? -ne 0 ]; then
+    echo "Error: pdflatex failed on 3rd pass. Check the log file ${BASE_NAME}.log for details."
+    exit 1
+fi
+
+# Step 5: Check logs for warnings or errors
+echo "Checking logs for warnings or errors..."
+if grep -i "warning\|error" ${BASE_NAME}.log > /dev/null; then
+    echo "Warnings or errors found in ${BASE_NAME}.log:"
+    grep -i "warning\|error" ${BASE_NAME}.log
+    echo "Please review the above messages."
+else
+    echo "No warnings or errors found in ${BASE_NAME}.log"
+fi
+
+if grep -i "error" ${BASE_NAME}.blg > /dev/null; then
+    echo "Errors found in ${BASE_NAME}.blg:"
+    grep -i "error" ${BASE_NAME}.blg
+    echo "Please review the above messages."
+else
+    echo "No errors found in ${BASE_NAME}.blg"
+fi
+
+# Completion message
+echo "LaTeX build process completed successfully!"
+echo "Output PDF: ${BASE_NAME}.pdf"
+SCRIPT
+
+  echo "Making build_latex.sh executable..."
+  chmod +x build_latex.sh
+
+  echo "Running build_latex.sh..."
+  ./build_latex.sh
+}
+EOF

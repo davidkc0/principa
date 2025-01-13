@@ -1,0 +1,57 @@
+\documentclass[12pt]{book}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{bookmark}
+
+%\usepackage[hyphens]{url}
+\usepackage{verbatim}
+
+\geometry{a4paper, margin=1in}
+\usepackage{graphicx}
+
+\usepackage{longtable}
+\usepackage{fancyvrb}
+\usepackage[style=alphabetic]{biblatex}
+\addbibresource{/Users/gnb/Projects/principa-master-localcomp/references/references.bib} % Adjust the .bib file name if needed
+
+\usepackage{listings}
+
+\begin{document}
+
+% Title Page Inclusion
+\input{title/title}
+
+\input{title/dedication}
+
+\input{title/yded}
+% Namo Tassa Dedication Page Inclusion
+\input{title/namotassa}
+
+% Copyright Notice Page Inclusion
+\input{title/copyright}
+
+\tableofcontents
+
+\input{chapters/context}
+\input{chapters/readme}
+
+\input{chapters/installoverview}
+\input{chapters/clickme}
+
+\printbibliography %Prints bibliography
+
+
+
+
+\end{document}
+
+\appendix
+
+
+\input{references/code.tex}
+\input{outro/outded}
+
+\end{document}

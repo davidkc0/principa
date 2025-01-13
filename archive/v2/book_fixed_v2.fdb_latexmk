@@ -1,0 +1,12 @@
+# Fdb version 4
+["pdflatex"] 1736615578.21393 "book_fixed_v2.tex" "book_fixed_v2.pdf" "book_fixed_v2" 1736615655.47443 2
+  "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
+  "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1736586496 8221425 022051146156e1b2423124cd51274c9d ""
+  "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
+  "book_fixed_v2.aux" 1736615578.21301 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "book_fixed_v2.tex" 1736615647.32006 4658 ff7e1b67c4326c51d59acf316edb601d ""
+  (generated)
+  "book_fixed_v2.aux"
+  "book_fixed_v2.log"
+  "book_fixed_v2.pdf"
+  (rewritten before read)
