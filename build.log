@@ -162,45 +162,32 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) (./chapters/clickme.tex [18] [19 <./figures/copypasta.jpg>])
 (./optics/optics.tex [20]
 Chapter 4.
-[21] [22] [23] (./book.aux)
+[21] [22]) [23] (./book.bbl) [24] (./book.aux)
 
 LaTeX Warning: There were undefined references.
 
- ) )
-(see the transcript file for additional information)
-pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
-, replaced by a fixed one
-
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/lo
-cal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (25 pages, 5666936 bytes).
+ )
+(see the transcript file for additional information)</usr/local/texlive/2024/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2024/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dist/font
+s/type1/public/cm-super/sfrm1200.pfb>
+Output written on book.pdf (26 pages, 5669285 bytes).
 Transcript written on book.log.
 This is BibTeX, Version 0.99d (TeX Live 2024)
 The top-level auxiliary file: book.aux
-I found no \bibdata command---while reading file book.aux
-I found no \bibstyle command---while reading file book.aux
-(There were 2 error messages)
+The style file: plain.bst
+Database file #1: /Users/gnb/Projects/principa-master-localcomp/references/references.bib
+Warning--empty publisher in bhavana
+Warning--empty year in bhavana
+(There were 2 warnings)
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
@@ -365,11 +352,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) (./chapters/clickme.tex [18] [19 <./figures/copypasta.jpg>])
 (./optics/optics.tex [20]
 Chapter 4.
-[21] [22] [23] (./book.aux)
+[21] [22]) [23] (./book.bbl [24]) [25] (./book.aux)
 
 LaTeX Warning: There were undefined references.
 
- ) )
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 (see the transcript file for additional information)</usr/local/texlive/2024/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texm
@@ -382,7 +372,7 @@ fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dist/font
 s/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (25 pages, 5666497 bytes).
+Output written on book.pdf (27 pages, 5675208 bytes).
 Transcript written on book.log.
 This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex)
  restricted \write18 enabled.
@@ -451,49 +441,9 @@ Excluding comment 'comment')
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
-Excluding 'comment' comment. (./title/title.tex
-
-LaTeX Warning: Citation `newton' on page 1 undefined on input line 7.
-
-
-LaTeX Warning: Citation `sicp' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Citation `dragon' on page 1 undefined on input line 14.
-
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
-ures/dino.png>]) (./title/dedication.tex [2 <./figures/lion.jpeg>]
-
-LaTeX Warning: Citation `gafori' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation `bradway' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation `green' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Citation `guna' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Citation `bhavana' on page 1 undefined on input line 14.
-
-
-LaTeX Warning: Citation `yale' on page 1 undefined on input line 15.
-
-
-LaTeX Warning: Citation `davar' on page 1 undefined on input line 19.
-
-
-LaTeX Warning: Citation `utah' on page 1 undefined on input line 19.
-
-
-LaTeX Warning: Citation `mit' on page 1 undefined on input line 21.
-
-
-LaTeX Warning: Citation `berkeley' on page 1 undefined on input line 21.
-
-
+Excluding 'comment' comment. (./title/title.tex [1{/usr/local/texlive/2024/texm
+f-var/fonts/map/pdftex/updmap/pdftex.map} <./figures/dino.png>])
+(./title/dedication.tex [2 <./figures/lion.jpeg>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -532,15 +482,6 @@ Chapter 1.
 Chapter 2.
 [13]) (./chapters/installoverview.tex [14]
 Chapter 3.
-
-LaTeX Warning: Citation `vetro' on page 15 undefined on input line 16.
-
-
-LaTeX Warning: Citation `bhavana' on page 15 undefined on input line 18.
-
-
-LaTeX Warning: Citation `tmc' on page 15 undefined on input line 18.
-
 [15] [16] [17]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -548,11 +489,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) (./chapters/clickme.tex [18] [19 <./figures/copypasta.jpg>])
 (./optics/optics.tex [20]
 Chapter 4.
-[21] [22] [23] (./book.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) )
+[21] [22]) [23] (./book.bbl [24]) [25] (./book.aux) )
 (see the transcript file for additional information)</usr/local/texlive/2024/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texm
@@ -565,5 +502,5 @@ fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dist/font
 s/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (25 pages, 5666497 bytes).
+Output written on book.pdf (27 pages, 5676262 bytes).
 Transcript written on book.log.
