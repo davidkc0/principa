@@ -47,4 +47,8 @@
 \contentsline {section}{AI as Association Machines}{26}{section*.16}%
 \contentsline {section}{\numberline {5.2}The Law of Large Numbers \cite {davar} and the Central Limit Theorem: Foundations of Probability}{34}{section.5.2}%
 \contentsline {section}{AI as Association Machines}{36}{section*.26}%
-\contentsline {section}{\numberline {.1}Dedication outro.}{55}{section.Alph0.1}%
+\contentsline {chapter}{\numberline {6}The Dinosaur Chapter}{51}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Farmer Labs}{51}{section.6.1}%
+\contentsline {subsection}{USet Grant}{52}{section*.27}%
+\contentsline {subsection}{Falcarius}{53}{section*.28}%
+\contentsline {chapter}{\numberline {A}Dedication outro.}{87}{appendix.A}%
