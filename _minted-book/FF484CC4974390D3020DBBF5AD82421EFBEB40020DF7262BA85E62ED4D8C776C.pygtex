@@ -1,0 +1,59 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{functools}
+
+\PYG{k+kn}{from} \PYG{n+nn}{plottermagic.line\PYGZus{}render} \PYG{k+kn}{import} \PYG{n}{camera}\PYG{p}{,} \PYG{n}{occlusion}\PYG{p}{,} \PYG{n}{renderable}
+
+\PYG{k}{def} \PYG{n+nf}{map\PYGZus{}to\PYGZus{}cam\PYGZus{}space}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{):}
+    \PYG{n}{view\PYGZus{}mat} \PYG{o}{=} \PYG{n}{cam}\PYG{o}{.}\PYG{n}{get\PYGZus{}view\PYGZus{}matrix}\PYG{p}{()}
+    \PYG{k}{return} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n+nb}{map}\PYG{p}{(}\PYG{k}{lambda} \PYG{n}{o}\PYG{p}{:}\PYG{n}{o}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{view\PYGZus{}mat}\PYG{p}{,} \PYG{n}{renormalize}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{),} \PYG{n}{objects}\PYG{p}{))}
+
+\PYG{k}{def} \PYG{n+nf}{map\PYGZus{}to\PYGZus{}proj\PYGZus{}space}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{):}
+    \PYG{n}{proj\PYGZus{}matrix} \PYG{o}{=} \PYG{n}{cam}\PYG{o}{.}\PYG{n}{get\PYGZus{}pers\PYGZus{}proj\PYGZus{}matrix}\PYG{p}{()}
+    \PYG{k}{return} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n+nb}{map}\PYG{p}{(}\PYG{k}{lambda} \PYG{n}{o}\PYG{p}{:}\PYG{n}{o}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{proj\PYGZus{}matrix}\PYG{p}{,} \PYG{n}{renormalize}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{),} \PYG{n}{objects}\PYG{p}{))}
+
+\PYG{k}{def} \PYG{n+nf}{map\PYGZus{}to\PYGZus{}viewport}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{corner}\PYG{p}{,} \PYG{n}{side\PYGZus{}lengths}\PYG{p}{):}
+    \PYG{n}{viewport\PYGZus{}mat} \PYG{o}{=} \PYG{n}{camera}\PYG{o}{.}\PYG{n}{make\PYGZus{}viewport\PYGZus{}matrix}\PYG{p}{(}\PYG{n}{corner}\PYG{p}{,} \PYG{n}{side\PYGZus{}lengths}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n+nb}{map}\PYG{p}{(}\PYG{k}{lambda} \PYG{n}{o}\PYG{p}{:}\PYG{n}{o}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{viewport\PYGZus{}mat}\PYG{p}{,} \PYG{n}{renormalize}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{),} \PYG{n}{objects}\PYG{p}{))}
+
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}2d}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{):}
+    \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+        \PYG{k}{return} \PYG{n}{renderable}\PYG{o}{.}\PYG{n}{TaggedRenderObject}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}no objects found\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{tagged\PYGZus{}objects} \PYG{o}{=} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n+nb}{map}\PYG{p}{(}\PYG{k}{lambda} \PYG{n}{o}\PYG{p}{:}\PYG{n}{o}\PYG{o}{.}\PYG{n}{to\PYGZus{}2d}\PYG{p}{(),} \PYG{n}{objects}\PYG{p}{))}
+    \PYG{k}{return} \PYG{n}{functools}\PYG{o}{.}\PYG{n}{reduce}\PYG{p}{(}\PYG{k}{lambda} \PYG{n}{a}\PYG{p}{,}\PYG{n}{b}\PYG{p}{:} \PYG{n}{a}\PYG{o}{.}\PYG{n}{update}\PYG{p}{(}\PYG{n}{b}\PYG{p}{),} \PYG{n}{tagged\PYGZus{}objects}\PYG{p}{)}
+
+\PYG{k}{def} \PYG{n+nf}{proj\PYGZus{}via\PYGZus{}cam}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{):}
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{map\PYGZus{}to\PYGZus{}cam\PYGZus{}space}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{)}
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{map\PYGZus{}to\PYGZus{}proj\PYGZus{}space}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{objects}
+
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}viewport\PYGZus{}objs}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{,} \PYG{n}{center} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mf}{0.5}\PYG{p}{),} \PYG{n}{dimensions} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)):}
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{proj\PYGZus{}via\PYGZus{}cam}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{)}
+    \PYG{n}{corner} \PYG{o}{=} \PYG{p}{(}\PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{dimensions}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2} \PYG{p}{,} \PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{dimensions}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{dimensions}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{)}
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{map\PYGZus{}to\PYGZus{}viewport}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{corner}\PYG{p}{,} \PYG{n}{dimensions}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{objects}
+
+\PYG{k}{def} \PYG{n+nf}{render\PYGZus{}no\PYGZus{}clipping}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{,} \PYG{n}{center} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mf}{0.5}\PYG{p}{),} \PYG{n}{dimensions} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)):}
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{proj\PYGZus{}via\PYGZus{}cam}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{)}
+    \PYG{n}{corner} \PYG{o}{=} \PYG{p}{(}\PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{dimensions}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2} \PYG{p}{,} \PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{dimensions}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{dimensions}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{)}
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{map\PYGZus{}to\PYGZus{}viewport}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{corner}\PYG{p}{,} \PYG{n}{dimensions}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{get\PYGZus{}2d}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)}
+
+\PYG{k}{def} \PYG{n+nf}{clip\PYGZus{}obj\PYGZus{}textures}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n+nb}{map}\PYG{p}{(}\PYG{k}{lambda} \PYG{n}{o}\PYG{p}{:}\PYG{n}{o}\PYG{o}{.}\PYG{n}{clip\PYGZus{}items}\PYG{p}{(),} \PYG{n}{objects}\PYG{p}{))}
+
+\PYG{k}{def} \PYG{n+nf}{end\PYGZus{}this\PYGZus{}unholy\PYGZus{}floating\PYGZus{}point\PYGZus{}error\PYGZus{}hell}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n+nb}{list}\PYG{p}{(}\PYG{n+nb}{map}\PYG{p}{(}\PYG{k}{lambda} \PYG{n}{o}\PYG{p}{:}\PYG{n}{o}\PYG{o}{.}\PYG{n}{snap\PYGZus{}to\PYGZus{}grid}\PYG{p}{(}\PYG{n}{decimals}\PYG{o}{=}\PYG{l+m+mi}{5}\PYG{p}{),} \PYG{n}{objects}\PYG{p}{))}
+
+\PYG{k}{def} \PYG{n+nf}{render\PYGZus{}occulsion}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{,} \PYG{n}{center} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mf}{0.5}\PYG{p}{),} \PYG{n}{dimensions} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{10}\PYG{p}{,}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)):}
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{proj\PYGZus{}via\PYGZus{}cam}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{)}
+
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{end\PYGZus{}this\PYGZus{}unholy\PYGZus{}floating\PYGZus{}point\PYGZus{}error\PYGZus{}hell}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)}
+
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{occlusion}\PYG{o}{.}\PYG{n}{get\PYGZus{}occuluded\PYGZus{}objs}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)}
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{occlusion}\PYG{o}{.}\PYG{n}{get\PYGZus{}occuluded\PYGZus{}pieces}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)}
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{clip\PYGZus{}obj\PYGZus{}textures}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)}
+
+    \PYG{n}{corner} \PYG{o}{=} \PYG{p}{(}\PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{dimensions}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2} \PYG{p}{,} \PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{dimensions}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{dimensions}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{)}
+    \PYG{n}{objects} \PYG{o}{=} \PYG{n}{map\PYGZus{}to\PYGZus{}viewport}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{,} \PYG{n}{corner}\PYG{p}{,} \PYG{n}{dimensions}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{get\PYGZus{}2d}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)}
+\end{Verbatim}

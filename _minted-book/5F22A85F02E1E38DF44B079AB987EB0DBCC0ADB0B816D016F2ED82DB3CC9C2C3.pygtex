@@ -1,0 +1,59 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{plottermagic.line\PYGZus{}render} \PYG{k+kn}{import} \PYG{n}{renderable}
+
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.geometry} \PYG{k+kn}{import} \PYG{n}{base}
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+
+\PYG{k}{class} \PYG{n+nc}{Container}\PYG{p}{(}\PYG{n}{renderable}\PYG{o}{.}\PYG{n}{Renderable}\PYG{p}{):}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{items}\PYG{p}{):}
+
+        \PYG{k}{if} \PYG{n}{items} \PYG{o+ow}{is} \PYG{k+kc}{None}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{items} \PYG{o}{=} \PYG{p}{[]}
+        \PYG{k}{elif} \PYG{n+nb}{isinstance}\PYG{p}{(}\PYG{n}{items}\PYG{p}{,} \PYG{n}{Container}\PYG{p}{):}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{items} \PYG{o}{=} \PYG{n}{items}\PYG{o}{.}\PYG{n}{items}
+        \PYG{k}{elif} \PYG{n+nb}{isinstance}\PYG{p}{(}\PYG{n}{items}\PYG{p}{,} \PYG{n+nb}{list}\PYG{p}{):}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{items} \PYG{o}{=} \PYG{n}{items}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{items} \PYG{o}{=} \PYG{p}{[}\PYG{n}{items}\PYG{p}{]}
+
+    \PYG{k}{def} \PYG{n+nf}{append}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n+nb}{object}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{items}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n+nb}{object}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{\PYGZus{}transform}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{transform}\PYG{p}{,} \PYG{n}{renormalize}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+        \PYG{n}{transformed} \PYG{o}{=} \PYG{p}{[}\PYG{n}{i}\PYG{o}{.}\PYG{n}{\PYGZus{}transform}\PYG{p}{(}\PYG{n}{transform}\PYG{p}{,} \PYG{n}{renormalize}\PYG{p}{)} \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{items}\PYG{p}{]}
+        \PYG{k}{return} \PYG{n}{Container}\PYG{p}{(}\PYG{n}{transformed}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{to\PYGZus{}2d}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{n}{rd} \PYG{o}{=} \PYG{n}{renderable}\PYG{o}{.}\PYG{n}{RenderDict}\PYG{p}{(\PYGZob{}\PYGZcb{})}
+        \PYG{k}{for} \PYG{n}{obj} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{items}\PYG{p}{:}
+            \PYG{n}{rd} \PYG{o}{=} \PYG{n}{rd}\PYG{o}{.}\PYG{n}{update}\PYG{p}{(}\PYG{n}{obj}\PYG{o}{.}\PYG{n}{to\PYGZus{}2d}\PYG{p}{())}
+        \PYG{k}{return} \PYG{n}{rd}
+
+    \PYG{k}{def} \PYG{n+nf}{clip\PYGZus{}to\PYGZus{}shape}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{shape}\PYG{p}{):}
+
+        \PYG{n}{new\PYGZus{}items} \PYG{o}{=} \PYG{p}{[]}
+        \PYG{k}{for} \PYG{n}{item} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{items}\PYG{p}{:}
+
+            \PYG{n}{item\PYGZus{}shape} \PYG{o}{=} \PYG{n}{item}\PYG{o}{.}\PYG{n}{to\PYGZus{}2d\PYGZus{}shapely}\PYG{p}{()}
+            \PYG{n}{clipped} \PYG{o}{=} \PYG{n}{item\PYGZus{}shape}\PYG{o}{.}\PYG{n}{intersection}\PYG{p}{(}\PYG{n}{shape}\PYG{o}{.}\PYG{n}{buffer}\PYG{p}{(}\PYG{l+m+mf}{0.001}\PYG{p}{))}
+            \PYG{k}{if} \PYG{n}{clipped}\PYG{o}{.}\PYG{n}{is\PYGZus{}empty}\PYG{p}{:}
+                \PYG{k}{continue}
+
+            \PYG{k}{if} \PYG{n+nb}{isinstance}\PYG{p}{(}\PYG{n}{clipped}\PYG{p}{,} \PYG{n}{base}\PYG{o}{.}\PYG{n}{BaseMultipartGeometry}\PYG{p}{):}
+                \PYG{n}{shapes} \PYG{o}{=} \PYG{p}{[}\PYG{n}{g} \PYG{k}{for} \PYG{n}{g} \PYG{o+ow}{in} \PYG{n}{clipped}\PYG{o}{.}\PYG{n}{geoms}\PYG{p}{]}
+            \PYG{k}{else}\PYG{p}{:}
+                \PYG{n}{shapes} \PYG{o}{=} \PYG{p}{[}\PYG{n}{clipped}\PYG{p}{]}
+
+            \PYG{k}{for} \PYG{n}{s} \PYG{o+ow}{in} \PYG{n}{shapes}\PYG{p}{:}
+                \PYG{n}{new\PYGZus{}item} \PYG{o}{=} \PYG{n}{item}\PYG{o}{.}\PYG{n}{reduce\PYGZus{}shape}\PYG{p}{(}\PYG{n}{s}\PYG{p}{)}
+                \PYG{k}{if} \PYG{n}{new\PYGZus{}item} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{k+kc}{None}\PYG{p}{:}
+                    \PYG{n}{new\PYGZus{}items}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{new\PYGZus{}item}\PYG{p}{)}
+
+        \PYG{k}{return} \PYG{n}{Container}\PYG{p}{(}\PYG{n}{new\PYGZus{}items}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{copy}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{shallow}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{Container}\PYG{p}{([}\PYG{n}{i}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{(}\PYG{n}{shallow}\PYG{p}{)} \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{items}\PYG{p}{])}
+
+    \PYG{k}{def} \PYG{n+nf}{snap\PYGZus{}to\PYGZus{}grid}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{decimals}\PYG{o}{=}\PYG{l+m+mi}{6}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{Container}\PYG{p}{([}\PYG{n}{i}\PYG{o}{.}\PYG{n}{snap\PYGZus{}to\PYGZus{}grid}\PYG{p}{(}\PYG{n}{decimals}\PYG{p}{)} \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{items}\PYG{p}{])}
+\end{Verbatim}

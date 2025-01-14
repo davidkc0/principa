@@ -1,0 +1,137 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.geometry} \PYG{k+kn}{import} \PYG{n}{base}
+
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}occuluded\PYGZus{}shapes}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{):}
+    \PYG{n}{shapes} \PYG{o}{=} \PYG{p}{[}\PYG{n}{o}\PYG{o}{.}\PYG{n}{to\PYGZus{}2d\PYGZus{}shapely}\PYG{p}{()} \PYG{k}{for} \PYG{n}{o} \PYG{o+ow}{in} \PYG{n}{objects}\PYG{p}{]}
+
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)):}
+        \PYG{n}{o1}\PYG{p}{,} \PYG{n}{s1} \PYG{o}{=} \PYG{n}{objects}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],} \PYG{n}{shapes}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}
+
+        \PYG{k}{if} \PYG{n}{s1}\PYG{o}{.}\PYG{n}{is\PYGZus{}empty}\PYG{p}{:}
+            \PYG{k}{continue}
+
+        \PYG{k}{for} \PYG{n}{j} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)):}
+            \PYG{n}{o2}\PYG{p}{,} \PYG{n}{s2} \PYG{o}{=} \PYG{n}{objects}\PYG{p}{[}\PYG{n}{j}\PYG{p}{],} \PYG{n}{shapes}\PYG{p}{[}\PYG{n}{j}\PYG{p}{]}
+
+            \PYG{k}{if} \PYG{n}{s2}\PYG{o}{.}\PYG{n}{is\PYGZus{}empty} \PYG{o+ow}{or} \PYG{o+ow}{not} \PYG{n}{s1}\PYG{o}{.}\PYG{n}{intersects}\PYG{p}{(}\PYG{n}{s2}\PYG{p}{):}
+                \PYG{k}{continue}
+            \PYG{n}{s1}\PYG{p}{,} \PYG{n}{s2} \PYG{o}{=} \PYG{n}{simple\PYGZus{}2obj\PYGZus{}occulsions}\PYG{p}{(}\PYG{n}{s1}\PYG{p}{,} \PYG{n}{o1}\PYG{p}{,} \PYG{n}{s2}\PYG{p}{,} \PYG{n}{o2}\PYG{p}{,} \PYG{n}{check\PYGZus{}valid} \PYG{o}{=} \PYG{k+kc}{False}\PYG{p}{)}
+            \PYG{n}{shapes}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{=} \PYG{n}{s1}
+            \PYG{n}{shapes}\PYG{p}{[}\PYG{n}{j}\PYG{p}{]} \PYG{o}{=} \PYG{n}{s2}
+
+    \PYG{k}{return} \PYG{n}{shapes}
+
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{def invalid\PYGZus{}shape(obj, shape):}
+\PYG{l+s+sd}{    \PYGZsh{}maybe needs to be 1e\PYGZhy{}5}
+\PYG{l+s+sd}{    thresh = 1e\PYGZhy{}10}
+\PYG{l+s+sd}{    if obj.d == 2:}
+\PYG{l+s+sd}{        return shape.area\PYGZlt{}thresh}
+\PYG{l+s+sd}{    elif obj.d==1:}
+\PYG{l+s+sd}{        return shape.length\PYGZlt{}thresh}
+\PYG{l+s+sd}{    return False}
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{k}{def} \PYG{n+nf}{simple\PYGZus{}2obj\PYGZus{}occulsions}\PYG{p}{(}\PYG{n}{s1}\PYG{p}{,} \PYG{n}{o1}\PYG{p}{,} \PYG{n}{s2}\PYG{p}{,} \PYG{n}{o2}\PYG{p}{,} \PYG{n}{check\PYGZus{}valid} \PYG{o}{=} \PYG{k+kc}{True}\PYG{p}{):}
+    \PYG{k}{if} \PYG{n}{check\PYGZus{}valid}\PYG{p}{:}
+        \PYG{k}{if} \PYG{n}{np}\PYG{o}{.}\PYG{n}{any}\PYG{p}{([}\PYG{n}{s1}\PYG{o}{.}\PYG{n}{is\PYGZus{}empty}\PYG{p}{,} \PYG{n}{s2}\PYG{o}{.}\PYG{n}{is\PYGZus{}empty}\PYG{p}{,} \PYG{o+ow}{not} \PYG{n}{s1}\PYG{o}{.}\PYG{n}{intersects}\PYG{p}{(}\PYG{n}{s2}\PYG{p}{)]):}
+            \PYG{k}{return} \PYG{n}{s1}\PYG{p}{,} \PYG{n}{s2}
+
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    \PYGZsh{}TEST}
+\PYG{l+s+sd}{    if invalid\PYGZus{}shape(o1, s1) or invalid\PYGZus{}shape(o2, s2):}
+\PYG{l+s+sd}{        return s1, s2}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{n}{s1\PYGZus{}keep} \PYG{o}{=} \PYG{n}{s1}\PYG{o}{.}\PYG{n}{difference}\PYG{p}{(}\PYG{n}{s2}\PYG{p}{)}
+    \PYG{n}{s2\PYGZus{}keep} \PYG{o}{=} \PYG{n}{s2}\PYG{o}{.}\PYG{n}{difference}\PYG{p}{(}\PYG{n}{s1}\PYG{p}{)}
+    \PYG{n}{shape\PYGZus{}intersection} \PYG{o}{=} \PYG{n}{s1}\PYG{o}{.}\PYG{n}{intersection}\PYG{p}{(}\PYG{n}{s2}\PYG{p}{)}
+
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    \PYGZsh{}TEST}
+\PYG{l+s+sd}{    if shape\PYGZus{}intersection.area\PYGZlt{}1e\PYGZhy{}10:}
+\PYG{l+s+sd}{        return s1, s2}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{n}{shapes\PYGZus{}to\PYGZus{}check} \PYG{o}{=} \PYG{p}{[]}
+
+    \PYG{k}{if} \PYG{n+nb}{isinstance}\PYG{p}{(}\PYG{n}{shape\PYGZus{}intersection}\PYG{p}{,} \PYG{n}{base}\PYG{o}{.}\PYG{n}{BaseMultipartGeometry}\PYG{p}{):}
+        \PYG{n}{shapes\PYGZus{}to\PYGZus{}check} \PYG{o}{=} \PYG{p}{[}\PYG{n}{g} \PYG{k}{for} \PYG{n}{g} \PYG{o+ow}{in} \PYG{n}{shape\PYGZus{}intersection}\PYG{o}{.}\PYG{n}{geoms}\PYG{p}{]}
+    \PYG{k}{else}\PYG{p}{:}
+        \PYG{n}{shapes\PYGZus{}to\PYGZus{}check} \PYG{o}{=} \PYG{p}{[}\PYG{n}{shape\PYGZus{}intersection}\PYG{p}{]}
+
+    \PYG{k}{for} \PYG{n}{shape} \PYG{o+ow}{in} \PYG{n}{shapes\PYGZus{}to\PYGZus{}check}\PYG{p}{:}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        This doesn\PYGZsq{}t work in the case that two polygons actually intersect each other.}
+\PYG{l+s+sd}{        To fix that you\PYGZsq{}d need something like}
+
+\PYG{l+s+sd}{        if both polygons???:}
+\PYG{l+s+sd}{            line\PYGZus{}intersection = polygons[i].intersection(polygons[j])}
+\PYG{l+s+sd}{            if line\PYGZus{}intersection is not None:}
+\PYG{l+s+sd}{                new\PYGZus{}shapes = []}
+\PYG{l+s+sd}{                for s in shapes\PYGZus{}to\PYGZus{}check:}
+\PYG{l+s+sd}{                    new\PYGZus{}shapes += ops.split(s, line\PYGZus{}intersection)}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        \PYGZsh{}TEST}
+\PYG{l+s+sd}{        if shape.area\PYGZlt{}1e\PYGZhy{}10:}
+\PYG{l+s+sd}{            continue}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+        \PYG{n}{pt} \PYG{o}{=} \PYG{n}{shape}\PYG{o}{.}\PYG{n}{representative\PYGZus{}point}\PYG{p}{()}\PYG{o}{.}\PYG{n}{xy}
+        \PYG{c+c1}{\PYGZsh{}pt = shape.centroid.xy}
+        \PYG{n}{xy} \PYG{o}{=} \PYG{p}{(}\PYG{n}{pt}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{n}{pt}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{])}
+        \PYG{n}{z1} \PYG{o}{=} \PYG{n}{o1}\PYG{o}{.}\PYG{n}{get\PYGZus{}z\PYGZus{}at\PYGZus{}xy}\PYG{p}{(}\PYG{n}{xy}\PYG{p}{)}
+        \PYG{n}{z2} \PYG{o}{=} \PYG{n}{o2}\PYG{o}{.}\PYG{n}{get\PYGZus{}z\PYGZus{}at\PYGZus{}xy}\PYG{p}{(}\PYG{n}{xy}\PYG{p}{)}
+
+        \PYG{k}{if} \PYG{n}{z1}\PYG{o}{\PYGZlt{}}\PYG{n}{z2}\PYG{p}{:}
+            \PYG{n}{s1\PYGZus{}keep} \PYG{o}{=} \PYG{n}{s1\PYGZus{}keep}\PYG{o}{.}\PYG{n}{union}\PYG{p}{(}\PYG{n}{shape}\PYG{p}{)}
+        \PYG{k}{elif} \PYG{n}{z2}\PYG{o}{\PYGZlt{}}\PYG{n}{z1}\PYG{p}{:}
+            \PYG{n}{s2\PYGZus{}keep} \PYG{o}{=} \PYG{n}{s2\PYGZus{}keep}\PYG{o}{.}\PYG{n}{union}\PYG{p}{(}\PYG{n}{shape}\PYG{p}{)}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{c+c1}{\PYGZsh{} Right now lines might intersect with planes at points}
+            \PYG{c+c1}{\PYGZsh{} randomly pick one so we don\PYGZsq{}t draw two borders.}
+            \PYG{k}{if} \PYG{n}{np}\PYG{o}{.}\PYG{n}{random}\PYG{o}{.}\PYG{n}{random}\PYG{p}{()}\PYG{o}{\PYGZgt{}}\PYG{l+m+mf}{0.5}\PYG{p}{:}
+                \PYG{n}{s1\PYGZus{}keep} \PYG{o}{=} \PYG{n}{s1\PYGZus{}keep}\PYG{o}{.}\PYG{n}{union}\PYG{p}{(}\PYG{n}{shape}\PYG{p}{)}
+            \PYG{k}{else}\PYG{p}{:}
+                \PYG{n}{s2\PYGZus{}keep} \PYG{o}{=} \PYG{n}{s2\PYGZus{}keep}\PYG{o}{.}\PYG{n}{union}\PYG{p}{(}\PYG{n}{shape}\PYG{p}{)}
+
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    \PYGZsh{}TEST}
+\PYG{l+s+sd}{    return s1\PYGZus{}keep.simplify(1e\PYGZhy{}10), s2\PYGZus{}keep.simplify(1e\PYGZhy{}10)}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{k}{return} \PYG{n}{s1\PYGZus{}keep}\PYG{p}{,} \PYG{n}{s2\PYGZus{}keep}
+
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}occuluded\PYGZus{}pieces}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{):}
+    \PYG{n}{new\PYGZus{}objs} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{k}{for} \PYG{n}{obj} \PYG{o+ow}{in} \PYG{n}{objects}\PYG{p}{:}
+        \PYG{k}{for} \PYG{n}{piece} \PYG{o+ow}{in} \PYG{n}{obj}\PYG{o}{.}\PYG{n}{get\PYGZus{}pieces}\PYG{p}{():}
+            \PYG{n}{new\PYGZus{}objs}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{piece}\PYG{p}{)}
+    \PYG{k}{return} \PYG{n}{new\PYGZus{}objs}
+
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}occuluded\PYGZus{}objs}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{):}
+
+    \PYG{n}{occluded\PYGZus{}shapes} \PYG{o}{=} \PYG{n}{get\PYGZus{}occuluded\PYGZus{}shapes}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)}
+
+    \PYG{n}{new\PYGZus{}objects} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{k}{for} \PYG{n}{new\PYGZus{}shape}\PYG{p}{,} \PYG{n}{obj} \PYG{o+ow}{in} \PYG{n+nb}{zip}\PYG{p}{(}\PYG{n}{occluded\PYGZus{}shapes}\PYG{p}{,} \PYG{n}{objects}\PYG{p}{):}
+
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        \PYGZsh{}TEST}
+\PYG{l+s+sd}{        if not new\PYGZus{}shape.is\PYGZus{}valid:}
+\PYG{l+s+sd}{            new\PYGZus{}shape = new\PYGZus{}shape.buffer(0)}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+        \PYG{k}{if} \PYG{n+nb}{isinstance}\PYG{p}{(}\PYG{n}{new\PYGZus{}shape}\PYG{p}{,} \PYG{n}{base}\PYG{o}{.}\PYG{n}{BaseMultipartGeometry}\PYG{p}{):}
+            \PYG{n}{shape\PYGZus{}list} \PYG{o}{=} \PYG{p}{[}\PYG{n}{g} \PYG{k}{for} \PYG{n}{g} \PYG{o+ow}{in} \PYG{n}{new\PYGZus{}shape}\PYG{o}{.}\PYG{n}{geoms}\PYG{p}{]}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{n}{shape\PYGZus{}list} \PYG{o}{=} \PYG{p}{[}\PYG{n}{new\PYGZus{}shape}\PYG{p}{]}
+
+        \PYG{k}{for} \PYG{n}{s} \PYG{o+ow}{in} \PYG{n}{shape\PYGZus{}list}\PYG{p}{:}
+            \PYG{n}{new\PYGZus{}obj} \PYG{o}{=} \PYG{n}{obj}\PYG{o}{.}\PYG{n}{reduce\PYGZus{}shape}\PYG{p}{(}\PYG{n}{s}\PYG{p}{)}
+            \PYG{k}{if} \PYG{n}{new\PYGZus{}obj} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{k+kc}{None}\PYG{p}{:}
+                \PYG{n}{new\PYGZus{}objects}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{new\PYGZus{}obj}\PYG{p}{)}
+
+    \PYG{k}{return} \PYG{n}{new\PYGZus{}objects}
+\end{Verbatim}

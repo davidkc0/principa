@@ -30,6 +30,8 @@
 }
 % devil magic
 
+\usepackage{minted}
+
 
 \begin{document}
 
@@ -127,6 +129,28 @@ TODO delete the hack citation (\renewcommand{\cite}[1]{\textbf{[#1]}}) thing whe
 
 
 \chapter{Ways of Seeing}
+\input{chapters/rendering}
+
+\section{Render Engine}
+\subsection{Rendering}
+\inputminted{python}{rendering/shading/grid.py}
+\inputminted{python}{rendering/shading/masking.py}
+\inputminted{python}{rendering/shading/simple_shapes.py}
+\subsection{Line Rendering}
+\inputminted{python}{rendering/line_render/fun_shapes.py}
+\inputminted{python}{rendering/line_render/moire.py}
+\inputminted{python}{rendering/line_render/renderable.py}
+\inputminted{python}{rendering/line_render/occlusion.py}
+\inputminted{python}{rendering/line_render/render.py}
+\inputminted{python}{rendering/line_render/line.py}
+\inputminted{python}{rendering/line_render/polygon.py}
+\inputminted{python}{rendering/line_render/polyhedron.py}
+\inputminted{python}{rendering/line_render/container.py}
+\inputminted{python}{rendering/line_render/error_handling.py}
+\inputminted{python}{rendering/line_render/point.py}
+\inputminted{python}{rendering/line_render/camera.py}
+\inputminted{python}{rendering/line_render/shapes3d.py}
+\inputminted{python}{rendering/line_render/swiss_polygon.py}
 
 \input{chapters/botany}
 

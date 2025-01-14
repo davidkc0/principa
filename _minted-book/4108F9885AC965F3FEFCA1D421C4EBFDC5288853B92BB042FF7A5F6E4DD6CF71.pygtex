@@ -1,0 +1,170 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{plottermagic.line\PYGZus{}render} \PYG{k+kn}{import} \PYG{n}{polygon}\PYG{p}{,} \PYG{n}{line}\PYG{p}{,} \PYG{n}{container}
+\PYG{k+kn}{from} \PYG{n+nn}{plottermagic.geometry} \PYG{k+kn}{import} \PYG{n}{geom2d}\PYG{p}{,} \PYG{n}{geom3d}\PYG{p}{,} \PYG{n}{shapes}
+
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{class Polygon(renderable.Renderable):}
+
+\PYG{l+s+sd}{    def \PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}(self, points, tag=\PYGZsq{}black\PYGZsq{}, texture=None, draw\PYGZus{}boundary = False, **kwargs):}
+
+\PYG{l+s+sd}{        self.d = 2}
+\PYG{l+s+sd}{        self.tag = tag}
+
+\PYG{l+s+sd}{        stacked = np.stack([geom3d.hpt(p) for p in points])}
+\PYG{l+s+sd}{        if np.any(stacked[\PYGZhy{}1] != stacked[0]):}
+\PYG{l+s+sd}{            stacked = np.vstack([stacked, stacked[0]])}
+\PYG{l+s+sd}{        self.pts = stacked}
+
+\PYG{l+s+sd}{        self.texture = container.Container(texture)}
+\PYG{l+s+sd}{        if draw\PYGZus{}boundary:}
+\PYG{l+s+sd}{            self.texture.append(line.Line(self.pts, tag))}
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{custom texture polygon to fill!}
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{concentric \PYGZhy{} some shape that we stretch and fill}
+\PYG{l+s+sd}{pattern texture \PYGZhy{}}
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{class ConcentricMoire:}
+
+\PYG{l+s+sd}{    def \PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}(self, ...):}
+\PYG{l+s+sd}{        MoireShape(transform(...))}
+
+\PYG{l+s+sd}{    pass}
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{k}{def} \PYG{n+nf}{make\PYGZus{}concentric\PYGZus{}circles}\PYG{p}{(}\PYG{n}{n\PYGZus{}lines}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{n}{n\PYGZus{}sides}\PYG{o}{=}\PYG{l+m+mi}{100}\PYG{p}{,} \PYG{n}{decimals}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,} \PYG{n}{start\PYGZus{}percent}\PYG{o}{=}\PYG{l+m+mf}{0.01}\PYG{p}{,} \PYG{n}{rescale}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}black\PYGZsq{}}\PYG{p}{):}
+    \PYG{n}{base\PYGZus{}circle} \PYG{o}{=} \PYG{n}{shapes}\PYG{o}{.}\PYG{n}{regular\PYGZus{}poly\PYGZus{}points}\PYG{p}{(}\PYG{n}{n\PYGZus{}sides}\PYG{p}{,} \PYG{n}{decimals}\PYG{o}{=}\PYG{n}{decimals}\PYG{p}{)}
+    \PYG{c+c1}{\PYGZsh{}close the loop!}
+    \PYG{n}{base\PYGZus{}circle} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{vstack}\PYG{p}{([}\PYG{n}{base\PYGZus{}circle}\PYG{p}{,} \PYG{n}{base\PYGZus{}circle}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]])}
+    \PYG{k}{return} \PYG{n}{make\PYGZus{}concentric\PYGZus{}pattern}\PYG{p}{(}\PYG{n}{base\PYGZus{}circle}\PYG{p}{,} \PYG{n}{n\PYGZus{}lines}\PYG{o}{=}\PYG{n}{n\PYGZus{}lines}\PYG{p}{,} \PYG{n}{start\PYGZus{}percent}\PYG{o}{=}\PYG{n}{start\PYGZus{}percent}\PYG{p}{,} \PYG{n}{rescale}\PYG{o}{=}\PYG{n}{rescale}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{n}{color}\PYG{p}{,} \PYG{n}{init\PYGZus{}rot}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}cont\PYGZsq{}}\PYG{p}{)}
+
+
+\PYG{k}{def} \PYG{n+nf}{make\PYGZus{}concentric\PYGZus{}poly}\PYG{p}{(}\PYG{n}{n\PYGZus{}lines}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{n}{n\PYGZus{}sides}\PYG{o}{=}\PYG{l+m+mi}{4}\PYG{p}{,} \PYG{n}{decimals}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,} \PYG{n}{start\PYGZus{}percent}\PYG{o}{=}\PYG{l+m+mf}{0.01}\PYG{p}{,} \PYG{n}{rescale}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}black\PYGZsq{}}\PYG{p}{):}
+    \PYG{n}{base\PYGZus{}shape} \PYG{o}{=} \PYG{n}{shapes}\PYG{o}{.}\PYG{n}{regular\PYGZus{}poly\PYGZus{}points}\PYG{p}{(}\PYG{n}{n\PYGZus{}sides}\PYG{p}{,} \PYG{n}{decimals}\PYG{o}{=}\PYG{n}{decimals}\PYG{p}{)}
+    \PYG{c+c1}{\PYGZsh{}close the loop!}
+    \PYG{n}{base\PYGZus{}shape} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{vstack}\PYG{p}{([}\PYG{n}{base\PYGZus{}shape}\PYG{p}{,} \PYG{n}{base\PYGZus{}shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]])}
+    \PYG{k}{return} \PYG{n}{make\PYGZus{}concentric\PYGZus{}pattern}\PYG{p}{(}\PYG{n}{base\PYGZus{}shape}\PYG{p}{,} \PYG{n}{n\PYGZus{}lines}\PYG{o}{=}\PYG{n}{n\PYGZus{}lines}\PYG{p}{,} \PYG{n}{start\PYGZus{}percent}\PYG{o}{=}\PYG{n}{start\PYGZus{}percent}\PYG{p}{,} \PYG{n}{rescale}\PYG{o}{=}\PYG{n}{rescale}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{n}{color}\PYG{p}{)}
+
+\PYG{k}{def} \PYG{n+nf}{make\PYGZus{}concentric\PYGZus{}pattern}\PYG{p}{(}\PYG{n}{verts}\PYG{p}{,} \PYG{n}{start\PYGZus{}percent}\PYG{o}{=}\PYG{l+m+mf}{0.01}\PYG{p}{,} \PYG{n}{end\PYGZus{}percent}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{n\PYGZus{}lines}\PYG{o}{=}\PYG{l+m+mi}{10}\PYG{p}{,} \PYG{n}{rescale}\PYG{o}{=}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{color}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}black\PYGZsq{}}\PYG{p}{,} \PYG{n}{init\PYGZus{}rot}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{):}
+    \PYG{n}{objs} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{k}{for} \PYG{n}{r} \PYG{o+ow}{in} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{n}{start\PYGZus{}percent}\PYG{p}{,} \PYG{n}{end\PYGZus{}percent}\PYG{p}{,} \PYG{n}{n\PYGZus{}lines}\PYG{p}{):}
+        \PYG{n}{l} \PYG{o}{=} \PYG{n}{line}\PYG{o}{.}\PYG{n}{Line}\PYG{p}{(}\PYG{n}{rescale}\PYG{o}{*}\PYG{n}{r}\PYG{o}{*}\PYG{n}{verts}\PYG{p}{,} \PYG{n}{tag}\PYG{o}{=}\PYG{n}{color}\PYG{p}{)}
+
+        \PYG{k}{if} \PYG{n}{init\PYGZus{}rot} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}cont\PYGZsq{}}\PYG{p}{:}
+            \PYG{n}{rand\PYGZus{}rot} \PYG{o}{=} \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{rotate\PYGZus{}z}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{random}\PYG{o}{.}\PYG{n}{randint}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{360}\PYG{p}{),} \PYG{n}{degrees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+            \PYG{n}{l} \PYG{o}{=} \PYG{n}{l}\PYG{o}{.}\PYG{n}{transform}\PYG{p}{(}\PYG{n}{rand\PYGZus{}rot}\PYG{p}{)}
+        \PYG{c+c1}{\PYGZsh{}TODO add lists for ordern N polygons.}
+
+        \PYG{n}{objs}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{l}\PYG{p}{)}
+
+    \PYG{k}{return} \PYG{n}{container}\PYG{o}{.}\PYG{n}{Container}\PYG{p}{(}\PYG{n}{objs}\PYG{p}{)}
+
+
+\PYG{k}{def} \PYG{n+nf}{zxy\PYGZus{}rot}\PYG{p}{(}\PYG{n}{x}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{y}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{z}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{):}
+    \PYG{n}{transform} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{multi\PYGZus{}dot}\PYG{p}{([}\PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{rotate\PYGZus{}z}\PYG{p}{(}\PYG{n}{z}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{n}{degrees}\PYG{p}{),}
+                                     \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{rotate\PYGZus{}x}\PYG{p}{(}\PYG{n}{x}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{n}{degrees}\PYG{p}{),}
+                                     \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{rotate\PYGZus{}y}\PYG{p}{(}\PYG{n}{y}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{n}{degrees}\PYG{p}{)])}
+    \PYG{k}{return} \PYG{n}{transform}
+
+
+\PYG{k}{def} \PYG{n+nf}{circle\PYGZus{}translations}\PYG{p}{(}\PYG{n}{r}\PYG{p}{,} \PYG{n}{n\PYGZus{}pieces}\PYG{p}{,} \PYG{n}{offset\PYGZus{}angle}\PYG{o}{=}\PYG{l+m+mi}{0}\PYG{p}{):}
+    \PYG{n}{transforms} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{n\PYGZus{}pieces}\PYG{p}{):}
+        \PYG{n}{rotation\PYGZus{}angle} \PYG{o}{=} \PYG{n}{i}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{360}\PYG{o}{/}\PYG{n}{n\PYGZus{}pieces}\PYG{p}{)}\PYG{o}{+}\PYG{n}{offset\PYGZus{}angle}
+        \PYG{n}{translation} \PYG{o}{=} \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{translate}\PYG{p}{((}\PYG{o}{\PYGZhy{}}\PYG{n}{r}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{))}
+        \PYG{n}{rotation} \PYG{o}{=} \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{rotate\PYGZus{}z}\PYG{p}{(}\PYG{n}{rotation\PYGZus{}angle}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+        \PYG{n}{transforms}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{multi\PYGZus{}dot}\PYG{p}{([}\PYG{n}{rotation}\PYG{p}{,} \PYG{n}{translation}\PYG{p}{]))}
+
+    \PYG{k}{return} \PYG{n}{transforms}
+
+
+\PYG{k}{class} \PYG{n+nc}{MoireShape}\PYG{p}{(}\PYG{n}{polygon}\PYG{o}{.}\PYG{n}{Polygon}\PYG{p}{):}
+
+    \PYG{c+c1}{\PYGZsh{}def \PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}(self, outline, texture, tag=\PYGZsq{}black\PYGZsq{}, transforms=None, rot\PYGZus{}x=0, rot\PYGZus{}y=0, rot\PYGZus{}z=0):}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{outline}\PYG{p}{,} \PYG{n}{tag}\PYG{p}{,} \PYG{n}{texture\PYGZus{}layers}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,} \PYG{n}{draw\PYGZus{}boundary}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tag} \PYG{o}{=} \PYG{n}{tag}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts} \PYG{o}{=} \PYG{n}{polygon}\PYG{o}{.}\PYG{n}{Polygon}\PYG{p}{(}\PYG{n}{outline}\PYG{p}{)}\PYG{o}{.}\PYG{n}{pts}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{texture} \PYG{o}{=} \PYG{n}{container}\PYG{o}{.}\PYG{n}{Container}\PYG{p}{([])}
+
+        \PYG{k}{if} \PYG{n}{draw\PYGZus{}boundary}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{texture}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{line}\PYG{o}{.}\PYG{n}{Line}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{p}{,} \PYG{n}{tag}\PYG{p}{))}
+
+        \PYG{k}{if} \PYG{n}{texture\PYGZus{}layers} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{k+kc}{None}\PYG{p}{:}
+            \PYG{n}{shape} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{to\PYGZus{}2d\PYGZus{}shapely}\PYG{p}{()}
+            \PYG{k}{for} \PYG{n}{texture} \PYG{o+ow}{in} \PYG{n}{texture\PYGZus{}layers}\PYG{p}{:}
+                \PYG{k}{for} \PYG{n}{clipped} \PYG{o+ow}{in} \PYG{n}{texture}\PYG{o}{.}\PYG{n}{clip\PYGZus{}to\PYGZus{}shape}\PYG{p}{(}\PYG{n}{shape}\PYG{p}{)}\PYG{o}{.}\PYG{n}{items}\PYG{p}{:}
+                    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{texture}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{clipped}\PYG{p}{)}
+
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{outline}
+\PYG{l+s+sd}{texture layer \PYGZhy{} [unclipped base texture, color, texture transform]}
+\PYG{l+s+sd}{common transforms}
+\PYG{l+s+sd}{\PYGZhy{}}
+
+
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{class MShape:}
+\PYG{l+s+sd}{    def \PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}(self, n\PYGZus{}sides, scale = 1, n\PYGZus{}lines = 5, fill\PYGZus{}type=\PYGZsq{}concentric\PYGZsq{}, color=\PYGZsq{}black\PYGZsq{}, start\PYGZus{}ratio=0.1, xy\PYGZus{}rots=(0,0)):}
+\PYG{l+s+sd}{        self.n\PYGZus{}sides = n\PYGZus{}sides}
+\PYG{l+s+sd}{        self.n\PYGZus{}lines = n\PYGZus{}lines}
+\PYG{l+s+sd}{        self.fill\PYGZus{}type = fill\PYGZus{}type}
+\PYG{l+s+sd}{        self.color = color}
+\PYG{l+s+sd}{        self.scale = scale}
+\PYG{l+s+sd}{        self.start = start\PYGZus{}ratio}
+\PYG{l+s+sd}{        self.rots = xy\PYGZus{}rots}
+
+\PYG{l+s+sd}{    def make\PYGZus{}shapes(self):}
+
+\PYG{l+s+sd}{        objs = []}
+\PYG{l+s+sd}{        self.unit\PYGZus{}verts = shapes.regular\PYGZus{}poly\PYGZus{}points(self.n\PYGZus{}sides, decimals=p.precision)}
+
+\PYG{l+s+sd}{        if self.fill\PYGZus{}type == \PYGZsq{}concentric\PYGZsq{}:}
+\PYG{l+s+sd}{            for r in np.linspace(self.start, 1, self.n\PYGZus{}lines):}
+\PYG{l+s+sd}{                poly = polygon.Polygon(self.scale*r*self.unit\PYGZus{}verts, tag=self.color, draw\PYGZus{}boundary=True)}
+
+\PYG{l+s+sd}{                t = np.linalg.multi\PYGZus{}dot([geom3d.rotate\PYGZus{}x(self.rots[0], degrees=True),}
+\PYG{l+s+sd}{                                         geom3d.rotate\PYGZus{}y(self.rots[1], degrees=True),}
+\PYG{l+s+sd}{                                        geom3d.rotate\PYGZus{}z(np.random.randint(0, 360), degrees=True)])}
+
+\PYG{l+s+sd}{                poly = poly.transform(t)}
+\PYG{l+s+sd}{                objs.append(poly)}
+
+\PYG{l+s+sd}{        return objs}
+
+
+\PYG{l+s+sd}{for i, ms in enumerate(mshapes):}
+
+
+\PYG{l+s+sd}{    rotation\PYGZus{}angle = i*(2*np.pi/n\PYGZus{}shapes)}
+
+\PYG{l+s+sd}{    translation = geom3d.translate((\PYGZhy{}p.sphere\PYGZus{}radius, 0, 0))}
+\PYG{l+s+sd}{    \PYGZsh{}translation = np.eye(4)}
+\PYG{l+s+sd}{    rotation = geom3d.rotate\PYGZus{}z(rotation\PYGZus{}angle)}
+\PYG{l+s+sd}{    \PYGZsh{}rotation = np.eye(4)}
+
+
+\PYG{l+s+sd}{    a = np.random.randint(0, 360)}
+\PYG{l+s+sd}{    print(a)}
+
+\PYG{l+s+sd}{    transform = np.linalg.multi\PYGZus{}dot([rotation, translation, geom3d.rotate\PYGZus{}z(a, degrees=True)])}
+\PYG{l+s+sd}{    \PYGZsh{}transform = np.linalg.multi\PYGZus{}dot([translation, geom3d.rotate\PYGZus{}z(a, degrees=True)])}
+\PYG{l+s+sd}{    \PYGZsh{}transform = geom3d.rotate\PYGZus{}z(a, degrees=True)}
+\PYG{l+s+sd}{    \PYGZsh{}transform = np.eye(4)}
+
+
+
+\PYG{l+s+sd}{    for s in ms.make\PYGZus{}shapes():}
+\PYG{l+s+sd}{        renderable\PYGZus{}shapes.append(s.transform(transform))}
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\end{Verbatim}

@@ -1,0 +1,105 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.geometry} \PYG{k+kn}{import} \PYG{n}{base}
+
+\PYG{k}{class} \PYG{n+nc}{Renderable}\PYG{p}{:}
+
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{tag}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tag} \PYG{o}{=} \PYG{n}{tag}
+
+    \PYG{k}{def} \PYG{n+nf}{transform}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{transform}\PYG{p}{,} \PYG{n}{renormalize}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        The points are stored as rows, but column vectors are the way to go for matrix math.}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}transform}\PYG{p}{(}\PYG{n}{transform}\PYG{o}{.}\PYG{n}{transpose}\PYG{p}{(),} \PYG{n}{renormalize}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{\PYGZus{}transform}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{transform}\PYG{p}{,} \PYG{n}{renormalize}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+        \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Not implemented in base class\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{to\PYGZus{}2d}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        Gets a (mpl) usable object for graphing.}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Not implemented in base class\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{to\PYGZus{}2d\PYGZus{}shapely}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Not implemented in base class\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}z\PYGZus{}at\PYGZus{}xy}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{pt}\PYG{p}{):}
+        \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Not implemented in base class\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{reduce\PYGZus{}shape}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{shape}\PYG{p}{):}
+        \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Not implemented in base class\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{copy}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{shallow}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+        \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Not implemented in base class\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}pieces}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{yield} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{(}\PYG{n}{shallow}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{clip\PYGZus{}items}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{(}\PYG{n}{shallow}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{snap\PYGZus{}to\PYGZus{}grid}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{decimals}\PYG{o}{=}\PYG{l+m+mi}{6}\PYG{p}{):}
+        \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Not implemented in base class\PYGZdq{}}\PYG{p}{)}
+
+\PYG{k}{class} \PYG{n+nc}{RenderDict}\PYG{p}{:}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{tagged\PYGZus{}render\PYGZus{}objects}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tagged\PYGZus{}render\PYGZus{}objects} \PYG{o}{=} \PYG{n}{tagged\PYGZus{}render\PYGZus{}objects}
+
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}getitem\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{item}\PYG{p}{):}
+        \PYG{k}{if} \PYG{n}{item} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tagged\PYGZus{}render\PYGZus{}objects}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tagged\PYGZus{}render\PYGZus{}objects}\PYG{p}{[}\PYG{n}{item}\PYG{p}{]}
+        \PYG{k}{if} \PYG{n}{item} \PYG{o+ow}{in} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}points\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}lines\PYGZsq{}}\PYG{p}{]:}
+            \PYG{k}{if} \PYG{n}{item} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}lines\PYGZsq{}}\PYG{p}{:}
+                \PYG{n}{out} \PYG{o}{=} \PYG{p}{[]}
+                \PYG{k}{for} \PYG{n}{tag}\PYG{p}{,} \PYG{n}{data\PYGZus{}structures} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tagged\PYGZus{}render\PYGZus{}objects}\PYG{o}{.}\PYG{n}{items}\PYG{p}{():}
+                    \PYG{k}{if} \PYG{l+s+s1}{\PYGZsq{}lines\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{data\PYGZus{}structures}\PYG{p}{:}
+                        \PYG{n}{out} \PYG{o}{+=} \PYG{n}{data\PYGZus{}structures}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}lines\PYGZsq{}}\PYG{p}{]}
+            \PYG{k}{elif} \PYG{n}{item} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}points\PYGZsq{}}\PYG{p}{:}
+                \PYG{n}{points} \PYG{o}{=} \PYG{p}{[]}
+                \PYG{k}{for} \PYG{n}{tag}\PYG{p}{,} \PYG{n}{data\PYGZus{}structures} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tagged\PYGZus{}render\PYGZus{}objects}\PYG{o}{.}\PYG{n}{items}\PYG{p}{():}
+                    \PYG{k}{if} \PYG{l+s+s1}{\PYGZsq{}points\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{data\PYGZus{}structures}\PYG{p}{:}
+                        \PYG{n}{points}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{data\PYGZus{}structures}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}points\PYGZsq{}}\PYG{p}{])}
+                \PYG{n}{out} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{vstack}\PYG{p}{(}\PYG{n}{points}\PYG{p}{)}
+            \PYG{k}{return} \PYG{n}{out}
+        \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}key error\PYGZsq{}}\PYG{p}{,} \PYG{n}{item}\PYG{p}{)}
+
+
+    \PYG{k}{def} \PYG{n+nf}{update}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{rd}\PYG{p}{,} \PYG{n}{inplace}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+
+        \PYG{n}{tro} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tagged\PYGZus{}render\PYGZus{}objects}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+
+        \PYG{k}{for} \PYG{n}{tag}\PYG{p}{,} \PYG{n}{data\PYGZus{}structure\PYGZus{}values} \PYG{o+ow}{in} \PYG{n}{rd}\PYG{o}{.}\PYG{n}{tagged\PYGZus{}render\PYGZus{}objects}\PYG{o}{.}\PYG{n}{items}\PYG{p}{():}
+
+            \PYG{k}{if} \PYG{n}{tag} \PYG{o+ow}{in} \PYG{n}{tro}\PYG{p}{:}
+                \PYG{n}{current} \PYG{o}{=} \PYG{n}{tro}\PYG{p}{[}\PYG{n}{tag}\PYG{p}{]}
+                \PYG{k}{for} \PYG{n}{data\PYGZus{}name}\PYG{p}{,} \PYG{n}{data} \PYG{o+ow}{in} \PYG{n}{data\PYGZus{}structure\PYGZus{}values}\PYG{o}{.}\PYG{n}{items}\PYG{p}{():}
+                    \PYG{k}{if} \PYG{n}{data\PYGZus{}name} \PYG{o+ow}{not} \PYG{o+ow}{in} \PYG{n}{current}\PYG{p}{:}
+                        \PYG{k}{if} \PYG{n}{data\PYGZus{}name} \PYG{o+ow}{not} \PYG{o+ow}{in} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}points\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}lines\PYGZsq{}}\PYG{p}{]:}
+                            \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}invalid render item\PYGZsq{}}\PYG{p}{,} \PYG{n}{data\PYGZus{}name}\PYG{p}{)}
+                        \PYG{n}{current}\PYG{p}{[}\PYG{n}{data\PYGZus{}name}\PYG{p}{]} \PYG{o}{=} \PYG{n}{data}
+                    \PYG{k}{else}\PYG{p}{:}
+                        \PYG{k}{if} \PYG{n}{data\PYGZus{}name} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}points\PYGZsq{}}\PYG{p}{:}
+                            \PYG{n}{current}\PYG{p}{[}\PYG{n}{data\PYGZus{}name}\PYG{p}{]} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{vstack}\PYG{p}{([}\PYG{n}{current}\PYG{p}{[}\PYG{n}{data\PYGZus{}name}\PYG{p}{],} \PYG{n}{data}\PYG{p}{])}
+                        \PYG{k}{elif} \PYG{n}{data\PYGZus{}name} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}lines\PYGZsq{}}\PYG{p}{:}
+                            \PYG{n}{current}\PYG{p}{[}\PYG{n}{data\PYGZus{}name}\PYG{p}{]} \PYG{o}{+=} \PYG{n}{data}
+                        \PYG{k}{else}\PYG{p}{:}
+                            \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}invalid render item\PYGZsq{}}\PYG{p}{,} \PYG{n}{data\PYGZus{}name}\PYG{p}{)}
+            \PYG{k}{else}\PYG{p}{:}
+                \PYG{n}{tro}\PYG{p}{[}\PYG{n}{tag}\PYG{p}{]} \PYG{o}{=} \PYG{n}{data\PYGZus{}structure\PYGZus{}values}
+
+        \PYG{k}{if} \PYG{n}{inplace}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tagged\PYGZus{}render\PYGZus{}objects} \PYG{o}{=} \PYG{n}{tro}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{RenderDict}\PYG{p}{(}\PYG{n}{tro}\PYG{p}{)}
+
+\PYG{k}{class} \PYG{n+nc}{TaggedRenderObject}\PYG{p}{(}\PYG{n}{RenderDict}\PYG{p}{):}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{tag}\PYG{p}{,} \PYG{n}{points}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,} \PYG{n}{lines}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{):}
+        \PYG{n}{d} \PYG{o}{=} \PYG{p}{\PYGZob{}\PYGZcb{}}
+        \PYG{k}{if} \PYG{n}{points} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{k+kc}{None}\PYG{p}{:}
+            \PYG{n}{d}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}points\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{points}
+        \PYG{k}{if} \PYG{n}{lines} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{k+kc}{None}\PYG{p}{:}
+            \PYG{n}{d}\PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}lines\PYGZsq{}}\PYG{p}{]} \PYG{o}{=} \PYG{n}{lines}
+        \PYG{n+nb}{super}\PYG{p}{()}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(\PYGZob{}}\PYG{n}{tag}\PYG{p}{:}\PYG{n}{d}\PYG{p}{\PYGZcb{})}
+\end{Verbatim}

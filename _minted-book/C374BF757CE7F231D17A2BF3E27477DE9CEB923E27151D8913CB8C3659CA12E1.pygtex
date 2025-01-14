@@ -1,0 +1,16 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.geometry} \PYG{k+kn}{import} \PYG{n}{Point}\PYG{p}{,} \PYG{n}{Polygon}
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.ops} \PYG{k+kn}{import} \PYG{n}{unary\PYGZus{}union}
+
+\PYG{k}{def} \PYG{n+nf}{create\PYGZus{}svg}\PYG{p}{():}
+    \PYG{n}{circle} \PYG{o}{=} \PYG{n}{Point}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{)}\PYG{o}{.}\PYG{n}{buffer}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}  \PYG{c+c1}{\PYGZsh{} Create a circle}
+    \PYG{n}{square} \PYG{o}{=} \PYG{n}{Polygon}\PYG{p}{([(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{),} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{),} \PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{),} \PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)])}  \PYG{c+c1}{\PYGZsh{} Create a square}
+
+    \PYG{n}{combined\PYGZus{}shape} \PYG{o}{=} \PYG{n}{unary\PYGZus{}union}\PYG{p}{([}\PYG{n}{circle}\PYG{p}{,} \PYG{n}{square}\PYG{p}{])}  \PYG{c+c1}{\PYGZsh{} Perform a union operation}
+
+    \PYG{c+c1}{\PYGZsh{} Convert to SVG path (mock function for demonstration)}
+    \PYG{n}{svg\PYGZus{}path} \PYG{o}{=} \PYG{n}{combined\PYGZus{}shape}\PYG{o}{.}\PYG{n}{svg\PYGZus{}path}\PYG{p}{()}
+    \PYG{k}{return} \PYG{l+s+sa}{f}\PYG{l+s+s1}{\PYGZsq{}\PYGZlt{}svg\PYGZgt{}}\PYG{l+s+si}{\PYGZob{}}\PYG{n}{svg\PYGZus{}path}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{\PYGZlt{}/svg\PYGZgt{}\PYGZsq{}}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{create\PYGZus{}svg}\PYG{p}{())}
+\end{Verbatim}

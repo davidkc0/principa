@@ -1,0 +1,112 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+\PYG{k+kn}{import} \PYG{n+nn}{logging}
+
+\PYG{k}{def} \PYG{n+nf}{shade\PYGZus{}triangle}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{,} \PYG{n}{c}\PYG{p}{,} \PYG{n}{num\PYGZus{}lines}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n}{shade\PYGZus{}quadrilateral}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{,} \PYG{n}{c}\PYG{p}{,} \PYG{n}{c}\PYG{p}{,} \PYG{n}{num\PYGZus{}lines}\PYG{p}{)}
+
+\PYG{k}{def} \PYG{n+nf}{shade\PYGZus{}quadrilateral}\PYG{p}{(}\PYG{n}{a1}\PYG{p}{,} \PYG{n}{b1}\PYG{p}{,} \PYG{n}{a2}\PYG{p}{,} \PYG{n}{b2}\PYG{p}{,} \PYG{n}{num\PYGZus{}lines}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Draw lines going from a1\PYGZhy{}\PYGZgt{}b2, and interpolating those to a2\PYGZhy{}\PYGZgt{}b2.}
+\PYG{l+s+sd}{    Will make num\PYGZus{}lines worth.}
+
+\PYG{l+s+sd}{    \PYGZsh{} TODO add endpoint logic.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{n}{lines} \PYG{o}{=} \PYG{p}{[]}
+
+    \PYG{c+c1}{\PYGZsh{} The alternation is an easy drawing optimization trick, so it goes back and forth}
+    \PYG{c+c1}{\PYGZsh{} instead of picking up the pen and going back to the other side first.}
+    \PYG{n}{alternate} \PYG{o}{=} \PYG{k+kc}{False}
+    \PYG{k}{for} \PYG{n}{l} \PYG{o+ow}{in} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{num\PYGZus{}lines}\PYG{p}{):}
+        \PYG{n}{start} \PYG{o}{=} \PYG{n}{a1}\PYG{o}{*}\PYG{n}{l} \PYG{o}{+}\PYG{n}{a2}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{l}\PYG{p}{)}
+        \PYG{n}{end} \PYG{o}{=} \PYG{n}{b1}\PYG{o}{*}\PYG{n}{l} \PYG{o}{+}\PYG{n}{b2}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{l}\PYG{p}{)}
+
+        \PYG{k}{if} \PYG{n}{alternate}\PYG{p}{:}
+            \PYG{n}{lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{((}\PYG{n}{end}\PYG{p}{,} \PYG{n}{start}\PYG{p}{))}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{n}{lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{((}\PYG{n}{start}\PYG{p}{,} \PYG{n}{end}\PYG{p}{))}
+
+        \PYG{n}{alternate} \PYG{o}{=} \PYG{o+ow}{not} \PYG{n}{alternate}
+
+    \PYG{k}{return} \PYG{n}{lines}
+
+\PYG{k}{def} \PYG{n+nf}{grid\PYGZus{}arc\PYGZus{}shading}\PYG{p}{(}\PYG{n}{pts}\PYG{p}{,} \PYG{n}{n\PYGZus{}segments}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    shades 3 points.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{n}{a}\PYG{p}{,}\PYG{n}{b}\PYG{p}{,}\PYG{n}{c} \PYG{o}{=} \PYG{n}{pts}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{p}{:]}
+
+    \PYG{n}{interp} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{n\PYGZus{}segments}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{)}
+    \PYG{n}{s} \PYG{o}{=} \PYG{n}{interp}\PYG{p}{[:}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]}
+    \PYG{n}{e} \PYG{o}{=} \PYG{n}{interp}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{:]}
+    \PYG{n}{lines} \PYG{o}{=} \PYG{p}{[]}
+
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{s}\PYG{p}{)):}
+        \PYG{n}{start} \PYG{o}{=} \PYG{n}{a}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{s}\PYG{p}{[}\PYG{n}{i}\PYG{p}{])}\PYG{o}{+}\PYG{n}{b}\PYG{o}{*}\PYG{p}{(}\PYG{n}{s}\PYG{p}{[}\PYG{n}{i}\PYG{p}{])}
+        \PYG{n}{end} \PYG{o}{=} \PYG{n}{b}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{e}\PYG{p}{[}\PYG{n}{i}\PYG{p}{])}\PYG{o}{+}\PYG{n}{c}\PYG{o}{*}\PYG{p}{(}\PYG{n}{e}\PYG{p}{[}\PYG{n}{i}\PYG{p}{])}
+        \PYG{n}{lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{((}\PYG{n}{start}\PYG{p}{,} \PYG{n}{end}\PYG{p}{))}
+
+    \PYG{k}{return} \PYG{n}{lines}
+
+\PYG{k}{def} \PYG{n+nf}{step\PYGZus{}and\PYGZus{}shade\PYGZus{}poly}\PYG{p}{(}\PYG{n}{verts}\PYG{p}{,} \PYG{n}{num\PYGZus{}lines\PYGZus{}f}\PYG{p}{,} \PYG{n}{random\PYGZus{}start}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{,} \PYG{n}{funky\PYGZus{}shading}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Given some verts, this will break the polygon down into quads or triangles and shade them.}
+
+\PYG{l+s+sd}{    It works with either verts being complete (so [a,b,c,...,a] or each one being unique).}
+\PYG{l+s+sd}{    if the verts are complete, it makes a much denser and it breaks up the poly into multiple pieces.}
+
+\PYG{l+s+sd}{    To add a funky shading, make sure to have a triangle that is complete.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{if} \PYG{n}{funky\PYGZus{}shading} \PYG{o+ow}{and} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{verts}\PYG{p}{)} \PYG{o}{==} \PYG{l+m+mi}{4}\PYG{p}{:}
+        \PYG{n}{verts} \PYG{o}{=} \PYG{n}{verts}\PYG{p}{[:}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]}
+    \PYG{k}{if} \PYG{n}{funky\PYGZus{}shading} \PYG{o+ow}{and} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{verts}\PYG{p}{)} \PYG{o}{!=} \PYG{l+m+mi}{4}\PYG{p}{:}
+        \PYG{n}{logging}\PYG{o}{.}\PYG{n}{info}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Was expecting a triangle (3 pts + endpoint)\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{n}{total} \PYG{o}{=} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{verts}\PYG{p}{)}
+
+    \PYG{k}{if} \PYG{n}{random\PYGZus{}start}\PYG{p}{:}
+        \PYG{n}{start} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{random}\PYG{o}{.}\PYG{n}{randint}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{verts}\PYG{p}{))}
+    \PYG{k}{else}\PYG{p}{:}
+        \PYG{n}{start} \PYG{o}{=} \PYG{l+m+mi}{0}
+
+    \PYG{n}{order} \PYG{o}{=} \PYG{p}{[(}\PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{)} \PYG{k}{for} \PYG{n}{a}\PYG{p}{,}\PYG{n}{b} \PYG{o+ow}{in} \PYG{n}{step\PYGZus{}through\PYGZus{}poly}\PYG{p}{(}\PYG{n}{start}\PYG{p}{,} \PYG{n}{start}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{verts}\PYG{p}{))]}
+
+    \PYG{n}{shading} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{order}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{):}
+        \PYG{n}{sa}\PYG{p}{,} \PYG{n}{sb} \PYG{o}{=} \PYG{n}{order}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}
+        \PYG{n}{fa}\PYG{p}{,} \PYG{n}{fb} \PYG{o}{=} \PYG{n}{order}\PYG{p}{[}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{]}
+        \PYG{k}{if} \PYG{n+nb}{isinstance}\PYG{p}{(}\PYG{n}{num\PYGZus{}lines\PYGZus{}f}\PYG{p}{,} \PYG{n+nb}{int}\PYG{p}{):}
+            \PYG{n}{shading} \PYG{o}{+=} \PYG{n}{shade\PYGZus{}quadrilateral}\PYG{p}{(}\PYG{n}{verts}\PYG{p}{[}\PYG{n}{sa}\PYG{p}{],} \PYG{n}{verts}\PYG{p}{[}\PYG{n}{sb}\PYG{p}{],} \PYG{n}{verts}\PYG{p}{[}\PYG{n}{fa}\PYG{p}{],} \PYG{n}{verts}\PYG{p}{[}\PYG{n}{fb}\PYG{p}{],} \PYG{n}{num\PYGZus{}lines\PYGZus{}f}\PYG{p}{)}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{n}{shading} \PYG{o}{+=} \PYG{n}{shade\PYGZus{}quadrilateral}\PYG{p}{(}\PYG{n}{verts}\PYG{p}{[}\PYG{n}{sa}\PYG{p}{],} \PYG{n}{verts}\PYG{p}{[}\PYG{n}{sb}\PYG{p}{],} \PYG{n}{verts}\PYG{p}{[}\PYG{n}{fa}\PYG{p}{],} \PYG{n}{verts}\PYG{p}{[}\PYG{n}{fb}\PYG{p}{],} \PYG{n}{num\PYGZus{}lines\PYGZus{}f}\PYG{p}{())}
+
+
+    \PYG{k}{return} \PYG{n}{shading}
+
+
+\PYG{k}{def} \PYG{n+nf}{step\PYGZus{}through\PYGZus{}poly}\PYG{p}{(}\PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{,} \PYG{n}{total}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    This function gives you a way of traversing a total sided polygon.}
+\PYG{l+s+sd}{    a, b are 1 away from each other.}
+
+\PYG{l+s+sd}{    Imainge you have a square with corners 0/4, 1, 2, 3}
+
+\PYG{l+s+sd}{    you tell it 1,2, and this will give you (1,2), (0,3). This is so you can}
+\PYG{l+s+sd}{    feed in arb shapes into shade\PYGZus{}quadrilateral.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{n}{converged} \PYG{o}{=} \PYG{k+kc}{False}
+    \PYG{n}{oa}\PYG{p}{,} \PYG{n}{ob} \PYG{o}{=} \PYG{n}{a}\PYG{p}{,} \PYG{n}{b}
+    \PYG{n}{count} \PYG{o}{=} \PYG{l+m+mi}{0}
+    \PYG{k}{while} \PYG{o+ow}{not} \PYG{n}{converged}\PYG{p}{:}
+        \PYG{k}{yield} \PYG{n}{a}\PYG{o}{\PYGZpc{}}\PYG{n}{total}\PYG{p}{,} \PYG{n}{b}\PYG{o}{\PYGZpc{}}\PYG{n}{total}
+        \PYG{n}{a} \PYG{o}{=}\PYG{p}{(}\PYG{n}{a}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{o}{\PYGZpc{}}\PYG{n}{total}
+        \PYG{n}{b} \PYG{o}{=} \PYG{p}{(}\PYG{n}{b}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{o}{\PYGZpc{}}\PYG{n}{total}
+        \PYG{k}{if} \PYG{n}{a} \PYG{o}{==} \PYG{n}{b} \PYG{o+ow}{or} \PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{abs}\PYG{p}{(}\PYG{n}{a}\PYG{o}{\PYGZhy{}}\PYG{n}{b}\PYG{p}{)} \PYG{o}{==} \PYG{l+m+mi}{1} \PYG{o+ow}{or} \PYG{n}{np}\PYG{o}{.}\PYG{n}{abs}\PYG{p}{(}\PYG{n}{a}\PYG{o}{\PYGZhy{}}\PYG{n}{b}\PYG{o}{+}\PYG{n}{total}\PYG{p}{)} \PYG{o}{==} \PYG{l+m+mi}{1}\PYG{p}{):}
+            \PYG{n}{converged} \PYG{o}{=} \PYG{k+kc}{True}
+            \PYG{k}{yield} \PYG{n}{a}\PYG{o}{\PYGZpc{}}\PYG{n}{total}\PYG{p}{,} \PYG{n}{b}\PYG{o}{\PYGZpc{}}\PYG{n}{total}
+        \PYG{n}{count} \PYG{o}{+=} \PYG{l+m+mi}{1}
+        \PYG{k}{if} \PYG{n}{count}\PYG{o}{\PYGZgt{}}\PYG{l+m+mi}{50000}\PYG{p}{:}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{oa}\PYG{p}{,} \PYG{n}{ob}\PYG{p}{,} \PYG{n}{total}\PYG{p}{)}
+            \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{()}
+\end{Verbatim}

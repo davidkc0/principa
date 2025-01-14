@@ -93,6 +93,16 @@ Use this to git large files
 ```
 git lfs track "*.psd"
 ```
+
+How to run
+```
+rm *.aux *.bbl *.blg *.run.xml
+pdflatex -shell-escape book.tex
+bibtex book
+pdflatex -shell-escape book.tex
+pdflatex -shell-escape book.tex
+```
+
 ## License
 
 This project is licensed under the [Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/).

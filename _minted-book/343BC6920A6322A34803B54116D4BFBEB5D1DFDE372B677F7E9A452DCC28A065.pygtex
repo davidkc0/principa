@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{import code}
+\PYG{l+s+sd}{code.interact(local=dict(globals(), **locals()))}
+\PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+\PYG{n}{AREA\PYGZus{}THRESH} \PYG{o}{=} \PYG{l+m+mf}{1e\PYGZhy{}10}
+
+\PYG{k}{def} \PYG{n+nf}{has\PYGZus{}2d\PYGZus{}area}\PYG{p}{(}\PYG{n}{shape}\PYG{p}{):}
+
+    \PYG{k}{if} \PYG{n+nb}{any}\PYG{p}{([}\PYG{n}{shape}\PYG{o}{.}\PYG{n}{is\PYGZus{}empty}\PYG{p}{,} \PYG{n}{shape}\PYG{o}{.}\PYG{n}{area}\PYG{o}{\PYGZlt{}}\PYG{n}{AREA\PYGZus{}THRESH}\PYG{p}{]):}
+        \PYG{k}{return} \PYG{k+kc}{False}
+
+    \PYG{k}{return} \PYG{k+kc}{True}
+\end{Verbatim}

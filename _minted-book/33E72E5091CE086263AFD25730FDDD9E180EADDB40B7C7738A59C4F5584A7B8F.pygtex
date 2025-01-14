@@ -1,0 +1,59 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+
+\PYG{k+kn}{from} \PYG{n+nn}{plottermagic.geometry} \PYG{k+kn}{import} \PYG{n}{geom2d}
+
+\PYG{k}{def} \PYG{n+nf}{parallel\PYGZus{}line\PYGZus{}overlay}\PYG{p}{(}\PYG{n}{origin}\PYG{p}{,} \PYG{n}{corner}\PYG{p}{,} \PYG{n}{density}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,}  \PYG{n}{spacing}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{):}
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Given a rectange, this shades it end to end in such a way that all the lines can be}
+\PYG{l+s+sd}{    rotated about the center and it will still cover the entire rectange.}
+\PYG{l+s+sd}{    (basically youll need to mask these lines afterwards.)}
+\PYG{l+s+sd}{    Density controls how many lines there are in the y direction.}
+\PYG{l+s+sd}{    Returns}
+\PYG{l+s+sd}{    \PYGZhy{} lines}
+\PYG{l+s+sd}{    \PYGZhy{} line\PYGZus{}spacing which is a vector that goes from the start of one line to the next one.}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{k}{if} \PYG{n}{density} \PYG{o+ow}{is} \PYG{k+kc}{None} \PYG{o+ow}{and} \PYG{n}{spacing} \PYG{o+ow}{is} \PYG{k+kc}{None}\PYG{p}{:}
+        \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Either density or spacing needs to be given\PYGZdq{}}\PYG{p}{)}
+
+    \PYG{n}{orgin} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{origin}\PYG{p}{)}
+    \PYG{n}{corner} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{corner}\PYG{p}{)}
+    \PYG{n}{radius} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{norm}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{corner}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{origin}\PYG{p}{))}\PYG{o}{/}\PYG{l+m+mi}{2}
+    \PYG{n}{center} \PYG{o}{=} \PYG{p}{(}\PYG{n}{origin}\PYG{o}{+}\PYG{n}{corner}\PYG{p}{)}\PYG{o}{/}\PYG{l+m+mi}{2}
+
+    \PYG{k}{if} \PYG{n}{spacing} \PYG{o+ow}{is} \PYG{k+kc}{None}\PYG{p}{:}
+        \PYG{n}{y\PYGZus{}coord} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{radius}\PYG{p}{,} \PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+} \PYG{n}{radius}\PYG{p}{,} \PYG{n}{density}\PYG{p}{)}
+    \PYG{k}{else}\PYG{p}{:}
+        \PYG{n}{y\PYGZus{}coord} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{arange}\PYG{p}{(}\PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{radius}\PYG{p}{,} \PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+} \PYG{n}{radius}\PYG{p}{,} \PYG{n}{spacing}\PYG{p}{)}
+
+    \PYG{n}{lines} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{n}{alternate} \PYG{o}{=} \PYG{k+kc}{False}
+    \PYG{k}{for} \PYG{n}{y} \PYG{o+ow}{in} \PYG{n}{y\PYGZus{}coord}\PYG{p}{:}
+        \PYG{k}{if} \PYG{n}{alternate}\PYG{p}{:}
+            \PYG{n}{lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{([(}\PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{+}\PYG{n}{radius}\PYG{p}{,} \PYG{n}{y}\PYG{p}{),} \PYG{p}{(}\PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{radius}\PYG{p}{,} \PYG{n}{y}\PYG{p}{)])}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{n}{lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{([(}\PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{radius}\PYG{p}{,} \PYG{n}{y}\PYG{p}{),} \PYG{p}{(}\PYG{n}{center}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{+}\PYG{n}{radius}\PYG{p}{,} \PYG{n}{y}\PYG{p}{)])}
+
+        \PYG{n}{alternate} \PYG{o}{=} \PYG{o+ow}{not} \PYG{n}{alternate}
+
+    \PYG{k}{return} \PYG{n}{lines}
+
+
+\PYG{k}{def} \PYG{n+nf}{grid\PYGZus{}overlay}\PYG{p}{(}\PYG{n}{origin}\PYG{p}{,} \PYG{n}{corner}\PYG{p}{,} \PYG{n}{density}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{,} \PYG{n}{spacing}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{):}
+
+    \PYG{n}{orgin} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{origin}\PYG{p}{)}
+    \PYG{n}{corner} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{corner}\PYG{p}{)}
+
+    \PYG{n}{lines} \PYG{o}{=} \PYG{n}{parallel\PYGZus{}line\PYGZus{}overlay}\PYG{p}{(}\PYG{n}{origin}\PYG{p}{,} \PYG{n}{corner}\PYG{p}{,} \PYG{n}{density}\PYG{p}{,} \PYG{n}{spacing}\PYG{p}{)}
+
+    \PYG{n}{center} \PYG{o}{=} \PYG{p}{(}\PYG{n}{origin}\PYG{o}{+}\PYG{n}{corner}\PYG{p}{)}\PYG{o}{/}\PYG{l+m+mi}{2}
+
+    \PYG{n}{pts}\PYG{p}{,} \PYG{n}{ind} \PYG{o}{=} \PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{lines\PYGZus{}to\PYGZus{}matrix}\PYG{p}{(}\PYG{n}{lines}\PYG{p}{)}
+
+    \PYG{n}{rot\PYGZus{}mat} \PYG{o}{=} \PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{rot\PYGZus{}about\PYGZus{}pt}\PYG{p}{(}\PYG{n}{center}\PYG{p}{,} \PYG{l+m+mi}{90}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+    \PYG{n}{rot} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{rot\PYGZus{}mat}\PYG{p}{,} \PYG{n}{pts}\PYG{o}{.}\PYG{n}{transpose}\PYG{p}{())}\PYG{o}{.}\PYG{n}{transpose}\PYG{p}{()}
+    \PYG{n}{rotated\PYGZus{}lines} \PYG{o}{=} \PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{matrix\PYGZus{}to\PYGZus{}lines}\PYG{p}{(}\PYG{n}{rot}\PYG{p}{,} \PYG{n}{ind}\PYG{p}{)}
+
+    \PYG{k}{return} \PYG{n}{lines} \PYG{o}{+} \PYG{n}{rotated\PYGZus{}lines}
+\end{Verbatim}

@@ -1,0 +1,105 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{plottermagic.geometry} \PYG{k+kn}{import} \PYG{n}{geom3d}
+\PYG{k+kn}{from} \PYG{n+nn}{plottermagic.line\PYGZus{}render} \PYG{k+kn}{import} \PYG{n}{renderable}\PYG{p}{,} \PYG{n}{container}
+
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+
+\PYG{k+kn}{from} \PYG{n+nn}{shapely} \PYG{k+kn}{import} \PYG{n}{geometry}
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.geometry} \PYG{k+kn}{import} \PYG{n}{LineString}
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.geometry} \PYG{k+kn}{import} \PYG{n}{base}
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.geometry} \PYG{k+kn}{import} \PYG{n}{GeometryCollection}
+
+
+\PYG{k}{class} \PYG{n+nc}{Line}\PYG{p}{(}\PYG{n}{renderable}\PYG{o}{.}\PYG{n}{Renderable}\PYG{p}{):}
+
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{points}\PYG{p}{,} \PYG{n}{tag}\PYG{o}{=}\PYG{l+s+s1}{\PYGZsq{}black\PYGZsq{}}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{d}  \PYG{o}{=} \PYG{l+m+mi}{1}
+        \PYG{k}{if} \PYG{n+nb}{isinstance}\PYG{p}{(}\PYG{n}{points}\PYG{p}{,} \PYG{n}{np}\PYG{o}{.}\PYG{n}{ndarray}\PYG{p}{)} \PYG{o+ow}{and} \PYG{n}{points}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{==} \PYG{l+m+mi}{4}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts} \PYG{o}{=} \PYG{n}{points}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{hpt}\PYG{p}{(}\PYG{n}{p}\PYG{p}{)} \PYG{k}{for} \PYG{n}{p} \PYG{o+ow}{in} \PYG{n}{points}\PYG{p}{])}
+
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tag} \PYG{o}{=} \PYG{n}{tag}
+
+    \PYG{k}{def} \PYG{n+nf}{\PYGZus{}z}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{pts}\PYG{o}{=}\PYG{k+kc}{None}\PYG{p}{):}
+        \PYG{k}{if} \PYG{n}{pts} \PYG{o+ow}{is} \PYG{k+kc}{None}\PYG{p}{:}
+            \PYG{n}{pts} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}
+        \PYG{c+c1}{\PYGZsh{}return np.maximum(pts[:, \PYGZhy{}1][:,np.newaxis], 1e\PYGZhy{}5)}
+        \PYG{k}{return} \PYG{n}{pts}\PYG{p}{[:,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{][:,}\PYG{n}{np}\PYG{o}{.}\PYG{n}{newaxis}\PYG{p}{]}
+
+    \PYG{k}{def} \PYG{n+nf}{\PYGZus{}transform}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{transform}\PYG{p}{,} \PYG{n}{renormalize}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+        \PYG{n}{pts} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+        \PYG{n}{pts} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{pts}\PYG{p}{,} \PYG{n}{transform}\PYG{p}{)}
+        \PYG{k}{if} \PYG{n}{renormalize}\PYG{p}{:}
+            \PYG{n}{pts} \PYG{o}{=} \PYG{n}{pts}\PYG{o}{/}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z}\PYG{p}{(}\PYG{n}{pts}\PYG{p}{)}
+        \PYG{k}{return} \PYG{n}{Line}\PYG{p}{(}\PYG{n}{pts}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tag}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{to\PYGZus{}2d}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{n}{pts} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+        \PYG{n}{pts} \PYG{o}{=} \PYG{n}{pts}\PYG{o}{/}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z}\PYG{p}{()}
+
+        \PYG{n}{lines} \PYG{o}{=} \PYG{p}{[]}
+        \PYG{k}{for} \PYG{n}{i}\PYG{p}{,} \PYG{n}{pt} \PYG{o+ow}{in} \PYG{n+nb}{enumerate}\PYG{p}{(}\PYG{n}{pts}\PYG{p}{):}
+            \PYG{k}{if} \PYG{n}{i} \PYG{o}{!=} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{pts}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{:}
+                \PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{,} \PYG{n}{\PYGZus{}}\PYG{p}{,} \PYG{n}{\PYGZus{}} \PYG{o}{=} \PYG{n}{pt}
+                \PYG{n}{x1}\PYG{p}{,} \PYG{n}{y1}\PYG{p}{,} \PYG{n}{\PYGZus{}}\PYG{p}{,} \PYG{n}{\PYGZus{}} \PYG{o}{=} \PYG{n}{pts}\PYG{p}{[}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{]}
+                \PYG{n}{lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(((}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{),} \PYG{p}{(}\PYG{n}{x1}\PYG{p}{,} \PYG{n}{y1}\PYG{p}{)))}
+        \PYG{k}{return} \PYG{n}{renderable}\PYG{o}{.}\PYG{n}{TaggedRenderObject}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tag}\PYG{p}{,} \PYG{n}{lines}\PYG{o}{=}\PYG{n}{lines}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{to\PYGZus{}2d\PYGZus{}shapely}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{n}{pts} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+        \PYG{n}{pts} \PYG{o}{=} \PYG{n}{pts}\PYG{o}{/}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}z}\PYG{p}{()}
+        \PYG{k}{if} \PYG{n}{np}\PYG{o}{.}\PYG{n}{any}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{isnan}\PYG{p}{(}\PYG{n}{pts}\PYG{p}{)):}
+            \PYG{k}{return} \PYG{n}{GeometryCollection}\PYG{p}{()}
+        \PYG{k}{return} \PYG{n}{LineString}\PYG{p}{([(}\PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{])} \PYG{k}{for} \PYG{n}{p} \PYG{o+ow}{in} \PYG{n}{pts}\PYG{p}{])}
+
+    \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}z\PYGZus{}at\PYGZus{}xy}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{pt}\PYG{p}{):}
+
+        \PYG{n}{pt2d} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{pt}\PYG{p}{)}
+        \PYG{n}{z} \PYG{o}{=} \PYG{p}{[]}
+        \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{):}
+            \PYG{n}{p1} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{2}\PYG{p}{]}
+            \PYG{n}{p2} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{p}{[}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{][}\PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{2}\PYG{p}{]}
+
+            \PYG{k}{if} \PYG{n}{np}\PYG{o}{.}\PYG{n}{all}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{isclose}\PYG{p}{(}\PYG{n}{pt2d}\PYG{p}{,} \PYG{n}{p1}\PYG{p}{)):}
+                \PYG{n}{z}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{p}{[}\PYG{n}{i}\PYG{p}{][}\PYG{l+m+mi}{2}\PYG{p}{])}
+                \PYG{k}{continue}
+
+            \PYG{n}{vp} \PYG{o}{=} \PYG{n}{pt2d} \PYG{o}{\PYGZhy{}} \PYG{n}{p1}
+            \PYG{n}{vl} \PYG{o}{=} \PYG{n}{p2} \PYG{o}{\PYGZhy{}} \PYG{n}{p1}
+
+            \PYG{n}{len\PYGZus{}l} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{norm}\PYG{p}{(}\PYG{n}{vl}\PYG{p}{)}
+            \PYG{n}{len\PYGZus{}lp} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{norm}\PYG{p}{(}\PYG{n}{vp}\PYG{p}{)}
+            \PYG{n}{w} \PYG{o}{=} \PYG{n}{len\PYGZus{}lp}\PYG{o}{/}\PYG{n}{len\PYGZus{}l}
+
+            \PYG{n}{same\PYGZus{}dir} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{isclose}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{np}\PYG{o}{.}\PYG{n}{dot}\PYG{p}{(}\PYG{n}{vp}\PYG{p}{,} \PYG{n}{vl}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{n}{len\PYGZus{}l}\PYG{o}{*}\PYG{n}{len\PYGZus{}lp}\PYG{p}{))}
+            \PYG{n}{in\PYGZus{}inter} \PYG{o}{=} \PYG{n}{w}\PYG{o}{\PYGZgt{}=}\PYG{l+m+mi}{0} \PYG{o+ow}{and} \PYG{n}{w}\PYG{o}{\PYGZlt{}=}\PYG{l+m+mi}{1}
+            \PYG{k}{if} \PYG{n}{same\PYGZus{}dir} \PYG{o+ow}{and} \PYG{n}{in\PYGZus{}inter}\PYG{p}{:}
+                \PYG{n}{pt} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{w}\PYG{p}{)} \PYG{o}{+} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{p}{[}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{*}\PYG{n}{w}
+                \PYG{n}{z}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{pt}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{])}
+        \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{z}\PYG{p}{)} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+            \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZob{}\PYGZcb{}}\PYG{l+s+s2}{ wasn\PYGZsq{}t on any of the lines!\PYGZdq{}}\PYG{o}{.}\PYG{n}{format}\PYG{p}{(}\PYG{n}{pt}\PYG{p}{))}
+        \PYG{k}{return} \PYG{n}{np}\PYG{o}{.}\PYG{n}{min}\PYG{p}{(}\PYG{n}{z}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{reduce\PYGZus{}shape}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{shape}\PYG{p}{):}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        TODO this isn\PYGZsq{}t really correct. This turning our 3d lines \PYGZhy{}\PYGZgt{} 2d line. If we try to have}
+\PYG{l+s+sd}{        lines in a bounded big shape (like a polyhedron), then this will get reduced to 2d before it should be.}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{k}{if} \PYG{n}{shape}\PYG{o}{.}\PYG{n}{is\PYGZus{}empty}\PYG{p}{:}
+            \PYG{k}{return} \PYG{k+kc}{None}
+        \PYG{k}{return} \PYG{n}{Line}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{(}\PYG{n}{shape}\PYG{o}{.}\PYG{n}{xy}\PYG{p}{)}\PYG{o}{.}\PYG{n}{transpose}\PYG{p}{(),} \PYG{n}{tag}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tag}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{copy}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{shallow}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+        \PYG{k}{if} \PYG{n}{shallow}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{Line}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{p}{,} \PYG{n}{tag}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tag}\PYG{p}{)}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{Line}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{(),} \PYG{n}{tag}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tag}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{snap\PYGZus{}to\PYGZus{}grid}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{decimals}\PYG{o}{=}\PYG{l+m+mi}{6}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{Line}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{around}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pts}\PYG{p}{,} \PYG{n}{decimals}\PYG{o}{=}\PYG{l+m+mi}{6}\PYG{p}{),} \PYG{n}{tag}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{tag}\PYG{p}{)}
+
+
+\PYG{k}{def} \PYG{n+nf}{lines\PYGZus{}from\PYGZus{}list}\PYG{p}{(}\PYG{n}{lines}\PYG{p}{,} \PYG{n}{tag}\PYG{p}{):}
+    \PYG{k}{return} \PYG{p}{[}\PYG{n}{Line}\PYG{p}{(}\PYG{n}{l}\PYG{p}{,} \PYG{n}{tag}\PYG{o}{=}\PYG{n}{tag}\PYG{p}{)} \PYG{k}{for} \PYG{n}{l} \PYG{o+ow}{in} \PYG{n}{lines}\PYG{p}{]}
+\end{Verbatim}

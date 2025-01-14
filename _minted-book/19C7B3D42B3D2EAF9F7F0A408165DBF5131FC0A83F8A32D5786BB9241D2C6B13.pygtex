@@ -1,0 +1,85 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}coord}\PYG{p}{(}\PYG{n}{p}\PYG{p}{):}
+    \PYG{k}{return} \PYG{n}{np}\PYG{o}{.}\PYG{n}{round}\PYG{p}{(}\PYG{n}{p}\PYG{p}{)}\PYG{o}{.}\PYG{n}{astype}\PYG{p}{(}\PYG{n+nb}{int}\PYG{p}{)}
+
+\PYG{k}{def} \PYG{n+nf}{coord\PYGZus{}inside\PYGZus{}mask}\PYG{p}{(}\PYG{n}{p}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{):}
+
+    \PYG{n}{p} \PYG{o}{=} \PYG{n}{get\PYGZus{}coord}\PYG{p}{(}\PYG{n}{p}\PYG{p}{)}
+
+    \PYG{n}{valid\PYGZus{}x} \PYG{o}{=} \PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{\PYGZgt{}=}\PYG{l+m+mi}{0} \PYG{o+ow}{and} \PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{\PYGZlt{}}\PYG{n}{mask}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}
+    \PYG{n}{valid\PYGZus{}y} \PYG{o}{=} \PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{\PYGZgt{}=}\PYG{l+m+mi}{0} \PYG{o+ow}{and} \PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{\PYGZlt{}}\PYG{n}{mask}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}
+
+    \PYG{k}{if} \PYG{n}{valid\PYGZus{}x} \PYG{o+ow}{and} \PYG{n}{valid\PYGZus{}y}\PYG{p}{:}
+        \PYG{k}{return} \PYG{n}{mask}\PYG{p}{[}\PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{],} \PYG{n}{p}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]]}
+
+    \PYG{k}{return} \PYG{k+kc}{False}
+
+\PYG{k}{def} \PYG{n+nf}{percent\PYGZus{}line\PYGZus{}in\PYGZus{}mask}\PYG{p}{(}\PYG{n}{start}\PYG{p}{,} \PYG{n}{end}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{,} \PYG{n}{n\PYGZus{}segments}\PYG{p}{):}
+    \PYG{n}{count} \PYG{o}{=} \PYG{l+m+mi}{0}
+    \PYG{k}{for} \PYG{n}{l} \PYG{o+ow}{in} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{n\PYGZus{}segments}\PYG{p}{):}
+        \PYG{n}{p} \PYG{o}{=} \PYG{n}{start}\PYG{o}{*}\PYG{n}{l} \PYG{o}{+}  \PYG{n}{end}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{l}\PYG{p}{)}
+        \PYG{n}{p} \PYG{o}{=} \PYG{n}{get\PYGZus{}coord}\PYG{p}{(}\PYG{n}{p}\PYG{p}{)}
+        \PYG{k}{if} \PYG{n}{coord\PYGZus{}inside\PYGZus{}mask}\PYG{p}{(}\PYG{n}{p}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{):}
+            \PYG{n}{count} \PYG{o}{+=} \PYG{l+m+mi}{1}
+    \PYG{k}{return} \PYG{n}{count}\PYG{o}{/}\PYG{n}{n\PYGZus{}segments}
+
+\PYG{k}{def} \PYG{n+nf}{estimate\PYGZus{}intersection}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{,} \PYG{n}{p2}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{,} \PYG{n}{n\PYGZus{}subdiv}\PYG{p}{):}
+    \PYG{n}{starting\PYGZus{}value} \PYG{o}{=} \PYG{n}{coord\PYGZus{}inside\PYGZus{}mask}\PYG{p}{(}\PYG{n}{p1}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{)}
+    \PYG{k}{for} \PYG{n}{l} \PYG{o+ow}{in} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{n\PYGZus{}subdiv}\PYG{p}{):}
+        \PYG{n}{p} \PYG{o}{=} \PYG{n}{p1}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{l}\PYG{p}{)}\PYG{o}{+}\PYG{n}{p2}\PYG{o}{*}\PYG{p}{(}\PYG{n}{l}\PYG{p}{)}
+        \PYG{n}{new\PYGZus{}value} \PYG{o}{=} \PYG{n}{coord\PYGZus{}inside\PYGZus{}mask}\PYG{p}{(}\PYG{n}{p}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{)}
+        \PYG{k}{if} \PYG{n}{new\PYGZus{}value} \PYG{o}{!=} \PYG{n}{starting\PYGZus{}value}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{p}
+    \PYG{k}{return} \PYG{n}{p2}
+
+\PYG{k}{def} \PYG{n+nf}{get\PYGZus{}line\PYGZus{}segments}\PYG{p}{(}\PYG{n}{start}\PYG{p}{,} \PYG{n}{end}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{,} \PYG{n}{n\PYGZus{}segments}\PYG{p}{,} \PYG{n}{n\PYGZus{}subdiv}\PYG{p}{):}
+    \PYG{n}{starting\PYGZus{}pt} \PYG{o}{=} \PYG{k+kc}{None}
+    \PYG{n}{making\PYGZus{}line} \PYG{o}{=} \PYG{k+kc}{False}
+
+    \PYG{n}{line\PYGZus{}segments} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{n}{ls} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{n\PYGZus{}segments}\PYG{p}{)}
+
+    \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{ls}\PYG{p}{)):}
+        \PYG{n}{l} \PYG{o}{=} \PYG{n}{ls}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}
+        \PYG{n}{p} \PYG{o}{=} \PYG{n}{start}\PYG{o}{*}\PYG{n}{l} \PYG{o}{+}  \PYG{n}{end}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{l}\PYG{p}{)}
+        \PYG{n}{valid\PYGZus{}point} \PYG{o}{=} \PYG{n}{coord\PYGZus{}inside\PYGZus{}mask}\PYG{p}{(}\PYG{n}{p}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{)}
+
+        \PYG{k}{if} \PYG{n}{making\PYGZus{}line}\PYG{p}{:}
+            \PYG{k}{if} \PYG{n}{valid\PYGZus{}point}\PYG{p}{:}
+                \PYG{k}{continue}
+            \PYG{k}{else}\PYG{p}{:}
+                \PYG{n}{making\PYGZus{}line} \PYG{o}{=} \PYG{k+kc}{False}
+                \PYG{n}{last\PYGZus{}p} \PYG{o}{=} \PYG{n}{start}\PYG{o}{*}\PYG{n}{ls}\PYG{p}{[}\PYG{n}{i}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+}  \PYG{n}{end}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{ls}\PYG{p}{[}\PYG{n}{i}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{])}
+                \PYG{n}{end\PYGZus{}pt} \PYG{o}{=} \PYG{n}{estimate\PYGZus{}intersection}\PYG{p}{(}\PYG{n}{last\PYGZus{}p}\PYG{p}{,} \PYG{n}{p}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{,} \PYG{n}{n\PYGZus{}subdiv}\PYG{p}{)}
+                \PYG{n}{line\PYGZus{}segments}\PYG{o}{.}\PYG{n}{append}\PYG{p}{((}\PYG{n}{starting\PYGZus{}pt}\PYG{p}{,} \PYG{n}{end\PYGZus{}pt}\PYG{p}{))}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{k}{if} \PYG{n}{valid\PYGZus{}point}\PYG{p}{:}
+                \PYG{k}{if} \PYG{n}{i}\PYG{o}{\PYGZgt{}}\PYG{l+m+mi}{0}\PYG{p}{:}
+                    \PYG{n}{last\PYGZus{}p} \PYG{o}{=} \PYG{n}{start}\PYG{o}{*}\PYG{n}{ls}\PYG{p}{[}\PYG{n}{i}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+}  \PYG{n}{end}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{ls}\PYG{p}{[}\PYG{n}{i}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{])}
+                    \PYG{n}{starting\PYGZus{}pt} \PYG{o}{=} \PYG{n}{estimate\PYGZus{}intersection}\PYG{p}{(}\PYG{n}{last\PYGZus{}p}\PYG{p}{,} \PYG{n}{p}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{,} \PYG{n}{n\PYGZus{}subdiv}\PYG{p}{)}
+                \PYG{k}{else}\PYG{p}{:}
+                    \PYG{n}{starting\PYGZus{}pt} \PYG{o}{=} \PYG{n}{p}
+
+                \PYG{n}{making\PYGZus{}line} \PYG{o}{=} \PYG{k+kc}{True}
+            \PYG{k}{else}\PYG{p}{:}
+                \PYG{k}{continue}
+
+    \PYG{k}{return} \PYG{n}{line\PYGZus{}segments}
+
+\PYG{k}{def} \PYG{n+nf}{clip\PYGZus{}lines\PYGZus{}to\PYGZus{}mask}\PYG{p}{(}\PYG{n}{lines}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{,} \PYG{n}{n\PYGZus{}segments}\PYG{o}{=}\PYG{l+m+mi}{100}\PYG{p}{):}
+    \PYG{n}{new\PYGZus{}lines} \PYG{o}{=} \PYG{p}{[]}
+    \PYG{k}{for} \PYG{n}{line} \PYG{o+ow}{in} \PYG{n}{lines}\PYG{p}{:}
+        \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{line}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{):}
+            \PYG{n}{start}\PYG{p}{,} \PYG{n}{end} \PYG{o}{=} \PYG{n}{line}\PYG{p}{[}\PYG{n}{i}\PYG{p}{],} \PYG{n}{line}\PYG{p}{[}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{]}
+            \PYG{n}{percent} \PYG{o}{=} \PYG{n}{percent\PYGZus{}line\PYGZus{}in\PYGZus{}mask}\PYG{p}{(}\PYG{n}{start}\PYG{p}{,} \PYG{n}{end}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{,} \PYG{n}{n\PYGZus{}segments}\PYG{p}{)}
+            \PYG{k}{if} \PYG{n}{percent} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+                \PYG{k}{continue}
+            \PYG{k}{elif} \PYG{n}{percent} \PYG{o}{==} \PYG{l+m+mi}{1}\PYG{p}{:}
+                \PYG{n}{new\PYGZus{}lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{((}\PYG{n}{start}\PYG{p}{,} \PYG{n}{end}\PYG{p}{))}
+            \PYG{k}{else}\PYG{p}{:}
+                \PYG{n}{new\PYGZus{}lines}\PYG{o}{+=} \PYG{n}{get\PYGZus{}line\PYGZus{}segments}\PYG{p}{(}\PYG{n}{start}\PYG{p}{,} \PYG{n}{end}\PYG{p}{,} \PYG{n}{mask}\PYG{p}{,} \PYG{n}{n\PYGZus{}segments}\PYG{p}{,} \PYG{l+m+mi}{10}\PYG{p}{)}
+
+    \PYG{k}{return} \PYG{n}{new\PYGZus{}lines}
+\end{Verbatim}

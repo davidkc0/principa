@@ -1,0 +1,66 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{plottermagic.geometry} \PYG{k+kn}{import} \PYG{n}{geom3d}
+\PYG{k+kn}{from} \PYG{n+nn}{scipy.special} \PYG{k+kn}{import} \PYG{n}{cotdg}
+
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+
+\PYG{k}{def} \PYG{n+nf}{make\PYGZus{}viewport\PYGZus{}matrix}\PYG{p}{(}\PYG{n}{corner}\PYG{o}{=}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{),} \PYG{n}{side\PYGZus{}lengths} \PYG{o}{=} \PYG{p}{(}\PYG{l+m+mi}{100}\PYG{p}{,}\PYG{l+m+mi}{100}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{)):}
+    \PYG{n}{y\PYGZus{}ref} \PYG{o}{=} \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{reflect\PYGZus{}axis}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)}
+    \PYG{n}{scale} \PYG{o}{=} \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{diag\PYGZus{}scale}\PYG{p}{(}\PYG{n}{side\PYGZus{}lengths}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{side\PYGZus{}lengths}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{side\PYGZus{}lengths}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{])}
+    \PYG{n}{trans} \PYG{o}{=} \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{translate}\PYG{p}{((}\PYG{n}{corner}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{+}\PYG{n}{side\PYGZus{}lengths}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{corner}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{+}\PYG{n}{side\PYGZus{}lengths}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{corner}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{]))}
+    \PYG{n}{f} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{multi\PYGZus{}dot}\PYG{p}{([}\PYG{n}{trans}\PYG{p}{,} \PYG{n}{scale}\PYG{p}{,} \PYG{n}{y\PYGZus{}ref}\PYG{p}{])}
+    \PYG{k}{return} \PYG{n}{f}
+
+\PYG{k}{class} \PYG{n+nc}{Camera}\PYG{p}{:}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{position}\PYG{p}{,} \PYG{n}{at}\PYG{p}{,} \PYG{n}{up}\PYG{p}{,} \PYG{n}{aspect}\PYG{p}{,} \PYG{n}{near}\PYG{p}{,} \PYG{n}{far}\PYG{p}{,} \PYG{n}{field\PYGZus{}of\PYGZus{}view}\PYG{p}{):}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pos} \PYG{o}{=} \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{pt}\PYG{p}{(}\PYG{n}{position}\PYG{p}{)}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{at} \PYG{o}{=} \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{pt}\PYG{p}{(}\PYG{n}{at}\PYG{p}{)}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{up} \PYG{o}{=} \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{pt}\PYG{p}{(}\PYG{n}{up}\PYG{p}{)}
+
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{aspect} \PYG{o}{=} \PYG{n}{aspect}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{near} \PYG{o}{=} \PYG{n}{near}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{far} \PYG{o}{=} \PYG{n}{far}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{fov} \PYG{o}{=} \PYG{n}{field\PYGZus{}of\PYGZus{}view}
+
+    \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}view\PYGZus{}matrix}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+
+        \PYG{n}{z} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pos}\PYG{o}{\PYGZhy{}}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{at}
+        \PYG{n}{z} \PYG{o}{=} \PYG{n}{z}\PYG{o}{/}\PYG{n}{np}\PYG{o}{.}\PYG{n}{maximum}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{norm}\PYG{p}{(}\PYG{n}{z}\PYG{p}{),} \PYG{l+m+mf}{1e\PYGZhy{}10}\PYG{p}{)}
+
+        \PYG{n}{x} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{cross}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{up}\PYG{p}{,} \PYG{n}{z}\PYG{p}{)}
+        \PYG{n}{x} \PYG{o}{=} \PYG{n}{x}\PYG{o}{/}\PYG{n}{np}\PYG{o}{.}\PYG{n}{maximum}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{norm}\PYG{p}{(}\PYG{n}{x}\PYG{p}{),} \PYG{l+m+mf}{1e\PYGZhy{}10}\PYG{p}{)}
+
+        \PYG{n}{y} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{cross}\PYG{p}{(}\PYG{n}{z}\PYG{p}{,} \PYG{n}{x}\PYG{p}{)}
+
+        \PYG{n}{t} \PYG{o}{=} \PYG{n}{geom3d}\PYG{o}{.}\PYG{n}{translate}\PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{pos}\PYG{p}{)}
+        \PYG{n}{rot} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{)}
+        \PYG{n}{rot}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{3}\PYG{p}{]} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{x}\PYG{p}{,} \PYG{n}{y}\PYG{p}{,} \PYG{n}{z}\PYG{p}{])}
+        \PYG{k}{return} \PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{rot}\PYG{p}{,} \PYG{n}{t}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}pers\PYGZus{}proj\PYGZus{}matrix}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{n}{proj} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{)}
+        \PYG{n}{proj} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{)}
+        \PYG{n}{proj}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{]} \PYG{o}{=} \PYG{l+m+mi}{0}
+        \PYG{n}{proj}\PYG{p}{[}\PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}
+        \PYG{n}{proj}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{=} \PYG{n}{cotdg}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{fov}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{o}{/}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{aspect}
+        \PYG{n}{proj}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{=} \PYG{n}{cotdg}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{fov}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{)}
+        \PYG{n}{proj}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{]} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{far}\PYG{o}{+}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{near}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{far}\PYG{o}{\PYGZhy{}}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{near}\PYG{p}{)}
+        \PYG{n}{proj}\PYG{p}{[}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{]} \PYG{o}{=} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{near}\PYG{o}{*}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{far}\PYG{o}{/}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{far}\PYG{o}{\PYGZhy{}}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{near}\PYG{p}{)}
+        \PYG{k}{return} \PYG{n}{proj}
+
+\PYG{k}{class} \PYG{n+nc}{DefaultCamera}\PYG{p}{(}\PYG{n}{Camera}\PYG{p}{):}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{o}{**}\PYG{n}{kwargs}\PYG{p}{):}
+        \PYG{n}{position} \PYG{o}{=} \PYG{n}{kwargs}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}position\PYGZsq{}}\PYG{p}{,} \PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{))}
+        \PYG{n}{at} \PYG{o}{=} \PYG{n}{kwargs}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}at\PYGZsq{}}\PYG{p}{,} \PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{))}
+        \PYG{c+c1}{\PYGZsh{} normally cameras invert images, and this is annoying af}
+        \PYG{n}{up} \PYG{o}{=} \PYG{n}{kwargs}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}up\PYGZsq{}}\PYG{p}{,} \PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{))}
+        \PYG{n}{aspect} \PYG{o}{=} \PYG{n}{kwargs}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}aspect\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{)}
+        \PYG{n}{near} \PYG{o}{=} \PYG{n}{kwargs}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}near\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{)}
+        \PYG{n}{far} \PYG{o}{=} \PYG{n}{kwargs}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}far\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{10}\PYG{p}{)}
+        \PYG{n}{field\PYGZus{}of\PYGZus{}view} \PYG{o}{=} \PYG{n}{kwargs}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}field\PYGZus{}of\PYGZus{}view\PYGZsq{}}\PYG{p}{,} \PYG{l+m+mi}{90}\PYG{p}{)}
+
+        \PYG{k}{if} \PYG{l+s+s1}{\PYGZsq{}direction\PYGZsq{}} \PYG{o+ow}{in} \PYG{n}{kwargs}\PYG{p}{:}
+            \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}uhhh this is old code from when the camera logic was broken. Use at!\PYGZsq{}}\PYG{p}{)}
+
+        \PYG{n+nb}{super}\PYG{p}{()}\PYG{o}{.}\PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n}{position}\PYG{p}{,} \PYG{n}{at}\PYG{p}{,} \PYG{n}{up}\PYG{p}{,} \PYG{n}{aspect}\PYG{p}{,} \PYG{n}{near}\PYG{p}{,} \PYG{n}{far}\PYG{p}{,} \PYG{n}{field\PYGZus{}of\PYGZus{}view}\PYG{p}{)}
+\end{Verbatim}

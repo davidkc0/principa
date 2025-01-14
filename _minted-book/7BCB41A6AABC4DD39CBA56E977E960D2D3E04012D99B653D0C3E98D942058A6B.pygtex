@@ -1,0 +1,113 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{from} \PYG{n+nn}{plottermagic.line\PYGZus{}render} \PYG{k+kn}{import} \PYG{n}{renderable}\PYG{p}{,} \PYG{n}{container}\PYG{p}{,} \PYG{n}{occlusion}\PYG{p}{,} \PYG{n}{error\PYGZus{}handling}
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.ops} \PYG{k+kn}{import} \PYG{n}{cascaded\PYGZus{}union}
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.geometry} \PYG{k+kn}{import} \PYG{n}{Point}
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.geometry.collection} \PYG{k+kn}{import} \PYG{n}{GeometryCollection}
+\PYG{k+kn}{from} \PYG{n+nn}{shapely.geometry} \PYG{k+kn}{import} \PYG{n}{base}
+
+\PYG{k}{class} \PYG{n+nc}{Polyhedron}\PYG{p}{(}\PYG{n}{renderable}\PYG{o}{.}\PYG{n}{Renderable}\PYG{p}{):}
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{faces}\PYG{p}{,} \PYG{n}{params} \PYG{o}{=} \PYG{k+kc}{None}\PYG{p}{):}
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        params \PYGZhy{}}
+\PYG{l+s+sd}{            wireframe (bool), should this run internal occulusion algo?}
+\PYG{l+s+sd}{            \PYGZus{}inter\PYGZus{}occ\PYGZus{}ran \PYGZhy{} internal variable to keep track of if we need to do occulusion}
+
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{d} \PYG{o}{=} \PYG{l+m+mi}{3}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces} \PYG{o}{=} \PYG{n}{container}\PYG{o}{.}\PYG{n}{Container}\PYG{p}{(}\PYG{n}{faces}\PYG{p}{)}
+
+        \PYG{k}{if} \PYG{n}{params} \PYG{o+ow}{is} \PYG{k+kc}{None}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{params} \PYG{o}{=} \PYG{p}{\PYGZob{}\PYGZcb{}}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{params} \PYG{o}{=} \PYG{n}{params}
+
+    \PYG{k}{def} \PYG{n+nf}{\PYGZus{}face\PYGZus{}shapes}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{if} \PYG{o+ow}{not} \PYG{n+nb}{hasattr}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}face\PYGZus{}shapes\PYGZsq{}}\PYG{p}{):}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{face\PYGZus{}shapes} \PYG{o}{=} \PYG{p}{[}\PYG{n}{f}\PYG{o}{.}\PYG{n}{to\PYGZus{}2d\PYGZus{}shapely}\PYG{p}{()} \PYG{k}{for} \PYG{n}{f} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{items}\PYG{p}{]}
+        \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{face\PYGZus{}shapes}
+
+    \PYG{k}{def} \PYG{n+nf}{\PYGZus{}transform}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{transform}\PYG{p}{,} \PYG{n}{renormalize}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{Polyhedron}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{\PYGZus{}transform}\PYG{p}{(}\PYG{n}{transform}\PYG{p}{,} \PYG{n}{renormalize}\PYG{p}{),} \PYG{n}{params}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{params}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{())}
+
+    \PYG{k}{def} \PYG{n+nf}{to\PYGZus{}2d\PYGZus{}shapely}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        \PYGZsh{}TEST}
+\PYG{l+s+sd}{        shapes = [s.buffer(0) for s in shapes if s.is\PYGZus{}valid]}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+        \PYG{n}{face\PYGZus{}shapes} \PYG{o}{=} \PYG{p}{[]}
+        \PYG{k}{for} \PYG{n}{face} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{items}\PYG{p}{:}
+            \PYG{n}{shape} \PYG{o}{=} \PYG{n}{face}\PYG{o}{.}\PYG{n}{to\PYGZus{}2d\PYGZus{}shapely}\PYG{p}{()}
+            \PYG{k}{if} \PYG{n}{error\PYGZus{}handling}\PYG{o}{.}\PYG{n}{has\PYGZus{}2d\PYGZus{}area}\PYG{p}{(}\PYG{n}{shape}\PYG{p}{):}
+                \PYG{n}{face\PYGZus{}shapes}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{shape}\PYG{p}{)}
+
+        \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{face\PYGZus{}shapes}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{cascaded\PYGZus{}union}\PYG{p}{(}\PYG{n}{face\PYGZus{}shapes}\PYG{p}{)}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{GeometryCollection}\PYG{p}{()}
+
+    \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}z\PYGZus{}at\PYGZus{}xy}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{pt}\PYG{p}{):}
+        \PYG{n}{p} \PYG{o}{=} \PYG{n}{Point}\PYG{p}{(}\PYG{n}{pt}\PYG{p}{)}
+        \PYG{n}{faces} \PYG{o}{=} \PYG{p}{[}\PYG{n}{f} \PYG{k}{for} \PYG{n}{f}\PYG{p}{,}\PYG{n}{s} \PYG{o+ow}{in} \PYG{n+nb}{zip}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{items}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}face\PYGZus{}shapes}\PYG{p}{())} \PYG{k}{if} \PYG{n}{s}\PYG{o}{.}\PYG{n}{intersects}\PYG{p}{(}\PYG{n}{p}\PYG{p}{)]}
+        \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{faces}\PYG{p}{)} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+            \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}!!!!\PYGZdq{}}\PYG{p}{)}
+        \PYG{n}{z} \PYG{o}{=} \PYG{p}{[}\PYG{n}{f}\PYG{o}{.}\PYG{n}{get\PYGZus{}z\PYGZus{}at\PYGZus{}xy}\PYG{p}{(}\PYG{n}{pt}\PYG{p}{)} \PYG{k}{for} \PYG{n}{f} \PYG{o+ow}{in} \PYG{n}{faces}\PYG{p}{]}
+        \PYG{k}{return} \PYG{n+nb}{min}\PYG{p}{(}\PYG{n}{z}\PYG{p}{)}
+
+    \PYG{k}{def} \PYG{n+nf}{reduce\PYGZus{}shape}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{reduced\PYGZus{}shape}\PYG{p}{):}
+
+        \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{        \PYGZsh{}TEST}
+\PYG{l+s+sd}{        if reduced\PYGZus{}shape.is\PYGZus{}empty or reduced\PYGZus{}shape.area\PYGZlt{}1e\PYGZhy{}10:}
+\PYG{l+s+sd}{            return None}
+\PYG{l+s+sd}{        \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+        \PYG{n}{new\PYGZus{}faces} \PYG{o}{=} \PYG{p}{[]}
+        \PYG{k}{for} \PYG{n}{face}\PYG{p}{,} \PYG{n}{shape} \PYG{o+ow}{in} \PYG{n+nb}{zip}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{items}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{\PYGZus{}face\PYGZus{}shapes}\PYG{p}{()):}
+
+            \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{            \PYGZsh{}TEST}
+\PYG{l+s+sd}{            if not shape.is\PYGZus{}valid:}
+\PYG{l+s+sd}{                continue}
+\PYG{l+s+sd}{            \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+            \PYG{n}{fs\PYGZus{}reduced} \PYG{o}{=} \PYG{n}{shape}\PYG{o}{.}\PYG{n}{intersection}\PYG{p}{(}\PYG{n}{reduced\PYGZus{}shape}\PYG{p}{)}
+
+            \PYG{n}{shapes} \PYG{o}{=} \PYG{p}{[}\PYG{n}{fs\PYGZus{}reduced}\PYG{p}{]}
+            \PYG{k}{if} \PYG{n+nb}{isinstance}\PYG{p}{(}\PYG{n}{fs\PYGZus{}reduced}\PYG{p}{,} \PYG{n}{base}\PYG{o}{.}\PYG{n}{BaseMultipartGeometry}\PYG{p}{):}
+                \PYG{n}{shapes} \PYG{o}{=} \PYG{p}{[}\PYG{n}{g} \PYG{k}{for} \PYG{n}{g} \PYG{o+ow}{in} \PYG{n}{fs\PYGZus{}reduced}\PYG{o}{.}\PYG{n}{geoms}\PYG{p}{]}
+
+            \PYG{k}{for} \PYG{n}{s} \PYG{o+ow}{in} \PYG{n}{shapes}\PYG{p}{:}
+                \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{                \PYGZsh{}TEST}
+\PYG{l+s+sd}{                valid\PYGZus{}reduced = all([not s.is\PYGZus{}empty, not isinstance(s, GeometryCollection), not s.area\PYGZlt{}1e\PYGZhy{}10])}
+\PYG{l+s+sd}{                if valid\PYGZus{}reduced:}
+\PYG{l+s+sd}{                    reduced\PYGZus{}face = face.reduce\PYGZus{}shape(s)}
+\PYG{l+s+sd}{                    if reduced\PYGZus{}face is not None:}
+\PYG{l+s+sd}{                        new\PYGZus{}faces.append(reduced\PYGZus{}face)}
+\PYG{l+s+sd}{                \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+                \PYG{n}{reduced\PYGZus{}face} \PYG{o}{=} \PYG{n}{face}\PYG{o}{.}\PYG{n}{reduce\PYGZus{}shape}\PYG{p}{(}\PYG{n}{s}\PYG{p}{)}
+                \PYG{k}{if} \PYG{n}{reduced\PYGZus{}face} \PYG{o+ow}{is} \PYG{o+ow}{not} \PYG{k+kc}{None}\PYG{p}{:}
+                    \PYG{n}{new\PYGZus{}faces}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{reduced\PYGZus{}face}\PYG{p}{)}
+        \PYG{k}{return} \PYG{n}{Polyhedron}\PYG{p}{(}\PYG{n}{new\PYGZus{}faces}\PYG{p}{,} \PYG{n}{params}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{params}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{())}
+
+    \PYG{k}{def} \PYG{n+nf}{copy}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{shallow}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{Polyhedron}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{(}\PYG{n}{shallow}\PYG{p}{),} \PYG{n}{params}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{params}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{())}
+
+    \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}pieces}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{params}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}wireframe\PYGZsq{}}\PYG{p}{,} \PYG{k+kc}{False}\PYG{p}{):}
+            \PYG{k}{for} \PYG{n}{poly} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{items}\PYG{p}{:}
+                \PYG{k}{yield} \PYG{n}{poly}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{k}{for} \PYG{n}{poly} \PYG{o+ow}{in} \PYG{n}{occlusion}\PYG{o}{.}\PYG{n}{get\PYGZus{}occuluded\PYGZus{}objs}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{items}\PYG{p}{):}
+                \PYG{k}{yield} \PYG{n}{poly}
+
+    \PYG{k}{def} \PYG{n+nf}{to\PYGZus{}2d}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{):}
+        \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{params}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}wireframe\PYGZsq{}}\PYG{p}{,} \PYG{k+kc}{False}\PYG{p}{):}
+            \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{to\PYGZus{}2d}\PYG{p}{()}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{container}\PYG{o}{.}\PYG{n}{Container}\PYG{p}{(}\PYG{n}{occlusion}\PYG{o}{.}\PYG{n}{get\PYGZus{}occuluded\PYGZus{}objs}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{items}\PYG{p}{))}\PYG{o}{.}\PYG{n}{to\PYGZus{}2d}\PYG{p}{()}
+
+    \PYG{k}{def} \PYG{n+nf}{snap\PYGZus{}to\PYGZus{}grid}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{decimals}\PYG{o}{=}\PYG{l+m+mi}{6}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{Polyhedron}\PYG{p}{([}\PYG{n}{f}\PYG{o}{.}\PYG{n}{snap\PYGZus{}to\PYGZus{}grid}\PYG{p}{(}\PYG{n}{decimals}\PYG{p}{)} \PYG{k}{for} \PYG{n}{f} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{faces}\PYG{o}{.}\PYG{n}{items}\PYG{p}{],} \PYG{n}{params}\PYG{o}{=}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{params}\PYG{p}{)}
+\end{Verbatim}
