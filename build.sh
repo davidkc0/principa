@@ -19,7 +19,7 @@ mkdir -p "$OUTPUT_DIR"
 echo "Compiling LaTeX document..."
 pdflatex -output-directory="$OUTPUT_DIR" book.tex > "$OUTPUT_DIR/build.log" 2>&1
 # this hangs indefinately
-#bibtex book
+bibtex book
 pdflatex -output-directory="$OUTPUT_DIR" book.tex > "$OUTPUT_DIR/build.log" 2>&1
 pdflatex -output-directory="$OUTPUT_DIR" book.tex > "$OUTPUT_DIR/build.log" 2>&1
 
