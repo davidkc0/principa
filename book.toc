@@ -56,5 +56,11 @@
 \contentsline {subsection}{USet Grant}{130}{section*.29}%
 \contentsline {subsection}{Falcarius}{131}{section*.30}%
 \contentsline {chapter}{\numberline {9}My Resume}{163}{chapter.9}%
-\contentsline {section}{Numerai}{164}{section*.31}%
-\contentsline {chapter}{\numberline {A}Dedication outro.}{175}{appendix.A}%
+\contentsline {chapter}{Numerai}{164}{section*.31}%
+\contentsline {chapter}{\numberline {10}Charlie Summer's Art Car}{171}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Lost Art/Bogus Journey's game}{171}{section.10.1}%
+\contentsline {section}{\numberline {10.2}The Art Car}{171}{section.10.2}%
+\contentsline {chapter}{\numberline {11}Well it's Greek to me now..}{179}{chapter.11}%
+\contentsline {chapter}{Well it's Greek to me now..}{180}{section*.32}%
+\contentsline {chapter}{\numberline {12}Phantasmagoria}{195}{chapter.12}%
+\contentsline {chapter}{\numberline {A}Dedication outro.}{199}{appendix.A}%
