@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 JAN 2025 20:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 JAN 2025 20:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,7 +589,7 @@ Chapter 3.
 [15
 
 ] [16] [17]
-<figures/copypasta.jpg, id=232, 602.25pt x 790.955pt>
+<figures/copypasta.jpg, id=234, 602.25pt x 790.955pt>
 File: figures/copypasta.jpg Graphic file (type jpg)
 <use figures/copypasta.jpg>
 Package pdftex.def Info: figures/copypasta.jpg  used on input line 128.
@@ -605,16 +605,190 @@ Chapter 4.
 
 ] [22]) [23] [24]
 Chapter 5.
-<figures/mask.jpeg, id=300, 1812.7725pt x 1814.78pt>
+[25
+
+]
+<AI_as_Association_Machines.pdf, id=306, 614.295pt x 794.97pt>
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf>
+Package pdftex.def Info: AI_as_Association_Machines.pdf  used on input line 65.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf>
+Package pdftex.def Info: AI_as_Association_Machines.pdf  used on input line 65.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<AI_as_Association_Machines.pdf, id=309, page=1, 614.295pt x 794.97pt>
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 1>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page1 used on input l
+ine 65.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 1>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page1 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 1>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page1 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 1>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page1 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 1>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page1 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [26
+
+ <./AI_as_Association_Machines.pdf>]
+<AI_as_Association_Machines.pdf, id=323, page=2, 614.295pt x 794.97pt>
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 2>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page2 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 2>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page2 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 2>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page2 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [27
+
+ <./AI_as_Association_Machines.pdf>]
+<AI_as_Association_Machines.pdf, id=333, page=3, 614.295pt x 794.97pt>
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 3>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page3 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 3>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page3 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 3>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page3 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [28
+
+ <./AI_as_Association_Machines.pdf>]
+<AI_as_Association_Machines.pdf, id=338, page=4, 614.295pt x 794.97pt>
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 4>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page4 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 4>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page4 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 4>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page4 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [29
+
+ <./AI_as_Association_Machines.pdf>]
+<AI_as_Association_Machines.pdf, id=344, page=5, 614.295pt x 794.97pt>
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 5>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page5 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 5>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page5 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 5>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page5 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [30
+
+ <./AI_as_Association_Machines.pdf>]
+<AI_as_Association_Machines.pdf, id=354, page=6, 614.295pt x 794.97pt>
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 6>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page6 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 6>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page6 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 6>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page6 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [31
+
+ <./AI_as_Association_Machines.pdf>]
+<AI_as_Association_Machines.pdf, id=359, page=7, 614.295pt x 794.97pt>
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 7>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page7 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 7>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page7 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 7>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page7 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [32
+
+ <./AI_as_Association_Machines.pdf>]
+<AI_as_Association_Machines.pdf, id=364, page=8, 614.295pt x 794.97pt>
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 8>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page8 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 8>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page8 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: AI_as_Association_Machines.pdf Graphic file (type pdf)
+<use AI_as_Association_Machines.pdf, page 8>
+Package pdftex.def Info: AI_as_Association_Machines.pdf , page8 used on input l
+ine 65.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [33
+
+ <./AI_as_Association_Machines.pdf>]
+<figures/mask.jpeg, id=370, 1812.7725pt x 1814.78pt>
 File: figures/mask.jpeg Graphic file (type jpg)
 <use figures/mask.jpeg>
 Package pdftex.def Info: figures/mask.jpeg  used on input line 70.
 (pdftex.def)             Requested size: 362.37569pt x 362.75574pt.
-(./book.bbl [25
+ (./book.bbl [34 <./figures/mask.jpeg>] [35
 
-] [26 <./figures/mask.jpeg>] [27
-
-]) [28]
+]) [36]
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -624,24 +798,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-<figures/utah.png, id=323, 2743.24875pt x 1815.78375pt>
+<figures/utah.png, id=391, 2743.24875pt x 1815.78375pt>
 File: figures/utah.png Graphic file (type png)
 <use figures/utah.png>
 Package pdftex.def Info: figures/utah.png  used on input line 104.
 (pdftex.def)             Requested size: 362.37569pt x 239.85597pt.
-<figures/aocp.jpg, id=325, 1505.625pt x 1296.845pt>
+<figures/aocp.jpg, id=393, 1505.625pt x 1296.845pt>
 File: figures/aocp.jpg Graphic file (type jpg)
 <use figures/aocp.jpg>
 Package pdftex.def Info: figures/aocp.jpg  used on input line 110.
 (pdftex.def)             Requested size: 362.37569pt x 312.11984pt.
-<figures/rumi_gold.png, id=327, 560.0925pt x 835.12pt>
+<figures/rumi_gold.png, id=395, 560.0925pt x 835.12pt>
 File: figures/rumi_gold.png Graphic file (type png)
 <use figures/rumi_gold.png>
 Package pdftex.def Info: figures/rumi_gold.png  used on input line 116.
 (pdftex.def)             Requested size: 362.37569pt x 540.3367pt.
-[29
+[37
 
- <./figures/utah.png (PNG copy)>] [30 <./figures/aocp.jpg>] [31 <./figures/rumi
+ <./figures/utah.png (PNG copy)>] [38 <./figures/aocp.jpg>] [39 <./figures/rumi
 _gold.png>] (./book.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -649,13 +823,13 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12572 strings out of 474116
- 193238 string characters out of 5743682
+ 12615 strings out of 474116
+ 194809 string characters out of 5743682
  1941187 words of memory out of 5000000
- 34610 multiletter control sequences out of 15000+600000
+ 34644 multiletter control sequences out of 15000+600000
  566212 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,673b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,79p,673b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -667,10 +841,10 @@ ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
 l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (33 pages, 9020691 bytes).
+Output written on book.pdf (41 pages, 11916388 bytes).
 PDF statistics:
- 565 PDF objects out of 1000 (max. 8388607)
- 493 compressed objects within 5 object streams
- 124 named destinations out of 1000 (max. 500000)
- 417 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 639 PDF objects out of 1000 (max. 8388607)
+ 538 compressed objects within 6 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 480 words of extra memory for PDF output out of 10000 (max. 10000000)
 
