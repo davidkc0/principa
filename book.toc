@@ -55,12 +55,15 @@
 \contentsline {section}{\numberline {8.1}Farmer Labs}{129}{section.8.1}%
 \contentsline {subsection}{USet Grant}{130}{section*.29}%
 \contentsline {subsection}{Falcarius}{131}{section*.30}%
-\contentsline {chapter}{\numberline {9}My Resume}{163}{chapter.9}%
-\contentsline {chapter}{Numerai}{164}{section*.31}%
-\contentsline {chapter}{\numberline {10}Charlie Summer's Art Car}{171}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Lost Art/Bogus Journey's game}{171}{section.10.1}%
-\contentsline {section}{\numberline {10.2}The Art Car}{171}{section.10.2}%
-\contentsline {chapter}{\numberline {11}Well it's Greek to me now..}{179}{chapter.11}%
-\contentsline {chapter}{Well it's Greek to me now..}{180}{section*.32}%
-\contentsline {chapter}{\numberline {12}Phantasmagoria}{195}{chapter.12}%
-\contentsline {chapter}{\numberline {A}Dedication outro.}{199}{appendix.A}%
+\contentsline {section}{\numberline {8.2}Dig with Jim Kirkland}{162}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Utah Raptor}{162}{section.8.3}%
+\contentsline {subsection}{Context}{164}{section*.31}%
+\contentsline {chapter}{\numberline {9}My Resume}{167}{chapter.9}%
+\contentsline {chapter}{Numerai}{168}{section*.32}%
+\contentsline {chapter}{\numberline {10}Charlie Summer's Art Car}{175}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Lost Art/Bogus Journey's game}{175}{section.10.1}%
+\contentsline {section}{\numberline {10.2}The Art Car}{175}{section.10.2}%
+\contentsline {chapter}{\numberline {11}Well it's Greek to me now..}{183}{chapter.11}%
+\contentsline {chapter}{Well it's Greek to me now..}{184}{section*.33}%
+\contentsline {chapter}{\numberline {12}Phantasmagoria}{199}{chapter.12}%
+\contentsline {chapter}{\numberline {A}Dedication outro.}{203}{appendix.A}%
