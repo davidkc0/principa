@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 JAN 2025 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 JAN 2025 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,7 +414,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Excluding 'comment' comment. (./title/title.tex
-<figures/dino.png, id=4, 220.825pt x 220.825pt>
+<figures/dino.png, id=5, 220.825pt x 220.825pt>
 File: figures/dino.png Graphic file (type png)
 <use figures/dino.png>
 Package pdftex.def Info: figures/dino.png  used on input line 12.
@@ -442,7 +442,7 @@ l.1 \chapter
             *{Dedication to ChatGPT} [2
 
 ]
-<figures/clown.png, id=26, 910.40125pt x 908.39375pt>
+<figures/clown.png, id=51, 910.40125pt x 908.39375pt>
 File: figures/clown.png Graphic file (type png)
 <use figures/clown.png>
 Package pdftex.def Info: figures/clown.png  used on input line 17.
@@ -463,12 +463,12 @@ wakened One.
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
@@ -511,7 +511,7 @@ Chapter 3.
 [15
 
 ] [16] [17]
-<figures/copypasta.jpg, id=184, 602.25pt x 790.955pt>
+<figures/copypasta.jpg, id=214, 602.25pt x 790.955pt>
 File: figures/copypasta.jpg Graphic file (type jpg)
 <use figures/copypasta.jpg>
 Package pdftex.def Info: figures/copypasta.jpg  used on input line 128.
@@ -520,32 +520,33 @@ Package pdftex.def Info: figures/copypasta.jpg  used on input line 128.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./chapters/clickme.tex [18] [19 <./figures/copypasta.jpg>]) [20] (./book.aux
-)
+) (./chapters/clickme.tex [18] [19 <./figures/copypasta.jpg>]) (./book.bbl
+[20]) [21
+
+] (./book.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11107 strings out of 474116
- 169505 string characters out of 5743682
+ 11145 strings out of 474116
+ 169902 string characters out of 5743682
  1941187 words of memory out of 5000000
- 33237 multiletter control sequences out of 15000+600000
- 566571 words of font info for 67 fonts, out of 8000000 for 9000
+ 33256 multiletter control sequences out of 15000+600000
+ 566212 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,673b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
-b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></u
-sr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (22 pages, 4964523 bytes).
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></us
+r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on book.pdf (23 pages, 4961633 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
- 339 compressed objects within 4 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 90 named destinations out of 1000 (max. 500000)
  328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
