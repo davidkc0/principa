@@ -1,71 +1,77 @@
-\contentsline {chapter}{\numberline {1}Context}{11}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Book Introduction}{11}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Roadmap}{11}{section.1.2}%
-\contentsline {section}{\numberline {1.3}The History and Philosophy of Western Hard Sciences}{11}{section.1.3}%
-\contentsline {section}{\numberline {1.4}The Design Philosophy of the Western Hard Sciences}{12}{section.1.4}%
-\contentsline {section}{\numberline {1.5}How To Use this Book}{12}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Read Me}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Getting Started with README.md}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Using the Shell: Command Line Basics}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Managing Dependencies with Pip}{13}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Introduction to Jupyter Notebooks}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}LaTeX}{14}{section.2.5}%
-\contentsline {section}{\numberline {2.6}LaTeX Source Code for \texttt {book.tex}}{14}{section.2.6}%
-\contentsline {chapter}{\numberline {3}How to Install}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}How This Book Makes Money}{15}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}The Economics of Sharing Knowledge}{15}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Transparency in Funding}{15}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Why It Matters}{15}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Free as in Food: Open Source Philosophy}{16}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Free vs. Free: Freedom and Cost}{16}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Why Open Source is Integral to This Book}{16}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Contributing to Open Source}{16}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Finding the Good Store: Tools and Resources}{16}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Essentials}{16}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Quality Over Quantity}{16}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Staying Updated}{17}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Buy Me a Coffee: Supporting Creators}{17}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}The Power of Patronage}{17}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Ways to Support}{17}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Paying It Forward}{17}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}The CapTable}{17}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}What\textquoteright s a CapTable?}{17}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Applying the CapTable to Knowledge Sharing}{17}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Case Studies}{18}{subsection.3.5.3}%
-\contentsline {section}{\numberline {3.6}The Magic of Copying and Pasting}{18}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Efficiency in Learning}{18}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Copying Ethically}{18}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Beyond Copy-Pasting}{18}{subsection.3.6.3}%
-\contentsline {subsection}{\numberline {3.6.4}Cick Me}{19}{subsection.3.6.4}%
-\contentsline {chapter}{\numberline {4}Opticks}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Halftones and Printing}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Generative Art and Machine Learning}{23}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Resources and References}{23}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Conclusion}{24}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Optickal References}{24}{section.4.5}%
-\contentsline {section}{Opticks in Action}{25}{section*.16}%
-\contentsline {chapter}{\numberline {5}On Games of Chance}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}AIs as Association Machines}{47}{section.5.1}%
-\contentsline {section}{AI as Association Machines}{48}{section*.17}%
-\contentsline {section}{\numberline {5.2}The Law of Large Numbers \cite {davar} and the Central Limit Theorem: Foundations of Probability}{56}{section.5.2}%
-\contentsline {section}{AI as Association Machines}{58}{section*.27}%
-\contentsline {chapter}{\numberline {6}Q-Learning}{73}{chapter.6}%
-\contentsline {section}{Masters Project}{74}{section*.28}%
-\contentsline {chapter}{\numberline {7}The White Paper}{145}{chapter.7}%
-\contentsline {section}{Numerai}{146}{section*.29}%
-\contentsline {chapter}{\numberline {8}The Dinosaur Chapter}{151}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Farmer Labs}{151}{section.8.1}%
-\contentsline {subsection}{USet Grant}{152}{section*.30}%
-\contentsline {subsection}{Falcarius}{153}{section*.31}%
-\contentsline {section}{\numberline {8.2}Dig with Jim Kirkland}{184}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Utah Raptor}{184}{section.8.3}%
-\contentsline {subsection}{Context}{186}{section*.32}%
-\contentsline {chapter}{\numberline {9}My Resume}{189}{chapter.9}%
-\contentsline {chapter}{Numerai}{190}{section*.33}%
-\contentsline {chapter}{\numberline {10}Charlie Summer's Art Car}{197}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Lost Art/Bogus Journey's game}{197}{section.10.1}%
-\contentsline {section}{\numberline {10.2}The Art Car}{197}{section.10.2}%
-\contentsline {chapter}{\numberline {11}Well it's Greek to me now..}{205}{chapter.11}%
-\contentsline {chapter}{Well it's Greek to me now..}{206}{section*.34}%
-\contentsline {chapter}{\numberline {12}Phantasmagoria}{221}{chapter.12}%
-\contentsline {chapter}{\numberline {A}Dedication outro.}{225}{appendix.A}%
+\contentsline {chapter}{\numberline {1}Context}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Book Introduction}{13}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Roadmap}{13}{section.1.2}%
+\contentsline {section}{\numberline {1.3}The History and Philosophy of Western Hard Sciences}{13}{section.1.3}%
+\contentsline {section}{\numberline {1.4}The Design Philosophy of the Western Hard Sciences}{14}{section.1.4}%
+\contentsline {section}{\numberline {1.5}How To Use this Book}{14}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Read Me}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Getting Started with README.md}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Using the Shell: Command Line Basics}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Managing Dependencies with Pip}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Introduction to Jupyter Notebooks}{15}{section.2.4}%
+\contentsline {section}{\numberline {2.5}LaTeX}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.6}LaTeX Source Code for \texttt {book.tex}}{16}{section.2.6}%
+\contentsline {chapter}{\numberline {3}How to Install}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}How This Book Makes Money}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}The Economics of Sharing Knowledge}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Transparency in Funding}{17}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Why It Matters}{17}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Free as in Food: Open Source Philosophy}{18}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Free vs. Free: Freedom and Cost}{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Why Open Source is Integral to This Book}{18}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Contributing to Open Source}{18}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Finding the Good Store: Tools and Resources}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Essentials}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Quality Over Quantity}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Staying Updated}{19}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Buy Me a Coffee: Supporting Creators}{19}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}The Power of Patronage}{19}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Ways to Support}{19}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Paying It Forward}{19}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}The CapTable}{19}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}What\textquoteright s a CapTable?}{19}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Applying the CapTable to Knowledge Sharing}{19}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Case Studies}{20}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}The Magic of Copying and Pasting}{20}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Efficiency in Learning}{20}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Copying Ethically}{20}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Beyond Copy-Pasting}{20}{subsection.3.6.3}%
+\contentsline {subsection}{\numberline {3.6.4}Cick Me}{21}{subsection.3.6.4}%
+\contentsline {chapter}{\numberline {4}Opticks}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Halftones and Printing}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Generative Art and Machine Learning}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Resources and References}{25}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Conclusion}{26}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Optickal References}{26}{section.4.5}%
+\contentsline {section}{Opticks in Action}{27}{section*.16}%
+\contentsline {chapter}{\numberline {5}Ways of Seeing}{47}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Laplace}{49}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Laplace References}{49}{section.6.1}%
+\contentsline {section}{Pyramid Blending}{50}{section*.17}%
+\contentsline {chapter}{\numberline {7}Newton's Method}{61}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Euler's Approximation}{61}{section.7.1}%
+\contentsline {chapter}{\numberline {8}On Games of Chance}{65}{chapter.8}%
+\contentsline {section}{\numberline {8.1}AIs as Association Machines}{65}{section.8.1}%
+\contentsline {section}{AI as Association Machines}{66}{section*.18}%
+\contentsline {section}{\numberline {8.2}The Law of Large Numbers \cite {davar} and the Central Limit Theorem: Foundations of Probability}{74}{section.8.2}%
+\contentsline {section}{AI as Association Machines}{76}{section*.28}%
+\contentsline {chapter}{\numberline {9}Q-Learning}{91}{chapter.9}%
+\contentsline {section}{Masters Project}{92}{section*.29}%
+\contentsline {chapter}{\numberline {10}The White Paper}{163}{chapter.10}%
+\contentsline {section}{Numerai}{164}{section*.30}%
+\contentsline {chapter}{\numberline {11}The Dinosaur Chapter}{169}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Farmer Labs}{169}{section.11.1}%
+\contentsline {subsection}{USet Grant}{170}{section*.31}%
+\contentsline {subsection}{Falcarius}{171}{section*.32}%
+\contentsline {section}{\numberline {11.2}Dig with Jim Kirkland}{202}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Utah Raptor}{202}{section.11.3}%
+\contentsline {subsection}{Context}{204}{section*.33}%
+\contentsline {chapter}{\numberline {12}My Resume}{207}{chapter.12}%
+\contentsline {chapter}{Numerai}{208}{section*.34}%
+\contentsline {chapter}{\numberline {13}Charlie Summer's Art Car}{215}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Lost Art/Bogus Journey's game}{215}{section.13.1}%
+\contentsline {section}{\numberline {13.2}The Art Car}{215}{section.13.2}%
+\contentsline {chapter}{\numberline {14}Well it's Greek to me now..}{223}{chapter.14}%
+\contentsline {chapter}{Well it's Greek to me now..}{224}{section*.35}%
+\contentsline {chapter}{\numberline {15}Phantasmagoria}{239}{chapter.15}%
+\contentsline {chapter}{\numberline {A}Dedication outro.}{243}{appendix.A}%
