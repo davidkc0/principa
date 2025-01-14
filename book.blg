@@ -9,45 +9,45 @@ Warning--empty publisher in bhavana
 Warning--empty year in bhavana
 Warning--empty publisher in teapot
 Warning--empty year in teapot
-You've used 18 entries,
+You've used 19 entries,
             2118 wiz_defined-function locations,
-            573 strings with 5603 characters,
-and the built_in function-call counts, 4084 in all, are:
-= -- 366
-> -- 159
+            576 strings with 5673 characters,
+and the built_in function-call counts, 4290 in all, are:
+= -- 385
+> -- 166
 < -- 0
-+ -- 68
-- -- 48
-* -- 171
-:= -- 706
-add.period$ -- 57
-call.type$ -- 18
-change.case$ -- 70
++ -- 71
+- -- 50
+* -- 177
+:= -- 740
+add.period$ -- 60
+call.type$ -- 19
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 176
-empty$ -- 397
-format.name$ -- 48
-if$ -- 866
+cite$ -- 23
+duplicate$ -- 183
+empty$ -- 419
+format.name$ -- 50
+if$ -- 911
 int.to.chr$ -- 0
-int.to.str$ -- 18
+int.to.str$ -- 19
 missing$ -- 20
-newline$ -- 96
-num.names$ -- 36
-pop$ -- 156
+newline$ -- 101
+num.names$ -- 38
+pop$ -- 165
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 63
 quote$ -- 0
-skip$ -- 114
+skip$ -- 121
 stack$ -- 0
-substring$ -- 92
-swap$ -- 18
+substring$ -- 97
+swap$ -- 19
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
+type$ -- 56
 warning$ -- 4
-while$ -- 36
-width$ -- 20
-write$ -- 189
+while$ -- 38
+width$ -- 21
+write$ -- 199
 (There were 5 warnings)
