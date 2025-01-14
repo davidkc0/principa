@@ -55,4 +55,6 @@
 \contentsline {section}{\numberline {8.1}Farmer Labs}{129}{section.8.1}%
 \contentsline {subsection}{USet Grant}{130}{section*.29}%
 \contentsline {subsection}{Falcarius}{131}{section*.30}%
-\contentsline {chapter}{\numberline {A}Dedication outro.}{165}{appendix.A}%
+\contentsline {chapter}{\numberline {9}My Resume}{163}{chapter.9}%
+\contentsline {section}{Numerai}{164}{section*.31}%
+\contentsline {chapter}{\numberline {A}Dedication outro.}{175}{appendix.A}%
