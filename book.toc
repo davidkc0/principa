@@ -44,5 +44,7 @@
 \contentsline {section}{\numberline {4.4}Conclusion}{24}{section.4.4}%
 \contentsline {chapter}{\numberline {5}On Games of Chance}{25}{chapter.5}%
 \contentsline {section}{\numberline {5.1}AIs as Association Machines}{25}{section.5.1}%
-\contentsline {chapter}{AI as Association Machines}{26}{section*.16}%
-\contentsline {section}{\numberline {.1}Dedication outro.}{37}{section.Alph0.1}%
+\contentsline {section}{AI as Association Machines}{26}{section*.16}%
+\contentsline {section}{\numberline {5.2}The Law of Large Numbers \cite {davar} and the Central Limit Theorem: Foundations of Probability}{34}{section.5.2}%
+\contentsline {section}{AI as Association Machines}{36}{section*.26}%
+\contentsline {section}{\numberline {.1}Dedication outro.}{55}{section.Alph0.1}%
