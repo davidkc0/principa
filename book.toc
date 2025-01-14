@@ -42,3 +42,4 @@
 \contentsline {section}{\numberline {4.2}Generative Art and Machine Learning}{23}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Resources and References}{23}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Conclusion}{24}{section.4.4}%
+\contentsline {section}{\numberline {.1}Dedication outro.}{26}{section.Alph0.1}%

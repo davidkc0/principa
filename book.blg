@@ -3,47 +3,51 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: book.aux
 The style file: plain.bst
 Database file #1: /Users/gnb/Projects/principa-master-localcomp/references/references.bib
+Warning--entry type for "eulerarchive" isn't style-file defined
+--line 129 of file /Users/gnb/Projects/principa-master-localcomp/references/references.bib
 Warning--empty publisher in bhavana
 Warning--empty year in bhavana
-You've used 15 entries,
+Warning--empty publisher in teapot
+Warning--empty year in teapot
+You've used 17 entries,
             2118 wiz_defined-function locations,
-            562 strings with 5393 characters,
-and the built_in function-call counts, 3458 in all, are:
-= -- 312
-> -- 138
+            567 strings with 5468 characters,
+and the built_in function-call counts, 3878 in all, are:
+= -- 347
+> -- 152
 < -- 0
-+ -- 58
-- -- 42
-* -- 146
-:= -- 603
-add.period$ -- 49
-call.type$ -- 15
-change.case$ -- 59
++ -- 65
+- -- 46
+* -- 165
+:= -- 672
+add.period$ -- 54
+call.type$ -- 17
+change.case$ -- 66
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 150
-empty$ -- 331
-format.name$ -- 42
-if$ -- 733
+cite$ -- 21
+duplicate$ -- 169
+empty$ -- 375
+format.name$ -- 46
+if$ -- 821
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 18
-newline$ -- 82
-num.names$ -- 30
-pop$ -- 127
+int.to.str$ -- 17
+missing$ -- 20
+newline$ -- 91
+num.names$ -- 34
+pop$ -- 147
 preamble$ -- 1
-purify$ -- 51
+purify$ -- 57
 quote$ -- 0
-skip$ -- 95
+skip$ -- 107
 stack$ -- 0
-substring$ -- 76
-swap$ -- 15
+substring$ -- 87
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 42
-warning$ -- 2
-while$ -- 30
-width$ -- 17
-write$ -- 162
-(There were 2 warnings)
+type$ -- 48
+warning$ -- 4
+while$ -- 34
+width$ -- 19
+write$ -- 179
+(There were 5 warnings)
