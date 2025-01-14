@@ -89,6 +89,10 @@ Contributions are welcome! Please follow these steps to contribute:
    ```
 5. Submit a pull request.
 
+Use this to git large files
+```
+git lfs track "*.psd"
+```
 ## License
 
 This project is licensed under the [Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-nc-sa/4.0/).
