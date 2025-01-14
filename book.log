@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 JAN 2025 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 JAN 2025 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -198,6 +198,7 @@ File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
 Package hyperref Info: Hyper figures OFF on input line 4179.
 Package hyperref Info: Link nesting OFF on input line 4184.
 Package hyperref Info: Hyper index ON on input line 4187.
@@ -228,7 +229,7 @@ Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
 Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring OFF on input line 6083.
+Package hyperref Info: Link coloring ON on input line 6081.
 Package hyperref Info: Link coloring with OCG OFF on input line 6088.
 Package hyperref Info: PDF/A mode OFF on input line 6093.
 
@@ -329,32 +330,91 @@ Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 \CommentStream=\write4
 
 Excluding comment 'comment')
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count299
+\calc@Bcount=\count300
+\calc@Adimen=\dimen165
+\calc@Bdimen=\dimen166
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count301
+\calc@Cskip=\skip60
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen167
+\ESO@tempdimb=\dimen168
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+))
+\AM@pagewidth=\dimen169
+\AM@pageheight=\dimen170
+\AM@fboxrule=\dimen171
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count302
+\AM@pagebox=\box59
+\AM@global@opts=\toks27
+\AM@pagecnt=\count303
+\AM@toc@title=\toks28
+\AM@lof@heading=\toks29
+\c@AM@survey=\count304
+\AM@templatesizebox=\box60
+)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count299
-\l__pdf_internal_box=\box59
+\l__color_backend_stack_int=\count305
+\l__pdf_internal_box=\box61
 )
 (./book.aux)
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -390,20 +450,20 @@ LaTeX Font Info:    ... okay on input line 19.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring ON on input line 34.
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen165
-\scratchbox=\box60
-\nofMPsegments=\count301
-\nofMParguments=\count302
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen166
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count306
+\scratchdimen=\dimen172
+\scratchbox=\box62
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen173
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks31
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -412,6 +472,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
+y
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Excluding 'comment' comment. (./title/title.tex
 <figures/dino.png, id=5, 220.825pt x 220.825pt>
@@ -469,12 +541,12 @@ wakened One.
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 37--34
+Underfull \hbox (badness 10000) in paragraph at lines 37--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--34
+Underfull \hbox (badness 10000) in paragraph at lines 37--49
 
  []
 
@@ -517,7 +589,7 @@ Chapter 3.
 [15
 
 ] [16] [17]
-<figures/copypasta.jpg, id=228, 602.25pt x 790.955pt>
+<figures/copypasta.jpg, id=232, 602.25pt x 790.955pt>
 File: figures/copypasta.jpg Graphic file (type jpg)
 <use figures/copypasta.jpg>
 Package pdftex.def Info: figures/copypasta.jpg  used on input line 128.
@@ -531,36 +603,45 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Chapter 4.
 [21
 
-] [22]) [23] (./book.bbl [24]) [25
+] [22]) [23] [24]
+Chapter 5.
+<figures/mask.jpeg, id=300, 1812.7725pt x 1814.78pt>
+File: figures/mask.jpeg Graphic file (type jpg)
+<use figures/mask.jpeg>
+Package pdftex.def Info: figures/mask.jpeg  used on input line 70.
+(pdftex.def)             Requested size: 362.37569pt x 362.75574pt.
+(./book.bbl [25
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+] [26 <./figures/mask.jpeg>] [27
+
+]) [28]
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-<figures/utah.png, id=304, 2743.24875pt x 1815.78375pt>
+<figures/utah.png, id=323, 2743.24875pt x 1815.78375pt>
 File: figures/utah.png Graphic file (type png)
 <use figures/utah.png>
-Package pdftex.def Info: figures/utah.png  used on input line 81.
+Package pdftex.def Info: figures/utah.png  used on input line 104.
 (pdftex.def)             Requested size: 362.37569pt x 239.85597pt.
-<figures/aocp.jpg, id=306, 1505.625pt x 1296.845pt>
+<figures/aocp.jpg, id=325, 1505.625pt x 1296.845pt>
 File: figures/aocp.jpg Graphic file (type jpg)
 <use figures/aocp.jpg>
-Package pdftex.def Info: figures/aocp.jpg  used on input line 87.
+Package pdftex.def Info: figures/aocp.jpg  used on input line 110.
 (pdftex.def)             Requested size: 362.37569pt x 312.11984pt.
-<figures/rumi_gold.png, id=308, 560.0925pt x 835.12pt>
+<figures/rumi_gold.png, id=327, 560.0925pt x 835.12pt>
 File: figures/rumi_gold.png Graphic file (type png)
 <use figures/rumi_gold.png>
-Package pdftex.def Info: figures/rumi_gold.png  used on input line 93.
+Package pdftex.def Info: figures/rumi_gold.png  used on input line 116.
 (pdftex.def)             Requested size: 362.37569pt x 540.3367pt.
-[26
+[29
 
- <./figures/utah.png (PNG copy)>] [27 <./figures/aocp.jpg>] [28 <./figures/rumi
+ <./figures/utah.png (PNG copy)>] [30 <./figures/aocp.jpg>] [31 <./figures/rumi
 _gold.png>] (./book.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -568,13 +649,13 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11223 strings out of 474116
- 171203 string characters out of 5743682
+ 12572 strings out of 474116
+ 193238 string characters out of 5743682
  1941187 words of memory out of 5000000
- 33302 multiletter control sequences out of 15000+600000
+ 34610 multiletter control sequences out of 15000+600000
  566212 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,673b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,673b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -586,10 +667,10 @@ ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
 l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (30 pages, 8388830 bytes).
+Output written on book.pdf (33 pages, 9020691 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 470 compressed objects within 5 object streams
- 118 named destinations out of 1000 (max. 500000)
- 396 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 565 PDF objects out of 1000 (max. 8388607)
+ 493 compressed objects within 5 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 417 words of extra memory for PDF output out of 10000 (max. 10000000)
 

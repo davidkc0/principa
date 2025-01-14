@@ -3,7 +3,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{geometry}
-\usepackage{hyperref}
+\usepackage[colorlinks]{hyperref}
 \usepackage{bookmark}
 
 %\usepackage[hyphens]{url}
@@ -15,6 +15,21 @@
 \usepackage{longtable}
 \usepackage{fancyvrb}
 \usepackage{comment}
+
+\usepackage{pdfpages}
+%\usepackage{tocloft}
+%\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+% Custom command for inserting documents with TOC integration
+\newcommand{\insertmydocument}[4]%
+{ % Syntax: \insertmydocument{Toc level}{Title}{Subtitle}{File}
+  \newpage
+  \phantomsection
+  \addcontentsline{toc}{#1}{#2}
+  \includepdf[pages=-]{#4}
+}
+% devil magic
+
 
 \begin{document}
 
@@ -45,8 +60,16 @@ TODO delete the hack citation (\renewcommand{\cite}[1]{\textbf{[#1]}}) thing whe
 
 \input{optics/optics}
 
+\chapter{On Games of Chance}
+\section{AIs as Association Machines}
+%\insertmydocument{chapter}{AI as Association Machines}{}{AI_as_Association_Machines.pdf}
 
-\section*{Bibliography}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/mask.jpeg}
+    \caption{A placeholder image for \cite{oxman}}
+\end{figure}
 
 \bibliographystyle{plain} % or any other BibTeX style you prefer
 \bibliography{/Users/gnb/Projects/principa-master-localcomp/references/references.bib}
