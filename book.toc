@@ -42,28 +42,29 @@
 \contentsline {section}{\numberline {4.2}Generative Art and Machine Learning}{23}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Resources and References}{23}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Conclusion}{24}{section.4.4}%
-\contentsline {chapter}{\numberline {5}On Games of Chance}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}AIs as Association Machines}{25}{section.5.1}%
-\contentsline {section}{AI as Association Machines}{26}{section*.16}%
-\contentsline {section}{\numberline {5.2}The Law of Large Numbers \cite {davar} and the Central Limit Theorem: Foundations of Probability}{34}{section.5.2}%
-\contentsline {section}{AI as Association Machines}{36}{section*.26}%
-\contentsline {chapter}{\numberline {6}Q-Learning}{51}{chapter.6}%
-\contentsline {section}{Masters Project}{52}{section*.27}%
-\contentsline {chapter}{\numberline {7}The White Paper}{123}{chapter.7}%
-\contentsline {section}{Numerai}{124}{section*.28}%
-\contentsline {chapter}{\numberline {8}The Dinosaur Chapter}{129}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Farmer Labs}{129}{section.8.1}%
-\contentsline {subsection}{USet Grant}{130}{section*.29}%
-\contentsline {subsection}{Falcarius}{131}{section*.30}%
-\contentsline {section}{\numberline {8.2}Dig with Jim Kirkland}{162}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Utah Raptor}{162}{section.8.3}%
-\contentsline {subsection}{Context}{164}{section*.31}%
-\contentsline {chapter}{\numberline {9}My Resume}{167}{chapter.9}%
-\contentsline {chapter}{Numerai}{168}{section*.32}%
-\contentsline {chapter}{\numberline {10}Charlie Summer's Art Car}{175}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Lost Art/Bogus Journey's game}{175}{section.10.1}%
-\contentsline {section}{\numberline {10.2}The Art Car}{175}{section.10.2}%
-\contentsline {chapter}{\numberline {11}Well it's Greek to me now..}{183}{chapter.11}%
-\contentsline {chapter}{Well it's Greek to me now..}{184}{section*.33}%
-\contentsline {chapter}{\numberline {12}Phantasmagoria}{199}{chapter.12}%
-\contentsline {chapter}{\numberline {A}Dedication outro.}{203}{appendix.A}%
+\contentsline {section}{\numberline {4.5}Optickal References}{24}{section.4.5}%
+\contentsline {chapter}{\numberline {5}On Games of Chance}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}AIs as Association Machines}{39}{section.5.1}%
+\contentsline {section}{AI as Association Machines}{40}{section*.16}%
+\contentsline {section}{\numberline {5.2}The Law of Large Numbers \cite {davar} and the Central Limit Theorem: Foundations of Probability}{48}{section.5.2}%
+\contentsline {section}{AI as Association Machines}{50}{section*.26}%
+\contentsline {chapter}{\numberline {6}Q-Learning}{65}{chapter.6}%
+\contentsline {section}{Masters Project}{66}{section*.27}%
+\contentsline {chapter}{\numberline {7}The White Paper}{137}{chapter.7}%
+\contentsline {section}{Numerai}{138}{section*.28}%
+\contentsline {chapter}{\numberline {8}The Dinosaur Chapter}{143}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Farmer Labs}{143}{section.8.1}%
+\contentsline {subsection}{USet Grant}{144}{section*.29}%
+\contentsline {subsection}{Falcarius}{145}{section*.30}%
+\contentsline {section}{\numberline {8.2}Dig with Jim Kirkland}{176}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Utah Raptor}{176}{section.8.3}%
+\contentsline {subsection}{Context}{178}{section*.31}%
+\contentsline {chapter}{\numberline {9}My Resume}{181}{chapter.9}%
+\contentsline {chapter}{Numerai}{182}{section*.32}%
+\contentsline {chapter}{\numberline {10}Charlie Summer's Art Car}{189}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Lost Art/Bogus Journey's game}{189}{section.10.1}%
+\contentsline {section}{\numberline {10.2}The Art Car}{189}{section.10.2}%
+\contentsline {chapter}{\numberline {11}Well it's Greek to me now..}{197}{chapter.11}%
+\contentsline {chapter}{Well it's Greek to me now..}{198}{section*.33}%
+\contentsline {chapter}{\numberline {12}Phantasmagoria}{213}{chapter.12}%
+\contentsline {chapter}{\numberline {A}Dedication outro.}{217}{appendix.A}%
