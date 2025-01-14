@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 JAN 2025 21:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 JAN 2025 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -507,7 +507,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 \end{titlepage}
+l.34 \end{titlepage}
                      [1
 
 {/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
@@ -520,7 +520,7 @@ l.1 \chapter
             *{Dedication to ChatGPT} [2
 
 ]
-<figures/clown.png, id=57, 910.40125pt x 908.39375pt>
+<figures/clown.png, id=58, 910.40125pt x 908.39375pt>
 File: figures/clown.png Graphic file (type png)
 <use figures/clown.png>
 Package pdftex.def Info: figures/clown.png  used on input line 17.
@@ -589,7 +589,7 @@ Chapter 3.
 [15
 
 ] [16] [17]
-<figures/copypasta.jpg, id=244, 602.25pt x 790.955pt>
+<figures/copypasta.jpg, id=245, 602.25pt x 790.955pt>
 File: figures/copypasta.jpg Graphic file (type jpg)
 <use figures/copypasta.jpg>
 Package pdftex.def Info: figures/copypasta.jpg  used on input line 128.
@@ -608,7 +608,7 @@ Chapter 5.
 [25
 
 ]
-<AI_as_Association_Machines.pdf, id=316, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=317, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf>
 Package pdftex.def Info: AI_as_Association_Machines.pdf  used on input line 65.
@@ -619,7 +619,7 @@ File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 Package pdftex.def Info: AI_as_Association_Machines.pdf  used on input line 65.
 
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<AI_as_Association_Machines.pdf, id=319, page=1, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=320, page=1, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 1>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page1 used on input l
@@ -648,7 +648,7 @@ ine 65.
  [26
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=333, page=2, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=334, page=2, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 2>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page2 used on input l
@@ -667,7 +667,7 @@ ine 65.
  [27
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=343, page=3, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=344, page=3, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 3>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page3 used on input l
@@ -686,7 +686,7 @@ ine 65.
  [28
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=348, page=4, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=349, page=4, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 4>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page4 used on input l
@@ -705,7 +705,7 @@ ine 65.
  [29
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=354, page=5, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=355, page=5, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 5>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page5 used on input l
@@ -724,7 +724,7 @@ ine 65.
  [30
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=364, page=6, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=365, page=6, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 6>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page6 used on input l
@@ -743,7 +743,7 @@ ine 65.
  [31
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=369, page=7, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=370, page=7, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 7>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page7 used on input l
@@ -762,7 +762,7 @@ ine 65.
  [32
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=374, page=8, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=375, page=8, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 8>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page8 used on input l
@@ -792,7 +792,7 @@ REM: FOUNDATIONS OF PROBABILITY \OT1/cmr/m/n/12 35
  []
 
 [35]
-<cah-print.pdf, id=400, 614.295pt x 794.97pt>
+<cah-print.pdf, id=401, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf>
 Package pdftex.def Info: cah-print.pdf  used on input line 67.
@@ -801,7 +801,7 @@ File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf>
 Package pdftex.def Info: cah-print.pdf  used on input line 67.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<cah-print.pdf, id=403, page=1, 614.295pt x 794.97pt>
+<cah-print.pdf, id=404, page=1, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 1>
 Package pdftex.def Info: cah-print.pdf , page1 used on input line 67.
@@ -825,7 +825,7 @@ Package pdftex.def Info: cah-print.pdf , page1 used on input line 67.
  [36
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=422, page=2, 614.295pt x 794.97pt>
+<cah-print.pdf, id=423, page=2, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 2>
 Package pdftex.def Info: cah-print.pdf , page2 used on input line 67.
@@ -841,7 +841,7 @@ Package pdftex.def Info: cah-print.pdf , page2 used on input line 67.
  [37
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=429, page=3, 614.295pt x 794.97pt>
+<cah-print.pdf, id=430, page=3, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 3>
 Package pdftex.def Info: cah-print.pdf , page3 used on input line 67.
@@ -857,7 +857,7 @@ Package pdftex.def Info: cah-print.pdf , page3 used on input line 67.
  [38
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=434, page=4, 614.295pt x 794.97pt>
+<cah-print.pdf, id=435, page=4, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 4>
 Package pdftex.def Info: cah-print.pdf , page4 used on input line 67.
@@ -874,7 +874,7 @@ Package pdftex.def Info: cah-print.pdf , page4 used on input line 67.
 [39
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=440, page=5, 614.295pt x 794.97pt>
+<cah-print.pdf, id=441, page=5, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 5>
 Package pdftex.def Info: cah-print.pdf , page5 used on input line 67.
@@ -890,7 +890,7 @@ Package pdftex.def Info: cah-print.pdf , page5 used on input line 67.
  [40
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=445, page=6, 614.295pt x 794.97pt>
+<cah-print.pdf, id=446, page=6, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 6>
 Package pdftex.def Info: cah-print.pdf , page6 used on input line 67.
@@ -906,7 +906,7 @@ Package pdftex.def Info: cah-print.pdf , page6 used on input line 67.
  [41
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=454, page=7, 614.295pt x 794.97pt>
+<cah-print.pdf, id=455, page=7, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 7>
 Package pdftex.def Info: cah-print.pdf , page7 used on input line 67.
@@ -922,7 +922,7 @@ Package pdftex.def Info: cah-print.pdf , page7 used on input line 67.
  [42
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=460, page=8, 614.295pt x 794.97pt>
+<cah-print.pdf, id=461, page=8, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 8>
 Package pdftex.def Info: cah-print.pdf , page8 used on input line 67.
@@ -938,7 +938,7 @@ Package pdftex.def Info: cah-print.pdf , page8 used on input line 67.
  [43
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=465, page=9, 614.295pt x 794.97pt>
+<cah-print.pdf, id=466, page=9, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 9>
 Package pdftex.def Info: cah-print.pdf , page9 used on input line 67.
@@ -954,7 +954,7 @@ Package pdftex.def Info: cah-print.pdf , page9 used on input line 67.
  [44
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=471, page=10, 614.295pt x 794.97pt>
+<cah-print.pdf, id=472, page=10, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 10>
 Package pdftex.def Info: cah-print.pdf , page10 used on input line 67.
@@ -970,7 +970,7 @@ Package pdftex.def Info: cah-print.pdf , page10 used on input line 67.
  [45
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=478, page=11, 614.295pt x 794.97pt>
+<cah-print.pdf, id=479, page=11, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 11>
 Package pdftex.def Info: cah-print.pdf , page11 used on input line 67.
@@ -986,7 +986,7 @@ Package pdftex.def Info: cah-print.pdf , page11 used on input line 67.
  [46
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=485, page=12, 614.295pt x 794.97pt>
+<cah-print.pdf, id=486, page=12, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 12>
 Package pdftex.def Info: cah-print.pdf , page12 used on input line 67.
@@ -1002,7 +1002,7 @@ Package pdftex.def Info: cah-print.pdf , page12 used on input line 67.
  [47
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=491, page=13, 614.295pt x 794.97pt>
+<cah-print.pdf, id=492, page=13, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 13>
 Package pdftex.def Info: cah-print.pdf , page13 used on input line 67.
@@ -1018,7 +1018,7 @@ Package pdftex.def Info: cah-print.pdf , page13 used on input line 67.
  [48
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=496, page=14, 614.295pt x 794.97pt>
+<cah-print.pdf, id=497, page=14, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 14>
 Package pdftex.def Info: cah-print.pdf , page14 used on input line 67.
@@ -1035,7 +1035,7 @@ Package pdftex.def Info: cah-print.pdf , page14 used on input line 67.
 [49
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=503, page=15, 614.295pt x 794.97pt>
+<cah-print.pdf, id=504, page=15, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 15>
 Package pdftex.def Info: cah-print.pdf , page15 used on input line 67.
@@ -1051,7 +1051,7 @@ Package pdftex.def Info: cah-print.pdf , page15 used on input line 67.
  [50
 
  <./cah-print.pdf>]
-<figures/mask.jpeg, id=512, 1812.7725pt x 1814.78pt>
+<figures/mask.jpeg, id=513, 1812.7725pt x 1814.78pt>
 File: figures/mask.jpeg Graphic file (type jpg)
 <use figures/mask.jpeg>
 Package pdftex.def Info: figures/mask.jpeg  used on input line 72.
@@ -1074,17 +1074,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-<figures/utah.png, id=537, 2743.24875pt x 1815.78375pt>
+<figures/utah.png, id=538, 2743.24875pt x 1815.78375pt>
 File: figures/utah.png Graphic file (type png)
 <use figures/utah.png>
 Package pdftex.def Info: figures/utah.png  used on input line 106.
 (pdftex.def)             Requested size: 362.37569pt x 239.85597pt.
-<figures/aocp.jpg, id=539, 1505.625pt x 1296.845pt>
+<figures/aocp.jpg, id=540, 1505.625pt x 1296.845pt>
 File: figures/aocp.jpg Graphic file (type jpg)
 <use figures/aocp.jpg>
 Package pdftex.def Info: figures/aocp.jpg  used on input line 112.
 (pdftex.def)             Requested size: 362.37569pt x 312.11984pt.
-<figures/rumi_gold.png, id=541, 560.0925pt x 835.12pt>
+<figures/rumi_gold.png, id=542, 560.0925pt x 835.12pt>
 File: figures/rumi_gold.png Graphic file (type png)
 <use figures/rumi_gold.png>
 Package pdftex.def Info: figures/rumi_gold.png  used on input line 118.
@@ -1101,7 +1101,7 @@ L3 programming layer <2024-02-20>
 Here is how much of TeX's memory you used:
  12709 strings out of 474116
  196834 string characters out of 5743682
- 1942187 words of memory out of 5000000
+ 1941187 words of memory out of 5000000
  34706 multiletter control sequences out of 15000+600000
  566212 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1117,10 +1117,10 @@ ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
 l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
 /texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (59 pages, 14915813 bytes).
+Output written on book.pdf (59 pages, 14916033 bytes).
 PDF statistics:
- 797 PDF objects out of 1000 (max. 8388607)
- 637 compressed objects within 7 object streams
+ 798 PDF objects out of 1000 (max. 8388607)
+ 638 compressed objects within 7 object streams
  162 named destinations out of 1000 (max. 500000)
  586 words of extra memory for PDF output out of 10000 (max. 10000000)
 
