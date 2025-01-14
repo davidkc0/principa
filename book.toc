@@ -37,3 +37,8 @@
 \contentsline {subsection}{\numberline {3.6.2}Copying Ethically}{18}{subsection.3.6.2}%
 \contentsline {subsection}{\numberline {3.6.3}Beyond Copy-Pasting}{18}{subsection.3.6.3}%
 \contentsline {subsection}{\numberline {3.6.4}Cick Me}{19}{subsection.3.6.4}%
+\contentsline {chapter}{\numberline {4}Optics}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Halftones and Printing}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Generative Art and Machine Learning}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Resources and References}{22}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Conclusion}{22}{section.4.4}%
