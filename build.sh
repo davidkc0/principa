@@ -17,11 +17,11 @@ mkdir -p "$OUTPUT_DIR"
 
 # Run pdflatex and save logs to the outputs directory
 echo "Compiling LaTeX document..."
-pdflatex -output-directory="$OUTPUT_DIR" book.tex > "$OUTPUT_DIR/build.log" 2>&1
-# this hangs indefinately
-bibtex book
-pdflatex -output-directory="$OUTPUT_DIR" book.tex > "$OUTPUT_DIR/build.log" 2>&1
-pdflatex -output-directory="$OUTPUT_DIR" book.tex > "$OUTPUT_DIR/build.log" 2>&1
+# Run LaTeX build steps
+pdflatex book.tex 2>&1 | tee build.log
+bibtex book 2>&1 | tee -a build.log
+pdflatex book.tex 2>&1 | tee -a build.log
+pdflatex book.tex 2>&1 | tee -a build.log
 
 # Check for errors during compilation
 if [ $? -ne 0 ]; then

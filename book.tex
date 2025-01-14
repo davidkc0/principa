@@ -14,12 +14,17 @@
 
 \usepackage{longtable}
 \usepackage{fancyvrb}
-\usepackage[style=alphabetic]{biblatex}
-\addbibresource{/Users/gnb/Projects/principa-master-localcomp/references/references.bib} % Adjust the .bib file name if needed
+\usepackage{comment}
 
-\usepackage{listings}
+%\usepackage{biblatex} %Imports biblatex package
+
+\renewcommand{\cite}[1]{\textbf{[#1]}}
 
 \begin{document}
+
+\begin{comment}
+TODO delete the hack citation (\renewcommand{\cite}[1]{\textbf{[#1]}}) thing when the bib works.
+\end{comment}
 
 % Title Page Inclusion
 \input{title/title}
@@ -41,9 +46,11 @@
 \input{chapters/installoverview}
 \input{chapters/clickme}
 
-\printbibliography %Prints bibliography
 
+\section*{Bibliography}
 
+%\bibliographystyle{plain} % or any other BibTeX style you prefer
+%\bibliography{/Users/gnb/Projects/principa-master-localcomp/references/references.bib}
 
 
 \end{document}
