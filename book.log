@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  14 JAN 2025 17:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  14 JAN 2025 17:16
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1417,458 +1417,163 @@ res/ofig/marie_nice_render.png>] [71 <./figures/ofig/napolean_nice_render.jpg>]
 
 ]
 Chapter 6.
-(./chapters/rendering.tex [73] [74
-
-]
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2 
-     [1] (./_minted-book/default.pygstyle)
+(./chapters/rendering.tex (./_minted-book/default.pygstyle)
 (./_minted-book/19C7B3D42B3D2EAF9F7F0A408165DBF5131FC0A83F8A32D5786BB9241D2C6B1
 3.pygtex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.17     \PYG{k}{return} \PYG{k+kc}{False}
-                                           [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.62                 \PYG{k}{else}\PYG{p}{:}
-                                             [3])
+ [73] [74]) [75]
 \openout3 = `book.pyg'.
 
 
 (./_minted-book/C374BF757CE7F231D17A2BF3E27477DE9CEB923E27151D8913CB8C3659CA12E
-1.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 ...{o}{.}\PYG{n}{svg\PYGZus{}path}\PYG{p}{()}
-                                                   [4]))
+1.pygtex))
 (./_minted-book/33E72E5091CE086263AFD25730FDDD9E180EADDB40B7C7738A59C4F5584A7B8
-F.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29 
-      [5])
+F.pygtex [76])
 (./_minted-book/19C7B3D42B3D2EAF9F7F0A408165DBF5131FC0A83F8A32D5786BB9241D2C6B1
-3.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19 ...{,} \PYG{n}{n\PYGZus{}segments}\PYG{p}{):}
-                                                   [6]
+3.pygtex [77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.67                 \PYG{k}{continue}
-                                       [7])
+ [78])
 (./_minted-book/8AA99441C01B3B48A5805C09554F3D68BB82D1E9C682FE2BD55385007A7394F
-0.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.32 
-      [8]
+0.pygtex [79]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.80 ...{n}{num\PYGZus{}lines\PYGZus{}f}\PYG{p}{)}
-                                                   [9])
+ [80])
 (./_minted-book/3D118B3F807A9E3FAB1DC0744504CD0830547EFFACE3DBBD6E7B8585F9905F7
 A.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.15 ...ter\PYGZus{}\PYGZus{}\PYGZdq{}}\PYG{p}{):}
-                                                   [10])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81])
 (./_minted-book/4108F9885AC965F3FEFCA1D421C4EBFDC5288853B92BB042FF7A5F6E4DD6CF7
-1.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.29 \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
-                                               [11]
+1.pygtex [82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.77 
-      [12]
+ [83]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.125 ...+sd}{        self.rots = xy\PYGZus{}rots}
-                                                   [13])
+ [85])
 (./_minted-book/06F07BC119012FF5D9EBA89F961F2520FCA49DD010C12D0782F4AD594AE39CE
-5.pygtex
+5.pygtex [86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 ...{k}{class} \PYG{n+nc}{Renderable}\PYG{p}{:}
-                                                   [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.52 ...}objects}\PYG{p}{[}\PYG{n}{item}\PYG{p}{]}
-                                                   [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.16}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.100 ...PYG{o+ow}{not} \PYG{k+kc}{None}\PYG{p}{:}
-                                                   [16])
+ [87])
 (./_minted-book/740DC9A001E4A5E1FCF5FCCA559730B2D324EC1F73C0BBC05C9719193C8F55F
-F.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.17}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.45 \PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
-                                                   [17]
+F.pygtex [88]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [89]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.18}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.93 ...nes might intersect with planes at points}
-                                                   [18])
+ [90])
 (./_minted-book/FF484CC4974390D3020DBBF5AD82421EFBEB40020DF7262BA85E62ED4D8C776
-C.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.19}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.6 ...{objects}\PYG{p}{,} \PYG{n}{cam}\PYG{p}{):}
-                                                   [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.20}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.54 ...tures}\PYG{p}{(}\PYG{n}{objects}\PYG{p}{)}
-                                                   [20])
+C.pygtex [91])
 (./_minted-book/66DD193E473E66F415B820040913923A07FCF8E98725F2EFB36767CBDE07E91
-0.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.21}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.45 ...G{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{]}
-                                                   [21]
+0.pygtex [92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.22}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.93 ...low}\PYG{o}{=}\PYG{k+kc}{False}\PYG{p}{):}
-                                                   [22])
+ [93])
 (./_minted-book/5BFAAE0015611A3CB6BFB58A164898AF5922D387EC29CF00CFB4F32A6A6AC4C
-F.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.23}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.38 ...n}{np}\PYG{o}{.}\PYG{n}{newaxis}\PYG{p}{]}
-                                                   [23]
+F.pygtex [94]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.24}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.86 \PYG{l+s+sd}{        \PYGZsh{}TEST}
-                                         [24]
+ [95]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.25}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.134 ...)}\PYG{o}{.}\PYG{n}{transpose}\PYG{p}{()}
-                                                   [25])
+ [96])
 (./_minted-book/7BCB41A6AABC4DD39CBA56E977E960D2D3E04012D99B653D0C3E98D942058A6
-B.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.26}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.34 ... \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
-                                                   [26]
+B.pygtex [97]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.27}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.82 \PYG{l+s+sd}{                \PYGZsh{}TEST}
-                                                 [27])
+ [98])
 (./_minted-book/5F22A85F02E1E38DF44B079AB987EB0DBCC0ADB0B816D016F2ED82DB3CC9C2C
-3.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.28}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19 ...f}\PYG{p}{,} \PYG{n+nb}{object}\PYG{p}{):}
-                                                   [28])
+3.pygtex [99]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100])
 (./_minted-book/343BC6920A6322A34803B54116D4BFBEB5D1DFDE372B677F7E9A452DCC28A06
-5.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.29}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.10 
-      [29])
+5.pygtex)
 (./_minted-book/E51BCEDD15390CB604A41AD496E38C4023234540B1C30E8CA69E06612D44D77
 9.pygtex)
 (./_minted-book/89C0237BFB6D221526BDF9F64C15C393AB31D1D2B46EFD7151A49B13E34DE6D
-5.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.30}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.19 
-      [30]
+5.pygtex [101]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.31}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.66 \end{Verbatim}
-                    [31])
+ [102])
 (./_minted-book/9987F8E1736D7FD67F24CF32E4AA3076980753C906BFC830F76EA16A58048D2
-3.pygtex)
+3.pygtex [103])
 (./_minted-book/9A8CF3F86AF886C449A7675E6160943993747A68CBC1B3C07411B466DC5E15B
-6.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.32}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 
-      [32]
+6.pygtex [104]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.33}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.60 ...this happened in the original constructor}
-                                                   [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.34}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.108 ...als}\PYG{o}{=}\PYG{n}{decimals}\PYG{p}{)}
-                                                   [34])
-<rendering/figures/s1.png, id=946, 642.4pt x 659.46375pt>
+ [105])
+<rendering/figures/s1.png, id=966, 642.4pt x 659.46375pt>
 File: rendering/figures/s1.png Graphic file (type png)
 <use rendering/figures/s1.png>
 Package pdftex.def Info: rendering/figures/s1.png  used on input line 159.
 (pdftex.def)             Requested size: 362.37569pt x 372.01407pt.
-<rendering/figures/s2.png, id=947, 627.34375pt x 764.8575pt>
+<rendering/figures/s2.png, id=967, 627.34375pt x 764.8575pt>
 File: rendering/figures/s2.png Graphic file (type png)
 <use rendering/figures/s2.png>
 Package pdftex.def Info: rendering/figures/s2.png  used on input line 163.
 (pdftex.def)             Requested size: 362.37569pt x 441.82036pt.
-<rendering/figures/s3.png, id=948, 728.7225pt x 766.865pt>
+<rendering/figures/s3.png, id=968, 728.7225pt x 766.865pt>
 File: rendering/figures/s3.png Graphic file (type png)
 <use rendering/figures/s3.png>
 Package pdftex.def Info: rendering/figures/s3.png  used on input line 167.
 (pdftex.def)             Requested size: 362.37569pt x 381.337pt.
-<rendering/figures/s4.png, id=949, 715.67375pt x 745.78625pt>
+<rendering/figures/s4.png, id=969, 715.67375pt x 745.78625pt>
 File: rendering/figures/s4.png Graphic file (type png)
 <use rendering/figures/s4.png>
 Package pdftex.def Info: rendering/figures/s4.png  used on input line 171.
 (pdftex.def)             Requested size: 362.37569pt x 377.62619pt.
-<rendering/figures/s5.png, id=950, 731.73375pt x 768.8725pt>
+<rendering/figures/s5.png, id=970, 731.73375pt x 768.8725pt>
 File: rendering/figures/s5.png Graphic file (type png)
 <use rendering/figures/s5.png>
 Package pdftex.def Info: rendering/figures/s5.png  used on input line 175.
 (pdftex.def)             Requested size: 362.37569pt x 380.76317pt.
-<rendering/figures/s6.png, id=951, 747.79375pt x 740.7675pt>
+<rendering/figures/s6.png, id=971, 747.79375pt x 740.7675pt>
 File: rendering/figures/s6.png Graphic file (type png)
 <use rendering/figures/s6.png>
 Package pdftex.def Info: rendering/figures/s6.png  used on input line 179.
 (pdftex.def)             Requested size: 362.37569pt x 358.96661pt.
- (./chapters/botany.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.35}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Some Seeds for Gardening} [35 <./rendering/figures/s1.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.36}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Some Seeds for Gardening} [36 <./rendering/figures/s2.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.37}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Some Seeds for Gardening} [37 <./rendering/figures/s3.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.38}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Some Seeds for Gardening} [38 <./rendering/figures/s4.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.39}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Some Seeds for Gardening} [39 <./rendering/figures/s5.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.40}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Some Seeds for Gardening} [40 <./rendering/figures/s6.png>]
-Chapter 7.
-)
-pdfTeX warning (ext4): destination with the same identifier (name{page.41}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.184 \chapter
-              {Fresh New Wallpapers} [41
+
+(./chapters/botany.tex [106 <./rendering/figures/s1.png>] [107 <./rendering/fig
+ures/s2.png>] [108 <./rendering/figures/s3.png>] [109 <./rendering/figures/s4.p
+ng>] [110 <./rendering/figures/s5.png>] [111 <./rendering/figures/s6.png>]
+[112
 
 ]
-pdfTeX warning (ext4): destination with the same identifier (name{page.42}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.184 \chapter
-              {Fresh New Wallpapers} [42
+Chapter 7.
+) [113] [114
 
 ]
 Chapter 8.
-(./chapters/wallpaper.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.43}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.16 \subsection
-                {Stained Glass: A Modern Interpretation} [43])
+(./chapters/wallpaper.tex [115])
 (./_minted-book/DEDA02463EC37F3EA9F22590E1FBE02060124262464F98E83315434B83CE180
-8.pygtex
-pdfTeX warning (ext4): destination with the same identifier (name{page.44}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 ...class} \PYG{n+nc}{WallpaperGroup}\PYG{p}{:}
-                                                   [44]
+8.pygtex [116]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
 20.
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmtt.fd
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.45}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.50 ...n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{])}
-                                                   [45]
+ [117]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.46}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.98 ...rees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{))}
-                                                   [46]
+ [118]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.47}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.146 ...}{(}\PYG{n}{result\PYGZus{}pts}\PYG{p}{)}
-                                                   [47]
+ [119]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.48}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.194 ...                  \PYG{k}{else}\PYG{p}{:}
-                                                   [48])
-pdfTeX warning (ext4): destination with the same identifier (name{page.49}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                   [49]
-<wallpaper/lasercutter.pdf, id=1010, 614.295pt x 794.97pt>
+ [120])
+[121]
+<wallpaper/lasercutter.pdf, id=1050, 614.295pt x 794.97pt>
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf>
 Package pdftex.def Info: wallpaper/lasercutter.pdf  used on input line 190.
@@ -1877,7 +1582,7 @@ File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf>
 Package pdftex.def Info: wallpaper/lasercutter.pdf  used on input line 190.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<wallpaper/lasercutter.pdf, id=1013, page=1, 614.295pt x 794.97pt>
+<wallpaper/lasercutter.pdf, id=1053, page=1, 614.295pt x 794.97pt>
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 1>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page1 used on input line 1
@@ -1898,22 +1603,15 @@ File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page1 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.50}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                  
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 1>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page1 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [50
+ [122
 
  <./wallpaper/lasercutter.pdf>]
-<wallpaper/lasercutter.pdf, id=1037, page=2, 614.295pt x 794.97pt>
+<wallpaper/lasercutter.pdf, id=1079, page=2, 614.295pt x 794.97pt>
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 2>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page2 used on input line 1
@@ -1924,22 +1622,15 @@ File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page2 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.51}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                  
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 2>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page2 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [51
+ [123
 
  <./wallpaper/lasercutter.pdf>]
-<wallpaper/lasercutter.pdf, id=1059, page=3, 614.295pt x 794.97pt>
+<wallpaper/lasercutter.pdf, id=1101, page=3, 614.295pt x 794.97pt>
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 3>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page3 used on input line 1
@@ -1950,22 +1641,16 @@ File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page3 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.52}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                  
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 3>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page3 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [52
+
+[124
 
  <./wallpaper/lasercutter.pdf>]
-<wallpaper/lasercutter.pdf, id=1065, page=4, 614.295pt x 794.97pt>
+<wallpaper/lasercutter.pdf, id=1108, page=4, 614.295pt x 794.97pt>
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 4>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page4 used on input line 1
@@ -1976,22 +1661,20 @@ File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page4 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.53}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                  
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 4>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page4 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [53
+ [125
 
  <./wallpaper/lasercutter.pdf>]
-<wallpaper/lasercutter.pdf, id=1069, page=5, 614.295pt x 794.97pt>
+<wallpaper/lasercutter.pdf, id=1114, page=5, 614.295pt x 794.97pt>
+File: wallpaper/lasercutter.pdf Graphic file (type pdf)
+<use wallpaper/lasercutter.pdf, page 5>
+Package pdftex.def Info: wallpaper/lasercutter.pdf , page5 used on input line 1
+90.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 5>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page5 used on input line 1
@@ -2003,21 +1686,10 @@ Package pdftex.def Info: wallpaper/lasercutter.pdf , page5 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.54}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                  
-File: wallpaper/lasercutter.pdf Graphic file (type pdf)
-<use wallpaper/lasercutter.pdf, page 5>
-Package pdftex.def Info: wallpaper/lasercutter.pdf , page5 used on input line 1
-90.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [54
+[126
 
  <./wallpaper/lasercutter.pdf>]
-<wallpaper/lasercutter.pdf, id=1077, page=6, 614.295pt x 794.97pt>
+<wallpaper/lasercutter.pdf, id=1123, page=6, 614.295pt x 794.97pt>
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 6>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page6 used on input line 1
@@ -2028,22 +1700,20 @@ File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page6 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.55}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                  
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 6>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page6 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [55
+ [127
 
  <./wallpaper/lasercutter.pdf>]
-<wallpaper/lasercutter.pdf, id=1083, page=7, 614.295pt x 794.97pt>
+<wallpaper/lasercutter.pdf, id=1130, page=7, 614.295pt x 794.97pt>
+File: wallpaper/lasercutter.pdf Graphic file (type pdf)
+<use wallpaper/lasercutter.pdf, page 7>
+Package pdftex.def Info: wallpaper/lasercutter.pdf , page7 used on input line 1
+90.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 7>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page7 used on input line 1
@@ -2055,21 +1725,10 @@ Package pdftex.def Info: wallpaper/lasercutter.pdf , page7 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.56}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                  
-File: wallpaper/lasercutter.pdf Graphic file (type pdf)
-<use wallpaper/lasercutter.pdf, page 7>
-Package pdftex.def Info: wallpaper/lasercutter.pdf , page7 used on input line 1
-90.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [56
+[128
 
  <./wallpaper/lasercutter.pdf>]
-<wallpaper/lasercutter.pdf, id=1090, page=8, 614.295pt x 794.97pt>
+<wallpaper/lasercutter.pdf, id=1138, page=8, 614.295pt x 794.97pt>
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 8>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page8 used on input line 1
@@ -2080,22 +1739,20 @@ File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page8 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.57}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                  
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 8>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page8 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [57
+ [129
 
  <./wallpaper/lasercutter.pdf>]
-<wallpaper/lasercutter.pdf, id=1099, page=9, 614.295pt x 794.97pt>
+<wallpaper/lasercutter.pdf, id=1147, page=9, 614.295pt x 794.97pt>
+File: wallpaper/lasercutter.pdf Graphic file (type pdf)
+<use wallpaper/lasercutter.pdf, page 9>
+Package pdftex.def Info: wallpaper/lasercutter.pdf , page9 used on input line 1
+90.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 9>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page9 used on input line 1
@@ -2107,21 +1764,10 @@ Package pdftex.def Info: wallpaper/lasercutter.pdf , page9 used on input line 1
 90.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.58}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                  
-File: wallpaper/lasercutter.pdf Graphic file (type pdf)
-<use wallpaper/lasercutter.pdf, page 9>
-Package pdftex.def Info: wallpaper/lasercutter.pdf , page9 used on input line 1
-90.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [58
+[130
 
  <./wallpaper/lasercutter.pdf>]
-<wallpaper/lasercutter.pdf, id=1115, page=10, 614.295pt x 794.97pt>
+<wallpaper/lasercutter.pdf, id=1164, page=10, 614.295pt x 794.97pt>
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 10>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page10 used on input line 
@@ -2132,58 +1778,28 @@ File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page10 used on input line 
 190.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.59}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.190 ...Adaptations}{}{wallpaper/lasercutter.pdf}
-                                                  
 File: wallpaper/lasercutter.pdf Graphic file (type pdf)
 <use wallpaper/lasercutter.pdf, page 10>
 Package pdftex.def Info: wallpaper/lasercutter.pdf , page10 used on input line 
 190.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [59
+ [131
 
  <./wallpaper/lasercutter.pdf>]
-<wallpaper/rainbow.JPG, id=1129, 1493.58pt x 2221.29875pt>
+<wallpaper/rainbow.JPG, id=1180, 1493.58pt x 2221.29875pt>
 File: wallpaper/rainbow.JPG Graphic file (type jpg)
 <use wallpaper/rainbow.JPG>
 Package pdftex.def Info: wallpaper/rainbow.JPG  used on input line 194.
 (pdftex.def)             Requested size: 362.37569pt x 538.91852pt.
-<wallpaper/trippy.JPG, id=1130, 3436.84pt x 3436.84pt>
+<wallpaper/trippy.JPG, id=1181, 3436.84pt x 3436.84pt>
 File: wallpaper/trippy.JPG Graphic file (type jpg)
 <use wallpaper/trippy.JPG>
 Package pdftex.def Info: wallpaper/trippy.JPG  used on input line 198.
 (pdftex.def)             Requested size: 362.37569pt x 362.37344pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.60}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.202 \chapter
-              {Laplace} [60]
-pdfTeX warning (ext4): destination with the same identifier (name{page.61}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.202 \chapter
-              {Laplace} [61 <./wallpaper/rainbow.JPG>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.62}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.202 \chapter
-              {Laplace} [62 <./wallpaper/trippy.JPG>]
+[132] [133 <./wallpaper/rainbow.JPG>] [134 <./wallpaper/trippy.JPG>]
 Chapter 9.
-(./chapters/laplace.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.63}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.25 \begin{verbatim}
-                      [63
+(./chapters/laplace.tex [135
 
 ]
 Overfull \hbox (3.98233pt too wide) in paragraph at lines 31--31
@@ -2227,20 +1843,8 @@ Overfull \hbox (90.43237pt too wide) in paragraph at lines 61--61
 a.shape[1], img_a.shape[1]])[] 
  []
 
-)
-pdfTeX warning (ext4): destination with the same identifier (name{page.64}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.204 \section
-              {Laplace Code References} [64]
-pdfTeX warning (ext4): destination with the same identifier (name{page.65}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 ...t{section}{Pyramid Blending}{}{blend.pdf}
-                                                   [65]
-<blend.pdf, id=1162, 614.295pt x 794.97pt>
+) [136] [137]
+<blend.pdf, id=1218, 614.295pt x 794.97pt>
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf>
 Package pdftex.def Info: blend.pdf  used on input line 205.
@@ -2249,7 +1853,7 @@ File: blend.pdf Graphic file (type pdf)
 <use blend.pdf>
 Package pdftex.def Info: blend.pdf  used on input line 205.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<blend.pdf, id=1165, page=1, 614.295pt x 794.97pt>
+<blend.pdf, id=1221, page=1, 614.295pt x 794.97pt>
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 1>
 Package pdftex.def Info: blend.pdf , page1 used on input line 205.
@@ -2266,21 +1870,14 @@ File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 1>
 Package pdftex.def Info: blend.pdf , page1 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.66}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 ...t{section}{Pyramid Blending}{}{blend.pdf}
-                                                  
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 1>
 Package pdftex.def Info: blend.pdf , page1 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [66
+ [138
 
  <./blend.pdf>]
-<blend.pdf, id=1212, page=2, 614.295pt x 794.97pt>
+<blend.pdf, id=1270, page=2, 614.295pt x 794.97pt>
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 2>
 Package pdftex.def Info: blend.pdf , page2 used on input line 205.
@@ -2289,21 +1886,14 @@ File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 2>
 Package pdftex.def Info: blend.pdf , page2 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.67}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 ...t{section}{Pyramid Blending}{}{blend.pdf}
-                                                  
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 2>
 Package pdftex.def Info: blend.pdf , page2 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [67
+ [139
 
  <./blend.pdf>]
-<blend.pdf, id=1223, page=3, 614.295pt x 794.97pt>
+<blend.pdf, id=1282, page=3, 614.295pt x 794.97pt>
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 3>
 Package pdftex.def Info: blend.pdf , page3 used on input line 205.
@@ -2312,21 +1902,18 @@ File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 3>
 Package pdftex.def Info: blend.pdf , page3 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.68}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 ...t{section}{Pyramid Blending}{}{blend.pdf}
-                                                  
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 3>
 Package pdftex.def Info: blend.pdf , page3 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [68
+ [140
 
  <./blend.pdf>]
-<blend.pdf, id=1229, page=4, 614.295pt x 794.97pt>
+<blend.pdf, id=1289, page=4, 614.295pt x 794.97pt>
+File: blend.pdf Graphic file (type pdf)
+<use blend.pdf, page 4>
+Package pdftex.def Info: blend.pdf , page4 used on input line 205.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 4>
 Package pdftex.def Info: blend.pdf , page4 used on input line 205.
@@ -2336,20 +1923,10 @@ File: blend.pdf Graphic file (type pdf)
 Package pdftex.def Info: blend.pdf , page4 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.69}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 ...t{section}{Pyramid Blending}{}{blend.pdf}
-                                                  
-File: blend.pdf Graphic file (type pdf)
-<use blend.pdf, page 4>
-Package pdftex.def Info: blend.pdf , page4 used on input line 205.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [69
+[141
 
  <./blend.pdf>]
-<blend.pdf, id=1236, page=5, 614.295pt x 794.97pt>
+<blend.pdf, id=1296, page=5, 614.295pt x 794.97pt>
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 5>
 Package pdftex.def Info: blend.pdf , page5 used on input line 205.
@@ -2358,21 +1935,14 @@ File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 5>
 Package pdftex.def Info: blend.pdf , page5 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.70}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 ...t{section}{Pyramid Blending}{}{blend.pdf}
-                                                  
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 5>
 Package pdftex.def Info: blend.pdf , page5 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [70
+ [142
 
  <./blend.pdf>]
-<blend.pdf, id=1242, page=6, 614.295pt x 794.97pt>
+<blend.pdf, id=1303, page=6, 614.295pt x 794.97pt>
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 6>
 Package pdftex.def Info: blend.pdf , page6 used on input line 205.
@@ -2381,21 +1951,14 @@ File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 6>
 Package pdftex.def Info: blend.pdf , page6 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.71}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 ...t{section}{Pyramid Blending}{}{blend.pdf}
-                                                  
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 6>
 Package pdftex.def Info: blend.pdf , page6 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [71
+ [143
 
  <./blend.pdf>]
-<blend.pdf, id=1246, page=7, 614.295pt x 794.97pt>
+<blend.pdf, id=1309, page=7, 614.295pt x 794.97pt>
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 7>
 Package pdftex.def Info: blend.pdf , page7 used on input line 205.
@@ -2404,21 +1967,14 @@ File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 7>
 Package pdftex.def Info: blend.pdf , page7 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.72}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 ...t{section}{Pyramid Blending}{}{blend.pdf}
-                                                  
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 7>
 Package pdftex.def Info: blend.pdf , page7 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [72
+ [144
 
  <./blend.pdf>]
-<blend.pdf, id=1252, page=8, 614.295pt x 794.97pt>
+<blend.pdf, id=1316, page=8, 614.295pt x 794.97pt>
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 8>
 Package pdftex.def Info: blend.pdf , page8 used on input line 205.
@@ -2427,21 +1983,14 @@ File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 8>
 Package pdftex.def Info: blend.pdf , page8 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.73}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 ...t{section}{Pyramid Blending}{}{blend.pdf}
-                                                  
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 8>
 Package pdftex.def Info: blend.pdf , page8 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [73
+[145
 
  <./blend.pdf>]
-<blend.pdf, id=1256, page=9, 614.295pt x 794.97pt>
+<blend.pdf, id=1321, page=9, 614.295pt x 794.97pt>
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 9>
 Package pdftex.def Info: blend.pdf , page9 used on input line 205.
@@ -2450,21 +1999,14 @@ File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 9>
 Package pdftex.def Info: blend.pdf , page9 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.74}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.205 ...t{section}{Pyramid Blending}{}{blend.pdf}
-                                                  
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 9>
 Package pdftex.def Info: blend.pdf , page9 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [74
+ [146
 
  <./blend.pdf>]
-<blend.pdf, id=1262, page=10, 614.295pt x 794.97pt>
+<blend.pdf, id=1328, page=10, 614.295pt x 794.97pt>
 File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 10>
 Package pdftex.def Info: blend.pdf , page10 used on input line 205.
@@ -2477,17 +2019,17 @@ File: blend.pdf Graphic file (type pdf)
 <use blend.pdf, page 10>
 Package pdftex.def Info: blend.pdf , page10 used on input line 205.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [75
+ [147
 
  <./blend.pdf>]
-<figures/ofig/snake.JPG, id=1270, 488.82625pt x 602.25pt>
+<figures/ofig/snake.JPG, id=1335, 488.82625pt x 602.25pt>
 File: figures/ofig/snake.JPG Graphic file (type jpg)
 <use figures/ofig/snake.JPG>
 Package pdftex.def Info: figures/ofig/snake.JPG  used on input line 209.
 (pdftex.def)             Requested size: 362.37569pt x 446.4667pt.
- [76 <./figures/ofig/snake.JPG>]
+ [148 <./figures/ofig/snake.JPG>]
 Chapter 10.
-(./chapters/newton.tex [77
+(./chapters/newton.tex [149
 
 ]
 Overfull \hbox (10.15733pt too wide) in paragraph at lines 31--31
@@ -2495,8 +2037,8 @@ Overfull \hbox (10.15733pt too wide) in paragraph at lines 31--31
 ation, optional[] 
  []
 
-) [78]
-<glitchy_hourglass.pdf, id=1289, 614.295pt x 794.97pt>
+) [150]
+<glitchy_hourglass.pdf, id=1355, 614.295pt x 794.97pt>
 File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf>
 Package pdftex.def Info: glitchy_hourglass.pdf  used on input line 216.
@@ -2505,7 +2047,7 @@ File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf>
 Package pdftex.def Info: glitchy_hourglass.pdf  used on input line 216.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<glitchy_hourglass.pdf, id=1292, page=1, 614.295pt x 794.97pt>
+<glitchy_hourglass.pdf, id=1358, page=1, 614.295pt x 794.97pt>
 File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf, page 1>
 Package pdftex.def Info: glitchy_hourglass.pdf , page1 used on input line 216.
@@ -2526,10 +2068,10 @@ File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf, page 1>
 Package pdftex.def Info: glitchy_hourglass.pdf , page1 used on input line 216.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [79
+ [151
 
  <./glitchy_hourglass.pdf>]
-<glitchy_hourglass.pdf, id=1315, page=2, 614.295pt x 794.97pt>
+<glitchy_hourglass.pdf, id=1381, page=2, 614.295pt x 794.97pt>
 File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf, page 2>
 Package pdftex.def Info: glitchy_hourglass.pdf , page2 used on input line 216.
@@ -2542,10 +2084,10 @@ File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf, page 2>
 Package pdftex.def Info: glitchy_hourglass.pdf , page2 used on input line 216.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [80
+ [152
 
  <./glitchy_hourglass.pdf>]
-<glitchy_hourglass.pdf, id=1326, page=3, 614.295pt x 794.97pt>
+<glitchy_hourglass.pdf, id=1391, page=3, 614.295pt x 794.97pt>
 File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf, page 3>
 Package pdftex.def Info: glitchy_hourglass.pdf , page3 used on input line 216.
@@ -2558,10 +2100,11 @@ File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf, page 3>
 Package pdftex.def Info: glitchy_hourglass.pdf , page3 used on input line 216.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [81
+
+[153
 
  <./glitchy_hourglass.pdf>]
-<glitchy_hourglass.pdf, id=1338, page=4, 614.295pt x 794.97pt>
+<glitchy_hourglass.pdf, id=1402, page=4, 614.295pt x 794.97pt>
 File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf, page 4>
 Package pdftex.def Info: glitchy_hourglass.pdf , page4 used on input line 216.
@@ -2574,10 +2117,10 @@ File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf, page 4>
 Package pdftex.def Info: glitchy_hourglass.pdf , page4 used on input line 216.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [82
+ [154
 
  <./glitchy_hourglass.pdf>]
-<glitchy_hourglass.pdf, id=1349, page=5, 614.295pt x 794.97pt>
+<glitchy_hourglass.pdf, id=1413, page=5, 614.295pt x 794.97pt>
 File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf, page 5>
 Package pdftex.def Info: glitchy_hourglass.pdf , page5 used on input line 216.
@@ -2590,10 +2133,10 @@ File: glitchy_hourglass.pdf Graphic file (type pdf)
 <use glitchy_hourglass.pdf, page 5>
 Package pdftex.def Info: glitchy_hourglass.pdf , page5 used on input line 216.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [83
+ [155
 
  <./glitchy_hourglass.pdf>]
-<figures/ofig/Screenshot 2025-01-13 at 4.56.51 PM.png, id=1358, 783.92876pt x 9
+<figures/ofig/Screenshot 2025-01-13 at 4.56.51 PM.png, id=1423, 783.92876pt x 9
 77.6525pt>
 File: figures/ofig/Screenshot 2025-01-13 at 4.56.51 PM.png Graphic file (type p
 ng)
@@ -2601,12 +2144,12 @@ ng)
 Package pdftex.def Info: figures/ofig/Screenshot 2025-01-13 at 4.56.51 PM.png  
 used on input line 222.
 (pdftex.def)             Requested size: 362.37569pt x 451.93344pt.
- [84 <./figures/ofig/Screenshot 2025-01-13 at 4.56.51 PM.png>]
+ [156 <./figures/ofig/Screenshot 2025-01-13 at 4.56.51 PM.png>]
 Chapter 11.
-[85
+[157
 
 ]
-<masters.pdf, id=1368, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1433, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf>
 Package pdftex.def Info: masters.pdf  used on input line 226.
@@ -2615,7 +2158,7 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf>
 Package pdftex.def Info: masters.pdf  used on input line 226.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<masters.pdf, id=1371, page=1, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1436, page=1, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 1>
 Package pdftex.def Info: masters.pdf , page1 used on input line 226.
@@ -2636,10 +2179,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 1>
 Package pdftex.def Info: masters.pdf , page1 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [86
+ [158
 
  <./masters.pdf>]
-<masters.pdf, id=1387, page=2, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1452, page=2, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 2>
 Package pdftex.def Info: masters.pdf , page2 used on input line 226.
@@ -2652,10 +2195,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 2>
 Package pdftex.def Info: masters.pdf , page2 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [87
+ [159
 
  <./masters.pdf>]
-<masters.pdf, id=1398, page=3, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1463, page=3, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 3>
 Package pdftex.def Info: masters.pdf , page3 used on input line 226.
@@ -2668,10 +2211,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 3>
 Package pdftex.def Info: masters.pdf , page3 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [88
+ [160
 
  <./masters.pdf>]
-<masters.pdf, id=1403, page=4, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1468, page=4, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 4>
 Package pdftex.def Info: masters.pdf , page4 used on input line 226.
@@ -2684,10 +2227,11 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 4>
 Package pdftex.def Info: masters.pdf , page4 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [89
+
+[161
 
  <./masters.pdf>]
-<masters.pdf, id=1408, page=5, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1474, page=5, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 5>
 Package pdftex.def Info: masters.pdf , page5 used on input line 226.
@@ -2700,10 +2244,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 5>
 Package pdftex.def Info: masters.pdf , page5 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [90
+ [162
 
  <./masters.pdf>]
-<masters.pdf, id=1413, page=6, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1479, page=6, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 6>
 Package pdftex.def Info: masters.pdf , page6 used on input line 226.
@@ -2716,10 +2260,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 6>
 Package pdftex.def Info: masters.pdf , page6 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [91
+ [163
 
  <./masters.pdf>]
-<masters.pdf, id=1436, page=7, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1502, page=7, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 7>
 Package pdftex.def Info: masters.pdf , page7 used on input line 226.
@@ -2732,10 +2276,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 7>
 Package pdftex.def Info: masters.pdf , page7 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [92
+ [164
 
  <./masters.pdf>]
-<masters.pdf, id=1441, page=8, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1507, page=8, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 8>
 Package pdftex.def Info: masters.pdf , page8 used on input line 226.
@@ -2748,11 +2292,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 8>
 Package pdftex.def Info: masters.pdf , page8 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[93
+ [165
 
  <./masters.pdf>]
-<masters.pdf, id=1447, page=9, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1512, page=9, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 9>
 Package pdftex.def Info: masters.pdf , page9 used on input line 226.
@@ -2765,10 +2308,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 9>
 Package pdftex.def Info: masters.pdf , page9 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [94
+ [166
 
  <./masters.pdf>]
-<masters.pdf, id=1452, page=10, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1517, page=10, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 10>
 Package pdftex.def Info: masters.pdf , page10 used on input line 226.
@@ -2781,10 +2324,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 10>
 Package pdftex.def Info: masters.pdf , page10 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [95
+ [167
 
  <./masters.pdf>]
-<masters.pdf, id=1462, page=11, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1528, page=11, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 11>
 Package pdftex.def Info: masters.pdf , page11 used on input line 226.
@@ -2797,10 +2340,11 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 11>
 Package pdftex.def Info: masters.pdf , page11 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [96
+
+[168
 
  <./masters.pdf>]
-<masters.pdf, id=1469, page=12, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1535, page=12, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 12>
 Package pdftex.def Info: masters.pdf , page12 used on input line 226.
@@ -2813,10 +2357,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 12>
 Package pdftex.def Info: masters.pdf , page12 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [97
+ [169
 
  <./masters.pdf>]
-<masters.pdf, id=1499, page=13, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1565, page=13, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 13>
 Package pdftex.def Info: masters.pdf , page13 used on input line 226.
@@ -2829,10 +2373,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 13>
 Package pdftex.def Info: masters.pdf , page13 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [98
+ [170
 
  <./masters.pdf>]
-<masters.pdf, id=1505, page=14, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1571, page=14, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 14>
 Package pdftex.def Info: masters.pdf , page14 used on input line 226.
@@ -2845,10 +2389,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 14>
 Package pdftex.def Info: masters.pdf , page14 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [99
+ [171
 
  <./masters.pdf>]
-<masters.pdf, id=1525, page=15, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1589, page=15, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 15>
 Package pdftex.def Info: masters.pdf , page15 used on input line 226.
@@ -2861,10 +2405,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 15>
 Package pdftex.def Info: masters.pdf , page15 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [100
+ [172
 
  <./masters.pdf>]
-<masters.pdf, id=1530, page=16, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1594, page=16, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 16>
 Package pdftex.def Info: masters.pdf , page16 used on input line 226.
@@ -2877,10 +2421,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 16>
 Package pdftex.def Info: masters.pdf , page16 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [101
+ [173
 
  <./masters.pdf>]
-<masters.pdf, id=1538, page=17, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1603, page=17, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 17>
 Package pdftex.def Info: masters.pdf , page17 used on input line 226.
@@ -2893,10 +2437,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 17>
 Package pdftex.def Info: masters.pdf , page17 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [102
+ [174
 
  <./masters.pdf>]
-<masters.pdf, id=1548, page=18, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1613, page=18, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 18>
 Package pdftex.def Info: masters.pdf , page18 used on input line 226.
@@ -2909,10 +2453,11 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 18>
 Package pdftex.def Info: masters.pdf , page18 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [103
+
+[175
 
  <./masters.pdf>]
-<masters.pdf, id=1553, page=19, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1618, page=19, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 19>
 Package pdftex.def Info: masters.pdf , page19 used on input line 226.
@@ -2925,11 +2470,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 19>
 Package pdftex.def Info: masters.pdf , page19 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[104
+ [176
 
  <./masters.pdf>]
-<masters.pdf, id=1558, page=20, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1623, page=20, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 20>
 Package pdftex.def Info: masters.pdf , page20 used on input line 226.
@@ -2942,10 +2486,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 20>
 Package pdftex.def Info: masters.pdf , page20 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [105
+ [177
 
  <./masters.pdf>]
-<masters.pdf, id=1564, page=21, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1629, page=21, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 21>
 Package pdftex.def Info: masters.pdf , page21 used on input line 226.
@@ -2958,10 +2502,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 21>
 Package pdftex.def Info: masters.pdf , page21 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [106
+ [178
 
  <./masters.pdf>]
-<masters.pdf, id=1569, page=22, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1634, page=22, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 22>
 Package pdftex.def Info: masters.pdf , page22 used on input line 226.
@@ -2974,10 +2518,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 22>
 Package pdftex.def Info: masters.pdf , page22 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [107
+ [179
 
  <./masters.pdf>]
-<masters.pdf, id=1574, page=23, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1640, page=23, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 23>
 Package pdftex.def Info: masters.pdf , page23 used on input line 226.
@@ -2990,10 +2534,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 23>
 Package pdftex.def Info: masters.pdf , page23 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [108
+ [180
 
  <./masters.pdf>]
-<masters.pdf, id=1581, page=24, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1647, page=24, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 24>
 Package pdftex.def Info: masters.pdf , page24 used on input line 226.
@@ -3006,10 +2550,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 24>
 Package pdftex.def Info: masters.pdf , page24 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [109
+ [181
 
  <./masters.pdf>]
-<masters.pdf, id=1586, page=25, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1652, page=25, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 25>
 Package pdftex.def Info: masters.pdf , page25 used on input line 226.
@@ -3022,10 +2566,11 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 25>
 Package pdftex.def Info: masters.pdf , page25 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [110
+
+[182
 
  <./masters.pdf>]
-<masters.pdf, id=1591, page=26, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1657, page=26, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 26>
 Package pdftex.def Info: masters.pdf , page26 used on input line 226.
@@ -3038,11 +2583,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 26>
 Package pdftex.def Info: masters.pdf , page26 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[111
+ [183
 
  <./masters.pdf>]
-<masters.pdf, id=1602, page=27, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1667, page=27, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 27>
 Package pdftex.def Info: masters.pdf , page27 used on input line 226.
@@ -3055,10 +2599,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 27>
 Package pdftex.def Info: masters.pdf , page27 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [112
+ [184
 
  <./masters.pdf>]
-<masters.pdf, id=1612, page=28, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1677, page=28, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 28>
 Package pdftex.def Info: masters.pdf , page28 used on input line 226.
@@ -3071,10 +2615,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 28>
 Package pdftex.def Info: masters.pdf , page28 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [113
+ [185
 
  <./masters.pdf>]
-<masters.pdf, id=1622, page=29, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1688, page=29, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 29>
 Package pdftex.def Info: masters.pdf , page29 used on input line 226.
@@ -3087,10 +2631,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 29>
 Package pdftex.def Info: masters.pdf , page29 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [114
+ [186
 
  <./masters.pdf>]
-<masters.pdf, id=1627, page=30, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1693, page=30, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 30>
 Package pdftex.def Info: masters.pdf , page30 used on input line 226.
@@ -3103,10 +2647,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 30>
 Package pdftex.def Info: masters.pdf , page30 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [115
+ [187
 
  <./masters.pdf>]
-<masters.pdf, id=1637, page=31, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1703, page=31, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 31>
 Package pdftex.def Info: masters.pdf , page31 used on input line 226.
@@ -3119,10 +2663,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 31>
 Package pdftex.def Info: masters.pdf , page31 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [116
+ [188
 
  <./masters.pdf>]
-<masters.pdf, id=1647, page=32, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1713, page=32, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 32>
 Package pdftex.def Info: masters.pdf , page32 used on input line 226.
@@ -3135,10 +2679,11 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 32>
 Package pdftex.def Info: masters.pdf , page32 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [117
+
+[189
 
  <./masters.pdf>]
-<masters.pdf, id=1658, page=33, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1723, page=33, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 33>
 Package pdftex.def Info: masters.pdf , page33 used on input line 226.
@@ -3151,11 +2696,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 33>
 Package pdftex.def Info: masters.pdf , page33 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[118
+ [190
 
  <./masters.pdf>]
-<masters.pdf, id=1663, page=34, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1728, page=34, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 34>
 Package pdftex.def Info: masters.pdf , page34 used on input line 226.
@@ -3168,10 +2712,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 34>
 Package pdftex.def Info: masters.pdf , page34 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [119
+ [191
 
  <./masters.pdf>]
-<masters.pdf, id=1673, page=35, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1739, page=35, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 35>
 Package pdftex.def Info: masters.pdf , page35 used on input line 226.
@@ -3184,10 +2728,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 35>
 Package pdftex.def Info: masters.pdf , page35 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [120
+ [192
 
  <./masters.pdf>]
-<masters.pdf, id=1679, page=36, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1745, page=36, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 36>
 Package pdftex.def Info: masters.pdf , page36 used on input line 226.
@@ -3200,10 +2744,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 36>
 Package pdftex.def Info: masters.pdf , page36 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [121
+ [193
 
  <./masters.pdf>]
-<masters.pdf, id=1684, page=37, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1750, page=37, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 37>
 Package pdftex.def Info: masters.pdf , page37 used on input line 226.
@@ -3216,10 +2760,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 37>
 Package pdftex.def Info: masters.pdf , page37 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [122
+ [194
 
  <./masters.pdf>]
-<masters.pdf, id=1692, page=38, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1758, page=38, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 38>
 Package pdftex.def Info: masters.pdf , page38 used on input line 226.
@@ -3232,10 +2776,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 38>
 Package pdftex.def Info: masters.pdf , page38 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [123
+ [195
 
  <./masters.pdf>]
-<masters.pdf, id=1698, page=39, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1763, page=39, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 39>
 Package pdftex.def Info: masters.pdf , page39 used on input line 226.
@@ -3248,10 +2792,11 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 39>
 Package pdftex.def Info: masters.pdf , page39 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [124
+
+[196
 
  <./masters.pdf>]
-<masters.pdf, id=1703, page=40, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1768, page=40, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 40>
 Package pdftex.def Info: masters.pdf , page40 used on input line 226.
@@ -3264,11 +2809,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 40>
 Package pdftex.def Info: masters.pdf , page40 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[125
+ [197
 
  <./masters.pdf>]
-<masters.pdf, id=1709, page=41, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1774, page=41, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 41>
 Package pdftex.def Info: masters.pdf , page41 used on input line 226.
@@ -3281,10 +2825,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 41>
 Package pdftex.def Info: masters.pdf , page41 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [126
+ [198
 
  <./masters.pdf>]
-<masters.pdf, id=1714, page=42, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1779, page=42, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 42>
 Package pdftex.def Info: masters.pdf , page42 used on input line 226.
@@ -3297,10 +2841,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 42>
 Package pdftex.def Info: masters.pdf , page42 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [127
+ [199
 
  <./masters.pdf>]
-<masters.pdf, id=1719, page=43, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1784, page=43, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 43>
 Package pdftex.def Info: masters.pdf , page43 used on input line 226.
@@ -3313,10 +2857,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 43>
 Package pdftex.def Info: masters.pdf , page43 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [128
+ [200
 
  <./masters.pdf>]
-<masters.pdf, id=1724, page=44, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1789, page=44, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 44>
 Package pdftex.def Info: masters.pdf , page44 used on input line 226.
@@ -3329,10 +2873,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 44>
 Package pdftex.def Info: masters.pdf , page44 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [129
+ [201
 
  <./masters.pdf>]
-<masters.pdf, id=1730, page=45, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1794, page=45, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 45>
 Package pdftex.def Info: masters.pdf , page45 used on input line 226.
@@ -3345,10 +2889,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 45>
 Package pdftex.def Info: masters.pdf , page45 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [130
+ [202
 
  <./masters.pdf>]
-<masters.pdf, id=1735, page=46, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1799, page=46, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 46>
 Package pdftex.def Info: masters.pdf , page46 used on input line 226.
@@ -3361,10 +2905,11 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 46>
 Package pdftex.def Info: masters.pdf , page46 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [131
+
+[203
 
  <./masters.pdf>]
-<masters.pdf, id=1740, page=47, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1805, page=47, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 47>
 Package pdftex.def Info: masters.pdf , page47 used on input line 226.
@@ -3377,11 +2922,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 47>
 Package pdftex.def Info: masters.pdf , page47 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[132
+ [204
 
  <./masters.pdf>]
-<masters.pdf, id=1745, page=48, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1810, page=48, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 48>
 Package pdftex.def Info: masters.pdf , page48 used on input line 226.
@@ -3394,10 +2938,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 48>
 Package pdftex.def Info: masters.pdf , page48 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [133
+ [205
 
  <./masters.pdf>]
-<masters.pdf, id=1750, page=49, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1815, page=49, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 49>
 Package pdftex.def Info: masters.pdf , page49 used on input line 226.
@@ -3410,10 +2954,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 49>
 Package pdftex.def Info: masters.pdf , page49 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [134
+ [206
 
  <./masters.pdf>]
-<masters.pdf, id=1755, page=50, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1820, page=50, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 50>
 Package pdftex.def Info: masters.pdf , page50 used on input line 226.
@@ -3426,10 +2970,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 50>
 Package pdftex.def Info: masters.pdf , page50 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [135
+ [207
 
  <./masters.pdf>]
-<masters.pdf, id=1761, page=51, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1825, page=51, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 51>
 Package pdftex.def Info: masters.pdf , page51 used on input line 226.
@@ -3442,10 +2986,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 51>
 Package pdftex.def Info: masters.pdf , page51 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [136
+ [208
 
  <./masters.pdf>]
-<masters.pdf, id=1766, page=52, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1831, page=52, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 52>
 Package pdftex.def Info: masters.pdf , page52 used on input line 226.
@@ -3458,10 +3002,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 52>
 Package pdftex.def Info: masters.pdf , page52 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [137
+ [209
 
  <./masters.pdf>]
-<masters.pdf, id=1771, page=53, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1837, page=53, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 53>
 Package pdftex.def Info: masters.pdf , page53 used on input line 226.
@@ -3474,10 +3018,11 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 53>
 Package pdftex.def Info: masters.pdf , page53 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [138
+
+[210
 
  <./masters.pdf>]
-<masters.pdf, id=1776, page=54, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1842, page=54, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 54>
 Package pdftex.def Info: masters.pdf , page54 used on input line 226.
@@ -3490,11 +3035,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 54>
 Package pdftex.def Info: masters.pdf , page54 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[139
+ [211
 
  <./masters.pdf>]
-<masters.pdf, id=1781, page=55, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1847, page=55, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 55>
 Package pdftex.def Info: masters.pdf , page55 used on input line 226.
@@ -3507,10 +3051,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 55>
 Package pdftex.def Info: masters.pdf , page55 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [140
+ [212
 
  <./masters.pdf>]
-<masters.pdf, id=1786, page=56, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1852, page=56, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 56>
 Package pdftex.def Info: masters.pdf , page56 used on input line 226.
@@ -3523,10 +3067,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 56>
 Package pdftex.def Info: masters.pdf , page56 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [141
+ [213
 
  <./masters.pdf>]
-<masters.pdf, id=1792, page=57, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1857, page=57, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 57>
 Package pdftex.def Info: masters.pdf , page57 used on input line 226.
@@ -3539,10 +3083,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 57>
 Package pdftex.def Info: masters.pdf , page57 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [142
+ [214
 
  <./masters.pdf>]
-<masters.pdf, id=1797, page=58, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1862, page=58, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 58>
 Package pdftex.def Info: masters.pdf , page58 used on input line 226.
@@ -3555,10 +3099,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 58>
 Package pdftex.def Info: masters.pdf , page58 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [143
+ [215
 
  <./masters.pdf>]
-<masters.pdf, id=1802, page=59, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1868, page=59, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 59>
 Package pdftex.def Info: masters.pdf , page59 used on input line 226.
@@ -3571,10 +3115,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 59>
 Package pdftex.def Info: masters.pdf , page59 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [144
+ [216
 
  <./masters.pdf>]
-<masters.pdf, id=1807, page=60, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1873, page=60, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 60>
 Package pdftex.def Info: masters.pdf , page60 used on input line 226.
@@ -3587,10 +3131,11 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 60>
 Package pdftex.def Info: masters.pdf , page60 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [145
+
+[217
 
  <./masters.pdf>]
-<masters.pdf, id=1812, page=61, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1878, page=61, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 61>
 Package pdftex.def Info: masters.pdf , page61 used on input line 226.
@@ -3603,11 +3148,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 61>
 Package pdftex.def Info: masters.pdf , page61 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[146
+ [218
 
  <./masters.pdf>]
-<masters.pdf, id=1817, page=62, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1883, page=62, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 62>
 Package pdftex.def Info: masters.pdf , page62 used on input line 226.
@@ -3620,10 +3164,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 62>
 Package pdftex.def Info: masters.pdf , page62 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [147
+ [219
 
  <./masters.pdf>]
-<masters.pdf, id=1823, page=63, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1888, page=63, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 63>
 Package pdftex.def Info: masters.pdf , page63 used on input line 226.
@@ -3636,10 +3180,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 63>
 Package pdftex.def Info: masters.pdf , page63 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [148
+ [220
 
  <./masters.pdf>]
-<masters.pdf, id=1828, page=64, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1893, page=64, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 64>
 Package pdftex.def Info: masters.pdf , page64 used on input line 226.
@@ -3652,10 +3196,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 64>
 Package pdftex.def Info: masters.pdf , page64 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [149
+ [221
 
  <./masters.pdf>]
-<masters.pdf, id=1833, page=65, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1899, page=65, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 65>
 Package pdftex.def Info: masters.pdf , page65 used on input line 226.
@@ -3668,10 +3212,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 65>
 Package pdftex.def Info: masters.pdf , page65 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [150
+ [222
 
  <./masters.pdf>]
-<masters.pdf, id=1838, page=66, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1904, page=66, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 66>
 Package pdftex.def Info: masters.pdf , page66 used on input line 226.
@@ -3684,10 +3228,10 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 66>
 Package pdftex.def Info: masters.pdf , page66 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [151
+ [223
 
  <./masters.pdf>]
-<masters.pdf, id=1843, page=67, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1909, page=67, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 67>
 Package pdftex.def Info: masters.pdf , page67 used on input line 226.
@@ -3700,10 +3244,11 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 67>
 Package pdftex.def Info: masters.pdf , page67 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [152
+
+[224
 
  <./masters.pdf>]
-<masters.pdf, id=1848, page=68, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1914, page=68, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 68>
 Package pdftex.def Info: masters.pdf , page68 used on input line 226.
@@ -3716,47 +3261,46 @@ File: masters.pdf Graphic file (type pdf)
 <use masters.pdf, page 68>
 Package pdftex.def Info: masters.pdf , page68 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-
-[153
-
- <./masters.pdf>]
-<masters.pdf, id=1854, page=69, 597.50829pt x 845.0471pt>
-File: masters.pdf Graphic file (type pdf)
-<use masters.pdf, page 69>
-Package pdftex.def Info: masters.pdf , page69 used on input line 226.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: masters.pdf Graphic file (type pdf)
-<use masters.pdf, page 69>
-Package pdftex.def Info: masters.pdf , page69 used on input line 226.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: masters.pdf Graphic file (type pdf)
-<use masters.pdf, page 69>
-Package pdftex.def Info: masters.pdf , page69 used on input line 226.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [154
+ [225
 
  <./masters.pdf>]
-<masters.pdf, id=1859, page=70, 597.50829pt x 845.0471pt>
+<masters.pdf, id=1919, page=69, 597.50829pt x 845.0471pt>
 File: masters.pdf Graphic file (type pdf)
-<use masters.pdf, page 70>
-Package pdftex.def Info: masters.pdf , page70 used on input line 226.
+<use masters.pdf, page 69>
+Package pdftex.def Info: masters.pdf , page69 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: masters.pdf Graphic file (type pdf)
-<use masters.pdf, page 70>
-Package pdftex.def Info: masters.pdf , page70 used on input line 226.
+<use masters.pdf, page 69>
+Package pdftex.def Info: masters.pdf , page69 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: masters.pdf Graphic file (type pdf)
-<use masters.pdf, page 70>
-Package pdftex.def Info: masters.pdf , page70 used on input line 226.
+<use masters.pdf, page 69>
+Package pdftex.def Info: masters.pdf , page69 used on input line 226.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [155
+ [226
 
- <./masters.pdf>] [156
+ <./masters.pdf>]
+<masters.pdf, id=1924, page=70, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 70>
+Package pdftex.def Info: masters.pdf , page70 used on input line 226.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 70>
+Package pdftex.def Info: masters.pdf , page70 used on input line 226.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 70>
+Package pdftex.def Info: masters.pdf , page70 used on input line 226.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [227
+
+ <./masters.pdf>] [228
 
 ]
 Chapter 12.
-[157]
-<whitepaper.pdf, id=1883, 614.295pt x 794.97pt>
+[229]
+<whitepaper.pdf, id=1948, 614.295pt x 794.97pt>
 File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf>
 Package pdftex.def Info: whitepaper.pdf  used on input line 229.
@@ -3765,7 +3309,7 @@ File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf>
 Package pdftex.def Info: whitepaper.pdf  used on input line 229.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<whitepaper.pdf, id=1886, page=1, 614.295pt x 794.97pt>
+<whitepaper.pdf, id=1951, page=1, 614.295pt x 794.97pt>
 File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf, page 1>
 Package pdftex.def Info: whitepaper.pdf , page1 used on input line 229.
@@ -3786,10 +3330,10 @@ File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf, page 1>
 Package pdftex.def Info: whitepaper.pdf , page1 used on input line 229.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [158
+ [230
 
  <./whitepaper.pdf>]
-<whitepaper.pdf, id=1917, page=2, 614.295pt x 794.97pt>
+<whitepaper.pdf, id=1982, page=2, 614.295pt x 794.97pt>
 File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf, page 2>
 Package pdftex.def Info: whitepaper.pdf , page2 used on input line 229.
@@ -3802,10 +3346,10 @@ File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf, page 2>
 Package pdftex.def Info: whitepaper.pdf , page2 used on input line 229.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [159
+ [231
 
  <./whitepaper.pdf>]
-<whitepaper.pdf, id=1937, page=3, 614.295pt x 794.97pt>
+<whitepaper.pdf, id=2002, page=3, 614.295pt x 794.97pt>
 File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf, page 3>
 Package pdftex.def Info: whitepaper.pdf , page3 used on input line 229.
@@ -3818,10 +3362,10 @@ File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf, page 3>
 Package pdftex.def Info: whitepaper.pdf , page3 used on input line 229.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [160
+ [232
 
  <./whitepaper.pdf>]
-<whitepaper.pdf, id=1946, page=4, 614.295pt x 794.97pt>
+<whitepaper.pdf, id=2011, page=4, 614.295pt x 794.97pt>
 File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf, page 4>
 Package pdftex.def Info: whitepaper.pdf , page4 used on input line 229.
@@ -3834,10 +3378,10 @@ File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf, page 4>
 Package pdftex.def Info: whitepaper.pdf , page4 used on input line 229.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [161
+ [233
 
  <./whitepaper.pdf>]
-<whitepaper.pdf, id=1957, page=5, 614.295pt x 794.97pt>
+<whitepaper.pdf, id=2023, page=5, 614.295pt x 794.97pt>
 File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf, page 5>
 Package pdftex.def Info: whitepaper.pdf , page5 used on input line 229.
@@ -3850,14 +3394,14 @@ File: whitepaper.pdf Graphic file (type pdf)
 <use whitepaper.pdf, page 5>
 Package pdftex.def Info: whitepaper.pdf , page5 used on input line 229.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [162
+ [234
 
  <./whitepaper.pdf>]
 Chapter 13.
-[163
+[235
 
 ]
-<USETposter.pdf, id=1970, 3468.96pt x 2601.72pt>
+<USETposter.pdf, id=2036, 3468.96pt x 2601.72pt>
 File: USETposter.pdf Graphic file (type pdf)
 <use USETposter.pdf>
 Package pdftex.def Info: USETposter.pdf  used on input line 233.
@@ -3866,7 +3410,7 @@ File: USETposter.pdf Graphic file (type pdf)
 <use USETposter.pdf>
 Package pdftex.def Info: USETposter.pdf  used on input line 233.
 (pdftex.def)             Requested size: 3468.95158pt x 2601.71368pt.
-<USETposter.pdf, id=1973, page=1, 3468.96pt x 2601.72pt>
+<USETposter.pdf, id=2039, page=1, 3468.96pt x 2601.72pt>
 File: USETposter.pdf Graphic file (type pdf)
 <use USETposter.pdf, page 1>
 Package pdftex.def Info: USETposter.pdf , page1 used on input line 233.
@@ -3887,10 +3431,10 @@ File: USETposter.pdf Graphic file (type pdf)
 <use USETposter.pdf, page 1>
 Package pdftex.def Info: USETposter.pdf , page1 used on input line 233.
 (pdftex.def)             Requested size: 597.65521pt x 448.24141pt.
- [164
+ [236
 
  <./USETposter.pdf>]
-<FalcariusFinalPaper.pdf, id=2047, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2112, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf>
 Package pdftex.def Info: FalcariusFinalPaper.pdf  used on input line 234.
@@ -3899,7 +3443,7 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf>
 Package pdftex.def Info: FalcariusFinalPaper.pdf  used on input line 234.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<FalcariusFinalPaper.pdf, id=2050, page=1, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2115, page=1, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 1>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 234
@@ -3925,10 +3469,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 234
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [165
+ [237
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2072, page=2, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2136, page=2, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 2>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page2 used on input line 234
@@ -3944,10 +3488,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page2 used on input line 234
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [166
+ [238
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2077, page=3, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2141, page=3, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 3>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page3 used on input line 234
@@ -3963,10 +3507,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page3 used on input line 234
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [167
+ [239
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2082, page=4, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2147, page=4, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 4>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page4 used on input line 234
@@ -3982,10 +3526,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page4 used on input line 234
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [168
+ [240
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2099, page=5, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2165, page=5, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 5>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page5 used on input line 234
@@ -4001,10 +3545,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page5 used on input line 234
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [169
+ [241
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2110, page=6, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2176, page=6, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 6>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page6 used on input line 234
@@ -4020,10 +3564,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page6 used on input line 234
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [170
+ [242
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2118, page=7, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2184, page=7, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 7>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page7 used on input line 234
@@ -4040,10 +3584,10 @@ Package pdftex.def Info: FalcariusFinalPaper.pdf , page7 used on input line 234
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-[171
+[243
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2130, page=8, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2195, page=8, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 8>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page8 used on input line 234
@@ -4059,10 +3603,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page8 used on input line 234
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [172
+ [244
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2141, page=9, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2206, page=9, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 9>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page9 used on input line 234
@@ -4078,10 +3622,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page9 used on input line 234
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [173
+ [245
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2152, page=10, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2218, page=10, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 10>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page10 used on input line 23
@@ -4097,10 +3641,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page10 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [174
+ [246
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2166, page=11, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2232, page=11, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 11>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page11 used on input line 23
@@ -4116,10 +3660,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page11 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [175
+ [247
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2183, page=12, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2249, page=12, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 12>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page12 used on input line 23
@@ -4135,10 +3679,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page12 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [176
+ [248
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2197, page=13, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2263, page=13, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 13>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page13 used on input line 23
@@ -4154,10 +3698,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page13 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [177
+ [249
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2209, page=14, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2274, page=14, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 14>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page14 used on input line 23
@@ -4173,10 +3717,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page14 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[178
+[250
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2217, page=15, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2282, page=15, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 15>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page15 used on input line 23
@@ -4192,10 +3736,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page15 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [179
+ [251
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2222, page=16, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2288, page=16, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 16>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page16 used on input line 23
@@ -4211,10 +3755,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page16 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [180
+ [252
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2230, page=17, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2296, page=17, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 17>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page17 used on input line 23
@@ -4230,10 +3774,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page17 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [181
+ [253
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2238, page=18, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2304, page=18, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 18>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page18 used on input line 23
@@ -4249,10 +3793,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page18 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [182
+ [254
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2249, page=19, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2315, page=19, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 19>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page19 used on input line 23
@@ -4268,10 +3812,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page19 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [183
+ [255
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2258, page=20, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2323, page=20, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 20>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page20 used on input line 23
@@ -4287,10 +3831,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page20 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [184
+ [256
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2269, page=21, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2334, page=21, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 21>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page21 used on input line 23
@@ -4306,10 +3850,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page21 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[185
+[257
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2277, page=22, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2343, page=22, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 22>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page22 used on input line 23
@@ -4325,10 +3869,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page22 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [186
+ [258
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2285, page=23, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2351, page=23, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 23>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page23 used on input line 23
@@ -4344,10 +3888,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page23 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [187
+ [259
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2293, page=24, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2359, page=24, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 24>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page24 used on input line 23
@@ -4363,10 +3907,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page24 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [188
+ [260
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2298, page=25, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2364, page=25, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 25>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page25 used on input line 23
@@ -4382,10 +3926,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page25 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [189
+ [261
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2304, page=26, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2369, page=26, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 26>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page26 used on input line 23
@@ -4401,10 +3945,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page26 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [190
+ [262
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2310, page=27, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2374, page=27, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 27>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page27 used on input line 23
@@ -4420,10 +3964,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page27 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [191
+ [263
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2315, page=28, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2380, page=28, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 28>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page28 used on input line 23
@@ -4439,10 +3983,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page28 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[192
+[264
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2320, page=29, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2385, page=29, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 29>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page29 used on input line 23
@@ -4458,10 +4002,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page29 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [193
+ [265
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2325, page=30, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2390, page=30, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 30>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page30 used on input line 23
@@ -4477,10 +4021,10 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page30 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [194
+ [266
 
  <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=2330, page=31, 614.295pt x 794.97pt>
+<FalcariusFinalPaper.pdf, id=2395, page=31, 614.295pt x 794.97pt>
 File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 <use FalcariusFinalPaper.pdf, page 31>
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page31 used on input line 23
@@ -4496,21 +4040,21 @@ File: FalcariusFinalPaper.pdf Graphic file (type pdf)
 Package pdftex.def Info: FalcariusFinalPaper.pdf , page31 used on input line 23
 4.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [195
+ [267
 
  <./FalcariusFinalPaper.pdf>]
-<figures/dig.jpg, id=2336, 722.7pt x 542.025pt>
+<figures/dig.jpg, id=2400, 722.7pt x 542.025pt>
 File: figures/dig.jpg Graphic file (type jpg)
 <use figures/dig.jpg>
 Package pdftex.def Info: figures/dig.jpg  used on input line 240.
 (pdftex.def)             Requested size: 362.37569pt x 271.78099pt.
-<figures/nature.png, id=2337, 821.0675pt x 977.6525pt>
+<figures/nature.png, id=2401, 821.0675pt x 977.6525pt>
 File: figures/nature.png Graphic file (type png)
 <use figures/nature.png>
 Package pdftex.def Info: figures/nature.png  used on input line 245.
 (pdftex.def)             Requested size: 362.37569pt x 431.48119pt.
- [196 <./figures/dig.jpg>] [197 <./figures/nature.png>]
-<jim.pdf, id=2347, 614.295pt x 794.97pt>
+ [268 <./figures/dig.jpg>] [269 <./figures/nature.png>]
+<jim.pdf, id=2412, 614.295pt x 794.97pt>
 File: jim.pdf Graphic file (type pdf)
 <use jim.pdf>
 Package pdftex.def Info: jim.pdf  used on input line 249.
@@ -4519,7 +4063,7 @@ File: jim.pdf Graphic file (type pdf)
 <use jim.pdf>
 Package pdftex.def Info: jim.pdf  used on input line 249.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<jim.pdf, id=2350, page=1, 614.295pt x 794.97pt>
+<jim.pdf, id=2415, page=1, 614.295pt x 794.97pt>
 File: jim.pdf Graphic file (type pdf)
 <use jim.pdf, page 1>
 Package pdftex.def Info: jim.pdf , page1 used on input line 249.
@@ -4540,10 +4084,10 @@ File: jim.pdf Graphic file (type pdf)
 <use jim.pdf, page 1>
 Package pdftex.def Info: jim.pdf , page1 used on input line 249.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [198
+ [270
 
  <./jim.pdf>]
-<jim.pdf, id=2371, page=2, 614.295pt x 794.97pt>
+<jim.pdf, id=2437, page=2, 614.295pt x 794.97pt>
 File: jim.pdf Graphic file (type pdf)
 <use jim.pdf, page 2>
 Package pdftex.def Info: jim.pdf , page2 used on input line 249.
@@ -4556,63 +4100,63 @@ File: jim.pdf Graphic file (type pdf)
 <use jim.pdf, page 2>
 Package pdftex.def Info: jim.pdf , page2 used on input line 249.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [199
+ [271
 
- <./jim.pdf>] [200
+ <./jim.pdf>] [272
 
 ]
 Chapter 14.
-<figures/turtle_pics/pin.jpg, id=2383, 139.52126pt x 185.69376pt>
+<figures/turtle_pics/pin.jpg, id=2449, 139.52126pt x 185.69376pt>
 File: figures/turtle_pics/pin.jpg Graphic file (type jpg)
 <use figures/turtle_pics/pin.jpg>
 Package pdftex.def Info: figures/turtle_pics/pin.jpg  used on input line 261.
 (pdftex.def)             Requested size: 362.37569pt x 482.37018pt.
-<figures/turtle_pics/poster1.jpg, id=2384, 1606.0pt x 2023.56pt>
+<figures/turtle_pics/poster1.jpg, id=2450, 1606.0pt x 2023.56pt>
 File: figures/turtle_pics/poster1.jpg Graphic file (type jpg)
 <use figures/turtle_pics/poster1.jpg>
 Package pdftex.def Info: figures/turtle_pics/poster1.jpg  used on input line 26
 6.
 (pdftex.def)             Requested size: 362.37569pt x 456.57819pt.
-<figures/turtle_pics/poster2.jpg, id=2385, 1712.3975pt x 2023.56pt>
+<figures/turtle_pics/poster2.jpg, id=2451, 1712.3975pt x 2023.56pt>
 File: figures/turtle_pics/poster2.jpg Graphic file (type jpg)
 <use figures/turtle_pics/poster2.jpg>
 Package pdftex.def Info: figures/turtle_pics/poster2.jpg  used on input line 27
 1.
 (pdftex.def)             Requested size: 362.37569pt x 428.20222pt.
-<figures/turtle_pics/s1.png, id=2386, 947.54pt x 915.42pt>
+<figures/turtle_pics/s1.png, id=2452, 947.54pt x 915.42pt>
 File: figures/turtle_pics/s1.png Graphic file (type png)
 <use figures/turtle_pics/s1.png>
 Package pdftex.def Info: figures/turtle_pics/s1.png  used on input line 276.
 (pdftex.def)             Requested size: 362.37569pt x 350.08415pt.
-<figures/turtle_pics/s2.png, id=2387, 927.465pt x 915.42pt>
+<figures/turtle_pics/s2.png, id=2453, 927.465pt x 915.42pt>
 File: figures/turtle_pics/s2.png Graphic file (type png)
 <use figures/turtle_pics/s2.png>
 Package pdftex.def Info: figures/turtle_pics/s2.png  used on input line 281.
 (pdftex.def)             Requested size: 362.37569pt x 357.66887pt.
-<figures/turtle_pics/s3.png, id=2388, 900.36375pt x 877.2775pt>
+<figures/turtle_pics/s3.png, id=2454, 900.36375pt x 877.2775pt>
 File: figures/turtle_pics/s3.png Graphic file (type png)
 <use figures/turtle_pics/s3.png>
 Package pdftex.def Info: figures/turtle_pics/s3.png  used on input line 286.
 (pdftex.def)             Requested size: 362.37569pt x 353.08673pt.
-<figures/turtle_pics/s4.png, id=2389, 941.5175pt x 789.95125pt>
+<figures/turtle_pics/s4.png, id=2455, 941.5175pt x 789.95125pt>
 File: figures/turtle_pics/s4.png Graphic file (type png)
 <use figures/turtle_pics/s4.png>
 Package pdftex.def Info: figures/turtle_pics/s4.png  used on input line 291.
 (pdftex.def)             Requested size: 362.37569pt x 304.04176pt.
-<figures/turtle_pics/s5.png, id=2390, 924.45375pt x 854.19125pt>
+<figures/turtle_pics/s5.png, id=2456, 924.45375pt x 854.19125pt>
 File: figures/turtle_pics/s5.png Graphic file (type png)
 <use figures/turtle_pics/s5.png>
 Package pdftex.def Info: figures/turtle_pics/s5.png  used on input line 296.
 (pdftex.def)             Requested size: 362.37569pt x 334.82765pt.
-[201] [202 <./figures/turtle_pics/pin.jpg>] [203 <./figures/turtle_pics/poster1
-.jpg>] [204 <./figures/turtle_pics/poster2.jpg>] [205 <./figures/turtle_pics/s1
-.png>] [206 <./figures/turtle_pics/s2.png>] [207 <./figures/turtle_pics/s3.png>
- <./figures/turtle_pics/s4.png>] [208 <./figures/turtle_pics/s5.png>]
+[273] [274 <./figures/turtle_pics/pin.jpg>] [275 <./figures/turtle_pics/poster1
+.jpg>] [276 <./figures/turtle_pics/poster2.jpg>] [277 <./figures/turtle_pics/s1
+.png>] [278 <./figures/turtle_pics/s2.png>] [279 <./figures/turtle_pics/s3.png>
+ <./figures/turtle_pics/s4.png>] [280 <./figures/turtle_pics/s5.png>]
 Chapter 15.
-[209
+[281
 
 ]
-<quantum.pdf, id=2434, 614.295pt x 794.97pt>
+<quantum.pdf, id=2500, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf>
 Package pdftex.def Info: quantum.pdf  used on input line 302.
@@ -4621,7 +4165,7 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf>
 Package pdftex.def Info: quantum.pdf  used on input line 302.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<quantum.pdf, id=2437, page=1, 614.295pt x 794.97pt>
+<quantum.pdf, id=2503, page=1, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 1>
 Package pdftex.def Info: quantum.pdf , page1 used on input line 302.
@@ -4642,10 +4186,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 1>
 Package pdftex.def Info: quantum.pdf , page1 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [210
+ [282
 
  <./quantum.pdf>]
-<quantum.pdf, id=2470, page=2, 614.295pt x 794.97pt>
+<quantum.pdf, id=2536, page=2, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 2>
 Package pdftex.def Info: quantum.pdf , page2 used on input line 302.
@@ -4658,10 +4202,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 2>
 Package pdftex.def Info: quantum.pdf , page2 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [211
+ [283
 
  <./quantum.pdf>]
-<quantum.pdf, id=2475, page=3, 614.295pt x 794.97pt>
+<quantum.pdf, id=2541, page=3, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 3>
 Package pdftex.def Info: quantum.pdf , page3 used on input line 302.
@@ -4674,10 +4218,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 3>
 Package pdftex.def Info: quantum.pdf , page3 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [212
+ [284
 
  <./quantum.pdf>]
-<quantum.pdf, id=2482, page=4, 614.295pt x 794.97pt>
+<quantum.pdf, id=2548, page=4, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 4>
 Package pdftex.def Info: quantum.pdf , page4 used on input line 302.
@@ -4691,10 +4235,10 @@ File: quantum.pdf Graphic file (type pdf)
 Package pdftex.def Info: quantum.pdf , page4 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-[213
+[285
 
  <./quantum.pdf>]
-<quantum.pdf, id=2489, page=5, 614.295pt x 794.97pt>
+<quantum.pdf, id=2553, page=5, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 5>
 Package pdftex.def Info: quantum.pdf , page5 used on input line 302.
@@ -4707,10 +4251,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 5>
 Package pdftex.def Info: quantum.pdf , page5 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [214
+ [286
 
  <./quantum.pdf>]
-<quantum.pdf, id=2495, page=6, 614.295pt x 794.97pt>
+<quantum.pdf, id=2559, page=6, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 6>
 Package pdftex.def Info: quantum.pdf , page6 used on input line 302.
@@ -4723,10 +4267,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 6>
 Package pdftex.def Info: quantum.pdf , page6 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [215
+ [287
 
  <./quantum.pdf>]
-<quantum.pdf, id=2500, page=7, 614.295pt x 794.97pt>
+<quantum.pdf, id=2565, page=7, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 7>
 Package pdftex.def Info: quantum.pdf , page7 used on input line 302.
@@ -4739,10 +4283,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 7>
 Package pdftex.def Info: quantum.pdf , page7 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [216
+ [288
 
  <./quantum.pdf>]
-<quantum.pdf, id=2513, page=8, 614.295pt x 794.97pt>
+<quantum.pdf, id=2578, page=8, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 8>
 Package pdftex.def Info: quantum.pdf , page8 used on input line 302.
@@ -4755,10 +4299,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 8>
 Package pdftex.def Info: quantum.pdf , page8 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [217
+ [289
 
  <./quantum.pdf>]
-<quantum.pdf, id=2518, page=9, 614.295pt x 794.97pt>
+<quantum.pdf, id=2583, page=9, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 9>
 Package pdftex.def Info: quantum.pdf , page9 used on input line 302.
@@ -4771,10 +4315,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 9>
 Package pdftex.def Info: quantum.pdf , page9 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [218
+ [290
 
  <./quantum.pdf>]
-<quantum.pdf, id=2529, page=10, 614.295pt x 794.97pt>
+<quantum.pdf, id=2594, page=10, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 10>
 Package pdftex.def Info: quantum.pdf , page10 used on input line 302.
@@ -4787,10 +4331,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 10>
 Package pdftex.def Info: quantum.pdf , page10 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [219
+ [291
 
  <./quantum.pdf>]
-<quantum.pdf, id=2539, page=11, 614.295pt x 794.97pt>
+<quantum.pdf, id=2603, page=11, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 11>
 Package pdftex.def Info: quantum.pdf , page11 used on input line 302.
@@ -4804,10 +4348,10 @@ File: quantum.pdf Graphic file (type pdf)
 Package pdftex.def Info: quantum.pdf , page11 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
-[220
+[292
 
  <./quantum.pdf>]
-<quantum.pdf, id=2546, page=12, 614.295pt x 794.97pt>
+<quantum.pdf, id=2610, page=12, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 12>
 Package pdftex.def Info: quantum.pdf , page12 used on input line 302.
@@ -4820,10 +4364,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 12>
 Package pdftex.def Info: quantum.pdf , page12 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [221
+ [293
 
  <./quantum.pdf>]
-<quantum.pdf, id=2553, page=13, 614.295pt x 794.97pt>
+<quantum.pdf, id=2618, page=13, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 13>
 Package pdftex.def Info: quantum.pdf , page13 used on input line 302.
@@ -4836,10 +4380,10 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 13>
 Package pdftex.def Info: quantum.pdf , page13 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [222
+ [294
 
  <./quantum.pdf>]
-<quantum.pdf, id=2558, page=14, 614.295pt x 794.97pt>
+<quantum.pdf, id=2624, page=14, 614.295pt x 794.97pt>
 File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 14>
 Package pdftex.def Info: quantum.pdf , page14 used on input line 302.
@@ -4852,46 +4396,46 @@ File: quantum.pdf Graphic file (type pdf)
 <use quantum.pdf, page 14>
 Package pdftex.def Info: quantum.pdf , page14 used on input line 302.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [223
+ [295
 
- <./quantum.pdf>] [224
+ <./quantum.pdf>] [296
 
 ]
 Chapter 16.
-<figures/mask.jpg, id=2576, 481.8pt x 481.8pt>
+<figures/mask.jpg, id=2642, 481.8pt x 481.8pt>
 File: figures/mask.jpg Graphic file (type jpg)
 <use figures/mask.jpg>
 Package pdftex.def Info: figures/mask.jpg  used on input line 311.
 (pdftex.def)             Requested size: 362.37569pt x 362.38568pt.
-(./book.bbl [225] [226
+(./book.bbl [297] [298
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16.1})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1 \begin{thebibliography}{10}
-                                <./figures/mask.jpg>] [227
+                                <./figures/mask.jpg>] [299
 
-]) [228]
+]) [300]
 Appendix A.
-<figures/utah.png, id=2599, 2743.24875pt x 1815.78375pt>
+<figures/utah.png, id=2665, 2743.24875pt x 1815.78375pt>
 File: figures/utah.png Graphic file (type png)
 <use figures/utah.png>
 Package pdftex.def Info: figures/utah.png  used on input line 331.
 (pdftex.def)             Requested size: 362.37569pt x 239.85597pt.
-<figures/aocp.jpg, id=2601, 1505.625pt x 1296.845pt>
+<figures/aocp.jpg, id=2667, 1505.625pt x 1296.845pt>
 File: figures/aocp.jpg Graphic file (type jpg)
 <use figures/aocp.jpg>
 Package pdftex.def Info: figures/aocp.jpg  used on input line 337.
 (pdftex.def)             Requested size: 362.37569pt x 312.11984pt.
-<figures/rumi_gold.png, id=2603, 560.0925pt x 835.12pt>
+<figures/rumi_gold.png, id=2669, 560.0925pt x 835.12pt>
 File: figures/rumi_gold.png Graphic file (type png)
 <use figures/rumi_gold.png>
 Package pdftex.def Info: figures/rumi_gold.png  used on input line 343.
 (pdftex.def)             Requested size: 362.37569pt x 540.3367pt.
-[229
+[301
 
 
-] [230
+] [302
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -4903,7 +4447,7 @@ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.347 \clearpage
-                 <./figures/utah.png (PNG copy)> <./figures/aocp.jpg>] [231
+                 <./figures/utah.png (PNG copy)> <./figures/aocp.jpg>] [303
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -4919,7 +4463,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
-[232
+[304
 
 ] (./book.aux)
  ***********
@@ -4930,13 +4474,13 @@ runsystem(rm book.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 16639 strings out of 474116
- 298473 string characters out of 5743682
+ 16698 strings out of 474116
+ 298835 string characters out of 5743682
  1943187 words of memory out of 5000000
- 38254 multiletter control sequences out of 15000+600000
- 569277 words of font info for 79 fonts, out of 8000000 for 9000
+ 38241 multiletter control sequences out of 15000+600000
+ 566677 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,17n,79p,1079b,820s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,17n,79p,1079b,824s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -4964,10 +4508,10 @@ st/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf
 -dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on book.pdf (308 pages, 125156250 bytes).
+Output written on book.pdf (306 pages, 125156345 bytes).
 PDF statistics:
- 3087 PDF objects out of 3580 (max. 8388607)
- 2021 compressed objects within 21 object streams
- 408 named destinations out of 1000 (max. 500000)
+ 3165 PDF objects out of 3580 (max. 8388607)
+ 2101 compressed objects within 22 object streams
+ 480 named destinations out of 1000 (max. 500000)
  2060 words of extra memory for PDF output out of 10000 (max. 10000000)
 
