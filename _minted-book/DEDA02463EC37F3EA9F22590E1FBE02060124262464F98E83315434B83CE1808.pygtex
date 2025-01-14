@@ -1,0 +1,204 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+\PYG{k+kn}{from} \PYG{n+nn}{plottermagic.geometry} \PYG{k+kn}{import} \PYG{n}{geom2d}
+
+\PYG{k}{class} \PYG{n+nc}{WallpaperGroup}\PYG{p}{:}
+
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    https://en.wikipedia.org/wiki/List\PYGZus{}of\PYGZus{}planar\PYGZus{}symmetry\PYGZus{}groups\PYGZsh{}Wallpaper\PYGZus{}groups}
+\PYG{l+s+sd}{    http://xahlee.info/Wallpaper\PYGZus{}dir/c5\PYGZus{}17WallpaperGroups.html}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+
+    \PYG{l+s+sd}{\PYGZdq{}\PYGZdq{}\PYGZdq{}}
+\PYG{l+s+sd}{    Our fundamental shape is from o, o+b1, o+b2, o+b1+b2}
+\PYG{l+s+sd}{    b1 = y direction}
+\PYG{l+s+sd}{    b2 = x direction}
+\PYG{l+s+sd}{    (for reading the wiki diagrams)}
+\PYG{l+s+sd}{    \PYGZdq{}\PYGZdq{}\PYGZdq{}}
+    \PYG{n}{shape\PYGZus{}to\PYGZus{}pattern} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+        \PYG{l+s+s2}{\PYGZdq{}rhombus\PYGZdq{}}\PYG{p}{:[}\PYG{l+s+s2}{\PYGZdq{}o\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}2222\PYGZdq{}}\PYG{p}{],}
+        \PYG{l+s+s2}{\PYGZdq{}square\PYGZdq{}}\PYG{p}{:[}\PYG{l+s+s2}{\PYGZdq{}o\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}2222\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}*2222\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}442\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}4*2\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}*442\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}2*22\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}22×\PYGZsq{}}\PYG{p}{],}
+
+    \PYG{p}{\PYGZcb{}}
+
+    \PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{origin}\PYG{p}{,} \PYG{n}{b1}\PYG{p}{,} \PYG{n}{b2}\PYG{p}{):}
+
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{origin} \PYG{o}{=} \PYG{n}{origin}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b1} \PYG{o}{=} \PYG{n}{b1}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b2} \PYG{o}{=} \PYG{n}{b2}
+
+        \PYG{n}{dp} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{dot}\PYG{p}{(}\PYG{n}{b1}\PYG{p}{,} \PYG{n}{b2}\PYG{p}{)}
+        \PYG{n}{l1}\PYG{p}{,} \PYG{n}{l2} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{norm}\PYG{p}{(}\PYG{n}{b1}\PYG{p}{),} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{norm}\PYG{p}{(}\PYG{n}{b2}\PYG{p}{)}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{internal\PYGZus{}angle} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{arccos}\PYG{p}{(}\PYG{n}{dp}\PYG{o}{/}\PYG{p}{(}\PYG{n}{l1}\PYG{o}{*}\PYG{n}{l2}\PYG{p}{))}\PYG{o}{*}\PYG{l+m+mi}{360}\PYG{o}{/}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{p}{)}
+
+        \PYG{n}{is\PYGZus{}hex} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{abs}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{internal\PYGZus{}angle} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{60}\PYG{p}{)} \PYG{o}{\PYGZlt{}} \PYG{l+m+mf}{1e\PYGZhy{}5}
+
+        \PYG{k}{if} \PYG{n}{l1} \PYG{o}{==} \PYG{n}{l2} \PYG{o+ow}{and} \PYG{n}{dp} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shape} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}square\PYGZdq{}}
+        \PYG{k}{elif} \PYG{n}{dp} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shape} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}rectangle\PYGZdq{}}
+        \PYG{k}{elif} \PYG{n}{l1} \PYG{o}{==} \PYG{n}{l2} \PYG{o+ow}{and} \PYG{o+ow}{not} \PYG{n}{is\PYGZus{}hex}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shape} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}rhombus\PYGZdq{}}
+        \PYG{k}{elif} \PYG{n}{is\PYGZus{}hex}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shape} \PYG{o}{=} \PYG{l+s+s2}{\PYGZdq{}hex\PYGZus{}thingy\PYGZdq{}}
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{c+c1}{\PYGZsh{} TODO not 100\PYGZpc{} sure this is right....}
+            \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}not sure about this shape.\PYGZdq{}}\PYG{p}{)}
+
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{corners} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{origin}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b1}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b1}\PYG{o}{+}\PYG{n}{b2}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{p}{])}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{center} \PYG{o}{=} \PYG{n}{origin} \PYG{o}{+} \PYG{l+m+mf}{0.5}\PYG{o}{*}\PYG{p}{(}\PYG{n}{b1}\PYG{o}{+}\PYG{n}{b2}\PYG{p}{)}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{midpoints} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{origin} \PYG{o}{+} \PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b1}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{o}{+}\PYG{n}{b2}\PYG{p}{,} \PYG{n}{origin} \PYG{o}{+} \PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{])}
+        \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{valid\PYGZus{}patterns} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shape\PYGZus{}to\PYGZus{}pattern}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{,} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}o\PYGZdq{}}\PYG{p}{])}
+
+    \PYG{k}{def} \PYG{n+nf}{get\PYGZus{}pattern\PYGZus{}generator\PYGZus{}poly}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{pattern}\PYG{p}{):}
+
+        \PYG{k}{if} \PYG{n}{pattern} \PYG{o+ow}{not} \PYG{o+ow}{in} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{valid\PYGZus{}patterns}\PYG{p}{:}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}wasnt really expecting pattern }\PYG{l+s+si}{\PYGZob{}\PYGZcb{}}\PYG{l+s+s2}{ for shape }\PYG{l+s+si}{\PYGZob{}\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{o}{.}\PYG{n}{format}\PYG{p}{(}\PYG{n}{pattern}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{))}
+
+        \PYG{n}{center}\PYG{p}{,} \PYG{n}{origin}\PYG{p}{,} \PYG{n}{b1}\PYG{p}{,} \PYG{n}{b2} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{center}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{origin}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b1}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b2}
+
+        \PYG{k}{if} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}o\PYGZsq{}}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{generator} \PYG{o}{=}  \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{corners}\PYG{o}{.}\PYG{n}{copy}\PYG{p}{()}
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}2222\PYGZsq{}}\PYG{p}{:}
+            \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shape} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}rhombus\PYGZsq{}}\PYG{p}{:}
+                \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{generator} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{origin}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{+}\PYG{n}{b1}\PYG{p}{])}
+            \PYG{k}{if} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{shape} \PYG{o+ow}{in} \PYG{p}{[}\PYG{l+s+s1}{\PYGZsq{}square\PYGZsq{}}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}rectangle\PYGZsq{}}\PYG{p}{]:}
+                \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{generator} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{origin}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{+}\PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{])}
+
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}*2222\PYGZsq{}} \PYG{o+ow}{or} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}442\PYGZdq{}}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{generator} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{origin}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{origin} \PYG{o}{+} \PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2} \PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{origin} \PYG{o}{+} \PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{])}
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}4*2\PYGZsq{}}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{generator} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{center}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+} \PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{])}
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}*442\PYGZsq{}}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{generator} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{origin}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{center}\PYG{p}{])}
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}2*22\PYGZsq{}}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{generator} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{origin}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{p}{,} \PYG{n}{center}\PYG{p}{])}
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}22×\PYGZsq{}}\PYG{p}{:}
+            \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{generator} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{+}\PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{origin}\PYG{o}{+}\PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{])}
+
+
+        \PYG{k}{return} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{generator}
+
+
+    \PYG{k}{def} \PYG{n+nf}{complete\PYGZus{}pattern}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{lines}\PYG{p}{,} \PYG{n}{pattern}\PYG{p}{):}
+        \PYG{n}{homo\PYGZus{}pts}\PYG{p}{,} \PYG{n}{inds} \PYG{o}{=} \PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{lines\PYGZus{}to\PYGZus{}matrix}\PYG{p}{(}\PYG{n}{lines}\PYG{p}{)}
+        \PYG{n}{center}\PYG{p}{,} \PYG{n}{origin}\PYG{p}{,} \PYG{n}{b1}\PYG{p}{,} \PYG{n}{b2} \PYG{o}{=} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{center}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{origin}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b1}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b2}
+
+        \PYG{n}{functions} \PYG{o}{=} \PYG{p}{[]}
+        \PYG{n}{clean\PYGZus{}up\PYGZus{}lines} \PYG{o}{=} \PYG{k+kc}{False}
+
+        \PYG{k}{if} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}o\PYGZsq{}}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{lines}
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}2222\PYGZsq{}}\PYG{p}{:}
+            \PYG{n}{f} \PYG{o}{=} \PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{rot\PYGZus{}about\PYGZus{}pt}\PYG{p}{(}\PYG{n}{center}\PYG{p}{,} \PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{p}{)}
+            \PYG{n}{functions} \PYG{o}{=} \PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{f}\PYG{p}{]}
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}*2222\PYGZsq{}}\PYG{p}{:}
+            \PYG{n}{functions} \PYG{o}{=} \PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{)]}
+            \PYG{k}{for} \PYG{n}{offset}\PYG{p}{,} \PYG{n}{angle} \PYG{o+ow}{in} \PYG{p}{[(}\PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{90}\PYG{p}{),} \PYG{p}{(}\PYG{n}{origin}\PYG{o}{+}\PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{)]:}
+                \PYG{n}{functions}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{ref\PYGZus{}about\PYGZus{}point}\PYG{p}{(}\PYG{n}{offset}\PYG{p}{,} \PYG{n}{angle}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{))}
+            \PYG{n}{functions}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{rot\PYGZus{}about\PYGZus{}pt}\PYG{p}{(}\PYG{n}{center}\PYG{p}{,} \PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{p}{))}
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s2}{\PYGZdq{}442\PYGZdq{}}\PYG{p}{:}
+            \PYG{n}{functions} \PYG{o}{=} \PYG{p}{[}\PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{rot\PYGZus{}about\PYGZus{}pt}\PYG{p}{(}\PYG{n}{center}\PYG{p}{,} \PYG{n}{i}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{)} \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{)]}
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}4*2\PYGZsq{}}\PYG{p}{:}
+            \PYG{n}{base} \PYG{o}{=} \PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{ref\PYGZus{}about\PYGZus{}point}\PYG{p}{(}\PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{135}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)]}
+            \PYG{n}{functions} \PYG{o}{=} \PYG{p}{[]}
+            \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{):}
+                \PYG{k}{for} \PYG{n}{b} \PYG{o+ow}{in} \PYG{n}{base}\PYG{p}{:}
+                    \PYG{n}{functions}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{rot\PYGZus{}about\PYGZus{}pt}\PYG{p}{(}\PYG{n}{center}\PYG{p}{,} \PYG{n}{i}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{)} \PYG{p}{,}\PYG{n}{b}\PYG{p}{))}
+
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}*442\PYGZsq{}}\PYG{p}{:}
+            \PYG{n}{bases} \PYG{o}{=} \PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{ref\PYGZus{}about\PYGZus{}point}\PYG{p}{(}\PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{90}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)]}
+
+            \PYG{n}{functions} \PYG{o}{=} \PYG{p}{[]}
+            \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{4}\PYG{p}{):}
+                \PYG{k}{for} \PYG{n}{base} \PYG{o+ow}{in} \PYG{n}{bases}\PYG{p}{:}
+                    \PYG{n}{functions}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{rot\PYGZus{}about\PYGZus{}pt}\PYG{p}{(}\PYG{n}{center}\PYG{p}{,} \PYG{n}{i}\PYG{o}{*}\PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{),} \PYG{n}{base}\PYG{p}{))}
+
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}2*22\PYGZsq{}}\PYG{p}{:}
+            \PYG{n}{ref1} \PYG{o}{=} \PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{ref\PYGZus{}about\PYGZus{}point}\PYG{p}{(}\PYG{n}{origin}\PYG{p}{,} \PYG{l+m+mi}{45}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)]}
+            \PYG{n}{ref2} \PYG{o}{=} \PYG{p}{[]}
+            \PYG{k}{for} \PYG{n}{ref} \PYG{o+ow}{in} \PYG{n}{ref1}\PYG{p}{:}
+                \PYG{n}{ref2}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{ref\PYGZus{}about\PYGZus{}point}\PYG{p}{(}\PYG{n}{center}\PYG{p}{,} \PYG{l+m+mi}{135}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{),}\PYG{n}{ref}\PYG{p}{))}
+            \PYG{n}{functions} \PYG{o}{=} \PYG{n}{ref1} \PYG{o}{+} \PYG{n}{ref2}
+
+        \PYG{k}{elif} \PYG{n}{pattern} \PYG{o}{==} \PYG{l+s+s1}{\PYGZsq{}22×\PYGZsq{}}\PYG{p}{:}
+
+            \PYG{n}{weird\PYGZus{}flip} \PYG{o}{=} \PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{ref\PYGZus{}about\PYGZus{}point}\PYG{p}{(}\PYG{n}{origin}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{n}{degrees}\PYG{o}{=}\PYG{k+kc}{True}\PYG{p}{)}
+            \PYG{n}{glide1} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{translate}\PYG{p}{(}\PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{o}{+}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{),} \PYG{n}{weird\PYGZus{}flip}\PYG{p}{)}
+            \PYG{n}{glide2} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{translate}\PYG{p}{(}\PYG{n}{b1}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{o}{\PYGZhy{}}\PYG{n}{b2}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{),} \PYG{n}{weird\PYGZus{}flip}\PYG{p}{)}
+
+            \PYG{n}{bottom} \PYG{o}{=} \PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{),} \PYG{n}{glide1}\PYG{p}{,} \PYG{n}{glide2}\PYG{p}{]}
+            \PYG{n}{top} \PYG{o}{=} \PYG{p}{[]}
+            \PYG{k}{for} \PYG{n}{b} \PYG{o+ow}{in} \PYG{n}{bottom}\PYG{p}{:}
+                \PYG{n}{top}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{rot\PYGZus{}about\PYGZus{}pt}\PYG{p}{(}\PYG{n}{center}\PYG{p}{,} \PYG{n}{np}\PYG{o}{.}\PYG{n}{pi}\PYG{p}{),} \PYG{n}{b}\PYG{p}{))}
+
+            \PYG{n}{functions} \PYG{o}{=} \PYG{n}{bottom}\PYG{o}{+}\PYG{n}{top}
+            \PYG{n}{clean\PYGZus{}up\PYGZus{}lines} \PYG{o}{=} \PYG{k+kc}{True}
+
+
+        \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{functions}\PYG{p}{)} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{p}{:}
+            \PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}uhhhhhh this doesnt seem implemented yet\PYGZdq{}}\PYG{p}{)}
+            \PYG{n}{functions} \PYG{o}{=} \PYG{p}{[}\PYG{n}{np}\PYG{o}{.}\PYG{n}{eye}\PYG{p}{(}\PYG{l+m+mi}{3}\PYG{p}{)]}
+
+        \PYG{n}{transformed\PYGZus{}pts} \PYG{o}{=} \PYG{p}{[]}
+        \PYG{k}{for} \PYG{n}{f} \PYG{o+ow}{in} \PYG{n}{functions}\PYG{p}{:}
+            \PYG{n}{result\PYGZus{}pts} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{f}\PYG{p}{,} \PYG{n}{homo\PYGZus{}pts}\PYG{o}{.}\PYG{n}{transpose}\PYG{p}{())}\PYG{o}{.}\PYG{n}{transpose}\PYG{p}{()}
+            \PYG{n}{transformed\PYGZus{}pts}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{result\PYGZus{}pts}\PYG{p}{)}
+
+        \PYG{n}{transformed\PYGZus{}lines} \PYG{o}{=} \PYG{p}{[]}
+        \PYG{k}{for} \PYG{n}{pts} \PYG{o+ow}{in} \PYG{n}{transformed\PYGZus{}pts}\PYG{p}{:}
+            \PYG{n}{new\PYGZus{}lines} \PYG{o}{=} \PYG{n}{geom2d}\PYG{o}{.}\PYG{n}{matrix\PYGZus{}to\PYGZus{}lines}\PYG{p}{(}\PYG{n}{pts}\PYG{p}{,} \PYG{n}{inds}\PYG{p}{)}
+            \PYG{k}{for} \PYG{n}{line} \PYG{o+ow}{in} \PYG{n}{new\PYGZus{}lines}\PYG{p}{:}
+                \PYG{n}{transformed\PYGZus{}lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{line}\PYG{p}{)}
+
+        \PYG{k}{if} \PYG{n}{clean\PYGZus{}up\PYGZus{}lines}\PYG{p}{:}
+            \PYG{c+c1}{\PYGZsh{} TODO should probably make this better and throw it in shading. Would be useful later for hatching.}
+            \PYG{k}{if} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b1}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1} \PYG{o+ow}{or} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b2}\PYG{o}{.}\PYG{n}{shape}\PYG{p}{)} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{1}\PYG{p}{:}
+                \PYG{k}{raise} \PYG{n+ne}{Exception}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}uhhh wasnt expecting a shaped basis vector.\PYGZdq{}}\PYG{p}{)}
+
+            \PYG{n}{T} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{stack}\PYG{p}{([}\PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b2}\PYG{p}{,} \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{b1}\PYG{p}{])}\PYG{o}{.}\PYG{n}{transpose}\PYG{p}{()}
+            \PYG{n}{t\PYGZus{}inv} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linalg}\PYG{o}{.}\PYG{n}{inv}\PYG{p}{(}\PYG{n}{T}\PYG{p}{)}
+
+            \PYG{k}{def} \PYG{n+nf}{is\PYGZus{}in}\PYG{p}{(}\PYG{n}{pt}\PYG{p}{):}
+                \PYG{n}{coord} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{matmul}\PYG{p}{(}\PYG{n}{t\PYGZus{}inv}\PYG{p}{,} \PYG{p}{(}\PYG{n}{pt} \PYG{o}{\PYGZhy{}} \PYG{n}{origin}\PYG{p}{))}
+                \PYG{k}{return} \PYG{n}{np}\PYG{o}{.}\PYG{n}{all}\PYG{p}{(}\PYG{n}{coord} \PYG{o}{==} \PYG{n}{np}\PYG{o}{.}\PYG{n}{clip}\PYG{p}{(}\PYG{n}{coord}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{))}
+
+            \PYG{c+c1}{\PYGZsh{} TODO just make this shapely!}
+            \PYG{n}{clipped\PYGZus{}lines} \PYG{o}{=} \PYG{p}{[]}
+            \PYG{k}{for} \PYG{n}{line} \PYG{o+ow}{in} \PYG{n}{transformed\PYGZus{}lines}\PYG{p}{:}
+                \PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{line}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{1}\PYG{p}{):}
+                    \PYG{n}{a} \PYG{o}{=} \PYG{n}{line}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}
+                    \PYG{n}{b} \PYG{o}{=} \PYG{n}{line}\PYG{p}{[}\PYG{n}{i}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{]}
+
+                    \PYG{k}{if} \PYG{n}{is\PYGZus{}in}\PYG{p}{(}\PYG{n}{a}\PYG{p}{)} \PYG{o+ow}{and} \PYG{n}{is\PYGZus{}in}\PYG{p}{(}\PYG{n}{b}\PYG{p}{):}
+                        \PYG{n}{clipped\PYGZus{}lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{((}\PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{))}
+                    \PYG{k}{else}\PYG{p}{:}
+                        \PYG{n}{is\PYGZus{}drawing} \PYG{o}{=} \PYG{k+kc}{False}
+                        \PYG{n}{start} \PYG{o}{=} \PYG{k+kc}{None}
+
+                        \PYG{k}{for} \PYG{n}{l} \PYG{o+ow}{in} \PYG{n}{np}\PYG{o}{.}\PYG{n}{linspace}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{20}\PYG{p}{):}
+                            \PYG{n}{c} \PYG{o}{=} \PYG{n}{a}\PYG{o}{*}\PYG{n}{l}\PYG{o}{+}\PYG{n}{b}\PYG{o}{*}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{o}{\PYGZhy{}}\PYG{n}{l}\PYG{p}{)}
+                            \PYG{n}{is\PYGZus{}valid} \PYG{o}{=} \PYG{n}{is\PYGZus{}in}\PYG{p}{(}\PYG{n}{c}\PYG{p}{)}
+
+                            \PYG{k}{if} \PYG{n}{is\PYGZus{}valid}\PYG{p}{:}
+                                \PYG{k}{if} \PYG{n}{is\PYGZus{}drawing}\PYG{p}{:}
+                                    \PYG{k}{pass}
+                                \PYG{k}{else}\PYG{p}{:}
+                                    \PYG{n}{is\PYGZus{}drawing} \PYG{o}{=} \PYG{k+kc}{True}
+                                    \PYG{n}{start} \PYG{o}{=} \PYG{n}{c}
+                            \PYG{k}{else}\PYG{p}{:}
+                                \PYG{k}{if} \PYG{n}{is\PYGZus{}drawing}\PYG{p}{:}
+                                    \PYG{n}{clipped\PYGZus{}lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{((}\PYG{n}{start}\PYG{p}{,} \PYG{n}{c}\PYG{p}{))}
+                                    \PYG{n}{is\PYGZus{}drawing} \PYG{o}{=} \PYG{k+kc}{False}
+                                    \PYG{n}{start} \PYG{o}{=} \PYG{k+kc}{None}
+                                \PYG{k}{else}\PYG{p}{:}
+                                    \PYG{n}{is\PYGZus{}drawing} \PYG{o}{=} \PYG{k+kc}{False}
+
+                        \PYG{k}{if} \PYG{n}{is\PYGZus{}drawing}\PYG{p}{:}
+                            \PYG{n}{clipped\PYGZus{}lines}\PYG{o}{.}\PYG{n}{append}\PYG{p}{((}\PYG{n}{start}\PYG{p}{,} \PYG{n}{c}\PYG{p}{))}
+
+            \PYG{k}{return} \PYG{n}{clipped\PYGZus{}lines}
+
+        \PYG{k}{else}\PYG{p}{:}
+            \PYG{k}{return} \PYG{n}{transformed\PYGZus{}lines}
+\end{Verbatim}

@@ -58,30 +58,43 @@
 \contentsline {section}{\numberline {6.6}Render Engine}{5}{section.6.6}%
 \contentsline {subsection}{\numberline {6.6.1}Rendering}{5}{subsection.6.6.1}%
 \contentsline {subsection}{\numberline {6.6.2}Line Rendering}{10}{subsection.6.6.2}%
-\contentsline {chapter}{\numberline {7}Botany}{37}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Laplace}{39}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Laplace Code References}{41}{section.8.1}%
-\contentsline {section}{Pyramid Blending}{42}{section*.35}%
-\contentsline {chapter}{\numberline {9}Newtons Method}{53}{chapter.9}%
-\contentsline {section}{Euler's Approximation Code}{55}{section*.41}%
-\contentsline {section}{\numberline {9.1}Euler's Approximation Images}{60}{section.9.1}%
-\contentsline {chapter}{\numberline {10}Q-Learning}{61}{chapter.10}%
-\contentsline {section}{Masters Project}{62}{section*.42}%
-\contentsline {chapter}{\numberline {11}The White Paper}{133}{chapter.11}%
-\contentsline {section}{Numerai}{134}{section*.43}%
-\contentsline {chapter}{\numberline {12}The Dinosaur Chapter}{139}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Farmer Labs}{139}{section.12.1}%
-\contentsline {subsection}{USet Grant}{140}{section*.44}%
-\contentsline {subsection}{Falcarius}{141}{section*.45}%
-\contentsline {section}{\numberline {12.2}Dig with Jim Kirkland}{172}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Utah Raptor}{172}{section.12.3}%
-\contentsline {subsection}{Context}{174}{section*.46}%
-\contentsline {chapter}{\numberline {13}My Resume}{177}{chapter.13}%
-\contentsline {chapter}{Numerai}{178}{section*.47}%
-\contentsline {chapter}{\numberline {14}Charlie Summer's Art Car}{185}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Lost Art/Bogus Journey's game}{185}{section.14.1}%
-\contentsline {section}{\numberline {14.2}The Art Car}{185}{section.14.2}%
-\contentsline {chapter}{\numberline {15}Well it's Greek to me now..}{193}{chapter.15}%
-\contentsline {chapter}{Well it's Greek to me now..}{194}{section*.48}%
-\contentsline {chapter}{\numberline {16}Phantasmagoria}{209}{chapter.16}%
-\contentsline {chapter}{\numberline {A}Dedication outro.}{213}{appendix.A}%
+\contentsline {section}{\numberline {6.7}Numerical Unstablitity}{35}{section.6.7}%
+\contentsline {chapter}{\numberline {7}Botany}{41}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Fresh New Wallpapers}{43}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Recursive Wallpaper Groups: Bridging Art and Mathematics}{43}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Introduction}{43}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}The Mathematics of Wallpaper Groups}{43}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Recursion and Generative Art}{43}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Stained Glass: A Modern Interpretation}{44}{subsection.8.1.4}%
+\contentsline {subsection}{\numberline {8.1.5}Indigenous-Inspired Motifs}{44}{subsection.8.1.5}%
+\contentsline {subsection}{\numberline {8.1.6}Abstract Algebra and Visual Harmony}{44}{subsection.8.1.6}%
+\contentsline {subsection}{\numberline {8.1.7}Conclusion}{44}{subsection.8.1.7}%
+\contentsline {section}{\numberline {8.2}Basic Code}{45}{section.8.2}%
+\contentsline {section}{Basic Laser Cutter Adaptations}{50}{section*.28}%
+\contentsline {section}{\numberline {8.3}Voroni Rainbow Lasercut}{60}{section.8.3}%
+\contentsline {chapter}{\numberline {9}Laplace}{63}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Laplace Code References}{65}{section.9.1}%
+\contentsline {section}{Pyramid Blending}{66}{section*.36}%
+\contentsline {chapter}{\numberline {10}Newtons Method}{77}{chapter.10}%
+\contentsline {section}{Euler's Approximation Code}{79}{section*.42}%
+\contentsline {section}{\numberline {10.1}Euler's Approximation Images}{84}{section.10.1}%
+\contentsline {chapter}{\numberline {11}Q-Learning}{85}{chapter.11}%
+\contentsline {section}{Masters Project}{86}{section*.43}%
+\contentsline {chapter}{\numberline {12}The White Paper}{157}{chapter.12}%
+\contentsline {section}{Numerai}{158}{section*.44}%
+\contentsline {chapter}{\numberline {13}The Dinosaur Chapter}{163}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Farmer Labs}{163}{section.13.1}%
+\contentsline {subsection}{USet Grant}{164}{section*.45}%
+\contentsline {subsection}{Falcarius}{165}{section*.46}%
+\contentsline {section}{\numberline {13.2}Dig with Jim Kirkland}{196}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Utah Raptor}{196}{section.13.3}%
+\contentsline {subsection}{Context}{198}{section*.47}%
+\contentsline {chapter}{\numberline {14}My Resume}{201}{chapter.14}%
+\contentsline {chapter}{Numerai}{202}{section*.48}%
+\contentsline {chapter}{\numberline {15}Charlie Summer's Art Car}{209}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Lost Art/Bogus Journey's game}{209}{section.15.1}%
+\contentsline {section}{\numberline {15.2}The Art Car}{209}{section.15.2}%
+\contentsline {chapter}{\numberline {16}Well it's Greek to me now..}{217}{chapter.16}%
+\contentsline {chapter}{Well it's Greek to me now..}{218}{section*.49}%
+\contentsline {chapter}{\numberline {17}Phantasmagoria}{233}{chapter.17}%
+\contentsline {chapter}{\numberline {A}Dedication outro.}{237}{appendix.A}%
