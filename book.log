@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 JAN 2025 21:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  13 JAN 2025 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,7 +589,7 @@ Chapter 3.
 [15
 
 ] [16] [17]
-<figures/copypasta.jpg, id=253, 602.25pt x 790.955pt>
+<figures/copypasta.jpg, id=257, 602.25pt x 790.955pt>
 File: figures/copypasta.jpg Graphic file (type jpg)
 <use figures/copypasta.jpg>
 Package pdftex.def Info: figures/copypasta.jpg  used on input line 128.
@@ -608,7 +608,7 @@ Chapter 5.
 [25
 
 ]
-<AI_as_Association_Machines.pdf, id=325, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=329, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf>
 Package pdftex.def Info: AI_as_Association_Machines.pdf  used on input line 65.
@@ -619,7 +619,7 @@ File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 Package pdftex.def Info: AI_as_Association_Machines.pdf  used on input line 65.
 
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<AI_as_Association_Machines.pdf, id=328, page=1, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=332, page=1, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 1>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page1 used on input l
@@ -648,7 +648,7 @@ ine 65.
  [26
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=342, page=2, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=346, page=2, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 2>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page2 used on input l
@@ -667,7 +667,7 @@ ine 65.
  [27
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=352, page=3, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=356, page=3, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 3>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page3 used on input l
@@ -686,7 +686,7 @@ ine 65.
  [28
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=357, page=4, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=361, page=4, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 4>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page4 used on input l
@@ -705,7 +705,7 @@ ine 65.
  [29
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=363, page=5, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=367, page=5, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 5>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page5 used on input l
@@ -724,7 +724,7 @@ ine 65.
  [30
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=373, page=6, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=377, page=6, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 6>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page6 used on input l
@@ -743,7 +743,7 @@ ine 65.
  [31
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=378, page=7, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=382, page=7, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 7>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page7 used on input l
@@ -762,7 +762,7 @@ ine 65.
  [32
 
  <./AI_as_Association_Machines.pdf>]
-<AI_as_Association_Machines.pdf, id=383, page=8, 614.295pt x 794.97pt>
+<AI_as_Association_Machines.pdf, id=387, page=8, 614.295pt x 794.97pt>
 File: AI_as_Association_Machines.pdf Graphic file (type pdf)
 <use AI_as_Association_Machines.pdf, page 8>
 Package pdftex.def Info: AI_as_Association_Machines.pdf , page8 used on input l
@@ -792,7 +792,7 @@ REM: FOUNDATIONS OF PROBABILITY \OT1/cmr/m/n/12 35
  []
 
 [35]
-<cah-print.pdf, id=410, 614.295pt x 794.97pt>
+<cah-print.pdf, id=414, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf>
 Package pdftex.def Info: cah-print.pdf  used on input line 67.
@@ -801,7 +801,7 @@ File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf>
 Package pdftex.def Info: cah-print.pdf  used on input line 67.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<cah-print.pdf, id=413, page=1, 614.295pt x 794.97pt>
+<cah-print.pdf, id=417, page=1, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 1>
 Package pdftex.def Info: cah-print.pdf , page1 used on input line 67.
@@ -825,7 +825,7 @@ Package pdftex.def Info: cah-print.pdf , page1 used on input line 67.
  [36
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=431, page=2, 614.295pt x 794.97pt>
+<cah-print.pdf, id=435, page=2, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 2>
 Package pdftex.def Info: cah-print.pdf , page2 used on input line 67.
@@ -841,7 +841,7 @@ Package pdftex.def Info: cah-print.pdf , page2 used on input line 67.
  [37
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=438, page=3, 614.295pt x 794.97pt>
+<cah-print.pdf, id=442, page=3, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 3>
 Package pdftex.def Info: cah-print.pdf , page3 used on input line 67.
@@ -857,7 +857,7 @@ Package pdftex.def Info: cah-print.pdf , page3 used on input line 67.
  [38
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=443, page=4, 614.295pt x 794.97pt>
+<cah-print.pdf, id=447, page=4, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 4>
 Package pdftex.def Info: cah-print.pdf , page4 used on input line 67.
@@ -874,7 +874,7 @@ Package pdftex.def Info: cah-print.pdf , page4 used on input line 67.
 [39
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=449, page=5, 614.295pt x 794.97pt>
+<cah-print.pdf, id=453, page=5, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 5>
 Package pdftex.def Info: cah-print.pdf , page5 used on input line 67.
@@ -890,7 +890,7 @@ Package pdftex.def Info: cah-print.pdf , page5 used on input line 67.
  [40
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=454, page=6, 614.295pt x 794.97pt>
+<cah-print.pdf, id=458, page=6, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 6>
 Package pdftex.def Info: cah-print.pdf , page6 used on input line 67.
@@ -906,7 +906,7 @@ Package pdftex.def Info: cah-print.pdf , page6 used on input line 67.
  [41
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=463, page=7, 614.295pt x 794.97pt>
+<cah-print.pdf, id=467, page=7, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 7>
 Package pdftex.def Info: cah-print.pdf , page7 used on input line 67.
@@ -922,7 +922,7 @@ Package pdftex.def Info: cah-print.pdf , page7 used on input line 67.
  [42
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=469, page=8, 614.295pt x 794.97pt>
+<cah-print.pdf, id=473, page=8, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 8>
 Package pdftex.def Info: cah-print.pdf , page8 used on input line 67.
@@ -938,7 +938,7 @@ Package pdftex.def Info: cah-print.pdf , page8 used on input line 67.
  [43
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=474, page=9, 614.295pt x 794.97pt>
+<cah-print.pdf, id=478, page=9, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 9>
 Package pdftex.def Info: cah-print.pdf , page9 used on input line 67.
@@ -954,7 +954,7 @@ Package pdftex.def Info: cah-print.pdf , page9 used on input line 67.
  [44
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=480, page=10, 614.295pt x 794.97pt>
+<cah-print.pdf, id=484, page=10, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 10>
 Package pdftex.def Info: cah-print.pdf , page10 used on input line 67.
@@ -970,7 +970,7 @@ Package pdftex.def Info: cah-print.pdf , page10 used on input line 67.
  [45
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=487, page=11, 614.295pt x 794.97pt>
+<cah-print.pdf, id=491, page=11, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 11>
 Package pdftex.def Info: cah-print.pdf , page11 used on input line 67.
@@ -986,7 +986,7 @@ Package pdftex.def Info: cah-print.pdf , page11 used on input line 67.
  [46
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=494, page=12, 614.295pt x 794.97pt>
+<cah-print.pdf, id=498, page=12, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 12>
 Package pdftex.def Info: cah-print.pdf , page12 used on input line 67.
@@ -1002,7 +1002,7 @@ Package pdftex.def Info: cah-print.pdf , page12 used on input line 67.
  [47
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=500, page=13, 614.295pt x 794.97pt>
+<cah-print.pdf, id=504, page=13, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 13>
 Package pdftex.def Info: cah-print.pdf , page13 used on input line 67.
@@ -1018,7 +1018,7 @@ Package pdftex.def Info: cah-print.pdf , page13 used on input line 67.
  [48
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=505, page=14, 614.295pt x 794.97pt>
+<cah-print.pdf, id=509, page=14, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 14>
 Package pdftex.def Info: cah-print.pdf , page14 used on input line 67.
@@ -1035,7 +1035,7 @@ Package pdftex.def Info: cah-print.pdf , page14 used on input line 67.
 [49
 
  <./cah-print.pdf>]
-<cah-print.pdf, id=512, page=15, 614.295pt x 794.97pt>
+<cah-print.pdf, id=516, page=15, 614.295pt x 794.97pt>
 File: cah-print.pdf Graphic file (type pdf)
 <use cah-print.pdf, page 15>
 Package pdftex.def Info: cah-print.pdf , page15 used on input line 67.
@@ -1055,718 +1055,1873 @@ Chapter 6.
 [51
 
 ]
-<USETposter.pdf, id=525, 3468.96pt x 2601.72pt>
-File: USETposter.pdf Graphic file (type pdf)
-<use USETposter.pdf>
-Package pdftex.def Info: USETposter.pdf  used on input line 71.
-(pdftex.def)             Requested size: 3468.95158pt x 2601.71368pt.
-File: USETposter.pdf Graphic file (type pdf)
-<use USETposter.pdf>
-Package pdftex.def Info: USETposter.pdf  used on input line 71.
-(pdftex.def)             Requested size: 3468.95158pt x 2601.71368pt.
-<USETposter.pdf, id=528, page=1, 3468.96pt x 2601.72pt>
-File: USETposter.pdf Graphic file (type pdf)
-<use USETposter.pdf, page 1>
-Package pdftex.def Info: USETposter.pdf , page1 used on input line 71.
-(pdftex.def)             Requested size: 3468.95158pt x 2601.71368pt.
-File: USETposter.pdf Graphic file (type pdf)
-<use USETposter.pdf, page 1>
-Package pdftex.def Info: USETposter.pdf , page1 used on input line 71.
-(pdftex.def)             Requested size: 597.65521pt x 448.24141pt.
-File: USETposter.pdf Graphic file (type pdf)
-<use USETposter.pdf, page 1>
-Package pdftex.def Info: USETposter.pdf , page1 used on input line 71.
-(pdftex.def)             Requested size: 597.65521pt x 448.24141pt.
-File: USETposter.pdf Graphic file (type pdf)
-<use USETposter.pdf, page 1>
-Package pdftex.def Info: USETposter.pdf , page1 used on input line 71.
-(pdftex.def)             Requested size: 597.65521pt x 448.24141pt.
-File: USETposter.pdf Graphic file (type pdf)
-<use USETposter.pdf, page 1>
-Package pdftex.def Info: USETposter.pdf , page1 used on input line 71.
-(pdftex.def)             Requested size: 597.65521pt x 448.24141pt.
+<masters.pdf, id=529, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf>
+Package pdftex.def Info: masters.pdf  used on input line 70.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf>
+Package pdftex.def Info: masters.pdf  used on input line 70.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<masters.pdf, id=532, page=1, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 1>
+Package pdftex.def Info: masters.pdf , page1 used on input line 70.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 1>
+Package pdftex.def Info: masters.pdf , page1 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 1>
+Package pdftex.def Info: masters.pdf , page1 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 1>
+Package pdftex.def Info: masters.pdf , page1 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 1>
+Package pdftex.def Info: masters.pdf , page1 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [52
 
- <./USETposter.pdf>]
-<FalcariusFinalPaper.pdf, id=602, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf>
-Package pdftex.def Info: FalcariusFinalPaper.pdf  used on input line 72.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf>
-Package pdftex.def Info: FalcariusFinalPaper.pdf  used on input line 72.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<FalcariusFinalPaper.pdf, id=605, page=1, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 1>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 72.
-
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 1>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 1>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 1>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 1>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=548, page=2, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 2>
+Package pdftex.def Info: masters.pdf , page2 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 2>
+Package pdftex.def Info: masters.pdf , page2 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 2>
+Package pdftex.def Info: masters.pdf , page2 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [53
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=627, page=2, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 2>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page2 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 2>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page2 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 2>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page2 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=559, page=3, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 3>
+Package pdftex.def Info: masters.pdf , page3 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 3>
+Package pdftex.def Info: masters.pdf , page3 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 3>
+Package pdftex.def Info: masters.pdf , page3 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [54
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=632, page=3, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 3>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page3 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 3>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page3 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 3>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page3 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=564, page=4, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 4>
+Package pdftex.def Info: masters.pdf , page4 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 4>
+Package pdftex.def Info: masters.pdf , page4 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 4>
+Package pdftex.def Info: masters.pdf , page4 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [55
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=637, page=4, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 4>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page4 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 4>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page4 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 4>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page4 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=569, page=5, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 5>
+Package pdftex.def Info: masters.pdf , page5 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 5>
+Package pdftex.def Info: masters.pdf , page5 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 5>
+Package pdftex.def Info: masters.pdf , page5 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [56
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=654, page=5, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 5>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page5 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 5>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page5 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 5>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page5 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=574, page=6, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 6>
+Package pdftex.def Info: masters.pdf , page6 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 6>
+Package pdftex.def Info: masters.pdf , page6 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 6>
+Package pdftex.def Info: masters.pdf , page6 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [57
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=665, page=6, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 6>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page6 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 6>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page6 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 6>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page6 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=598, page=7, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 7>
+Package pdftex.def Info: masters.pdf , page7 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 7>
+Package pdftex.def Info: masters.pdf , page7 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 7>
+Package pdftex.def Info: masters.pdf , page7 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [58
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=673, page=7, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 7>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page7 used on input line 72.
+ <./masters.pdf>]
+<masters.pdf, id=603, page=8, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 8>
+Package pdftex.def Info: masters.pdf , page8 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 8>
+Package pdftex.def Info: masters.pdf , page8 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 8>
+Package pdftex.def Info: masters.pdf , page8 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 7>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page7 used on input line 72.
+[59
 
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 7>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page7 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [59
-
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=685, page=8, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 8>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page8 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 8>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page8 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 8>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page8 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=609, page=9, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 9>
+Package pdftex.def Info: masters.pdf , page9 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 9>
+Package pdftex.def Info: masters.pdf , page9 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 9>
+Package pdftex.def Info: masters.pdf , page9 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [60
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=696, page=9, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 9>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page9 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 9>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page9 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 9>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page9 used on input line 72.
-
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=614, page=10, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 10>
+Package pdftex.def Info: masters.pdf , page10 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 10>
+Package pdftex.def Info: masters.pdf , page10 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 10>
+Package pdftex.def Info: masters.pdf , page10 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [61
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=707, page=10, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 10>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page10 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 10>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page10 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 10>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page10 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=624, page=11, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 11>
+Package pdftex.def Info: masters.pdf , page11 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 11>
+Package pdftex.def Info: masters.pdf , page11 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 11>
+Package pdftex.def Info: masters.pdf , page11 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [62
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=721, page=11, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 11>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page11 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 11>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page11 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 11>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page11 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=631, page=12, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 12>
+Package pdftex.def Info: masters.pdf , page12 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 12>
+Package pdftex.def Info: masters.pdf , page12 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 12>
+Package pdftex.def Info: masters.pdf , page12 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [63
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=738, page=12, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 12>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page12 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 12>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page12 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 12>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page12 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=661, page=13, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 13>
+Package pdftex.def Info: masters.pdf , page13 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 13>
+Package pdftex.def Info: masters.pdf , page13 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 13>
+Package pdftex.def Info: masters.pdf , page13 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [64
 
-[64
-
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=752, page=13, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 13>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page13 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 13>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page13 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 13>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page13 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=667, page=14, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 14>
+Package pdftex.def Info: masters.pdf , page14 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 14>
+Package pdftex.def Info: masters.pdf , page14 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 14>
+Package pdftex.def Info: masters.pdf , page14 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [65
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=764, page=14, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 14>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page14 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 14>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page14 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 14>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page14 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=688, page=15, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 15>
+Package pdftex.def Info: masters.pdf , page15 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 15>
+Package pdftex.def Info: masters.pdf , page15 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 15>
+Package pdftex.def Info: masters.pdf , page15 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [66
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=772, page=15, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 15>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page15 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 15>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page15 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 15>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page15 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=693, page=16, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 16>
+Package pdftex.def Info: masters.pdf , page16 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 16>
+Package pdftex.def Info: masters.pdf , page16 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 16>
+Package pdftex.def Info: masters.pdf , page16 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [67
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=777, page=16, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 16>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page16 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 16>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page16 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 16>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page16 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=703, page=17, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 17>
+Package pdftex.def Info: masters.pdf , page17 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 17>
+Package pdftex.def Info: masters.pdf , page17 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 17>
+Package pdftex.def Info: masters.pdf , page17 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [68
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=785, page=17, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 17>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page17 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 17>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page17 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 17>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page17 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=713, page=18, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 18>
+Package pdftex.def Info: masters.pdf , page18 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 18>
+Package pdftex.def Info: masters.pdf , page18 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 18>
+Package pdftex.def Info: masters.pdf , page18 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [69
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=793, page=18, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 18>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page18 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 18>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page18 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 18>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page18 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [70
+ <./masters.pdf>]
+<masters.pdf, id=718, page=19, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 19>
+Package pdftex.def Info: masters.pdf , page19 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 19>
+Package pdftex.def Info: masters.pdf , page19 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 19>
+Package pdftex.def Info: masters.pdf , page19 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=804, page=19, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 19>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page19 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 19>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page19 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 19>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page19 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[70
 
-[71
+ <./masters.pdf>]
+<masters.pdf, id=723, page=20, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 20>
+Package pdftex.def Info: masters.pdf , page20 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 20>
+Package pdftex.def Info: masters.pdf , page20 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 20>
+Package pdftex.def Info: masters.pdf , page20 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [71
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=813, page=20, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 20>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page20 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 20>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page20 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 20>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page20 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=729, page=21, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 21>
+Package pdftex.def Info: masters.pdf , page21 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 21>
+Package pdftex.def Info: masters.pdf , page21 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 21>
+Package pdftex.def Info: masters.pdf , page21 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [72
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=824, page=21, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 21>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page21 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 21>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page21 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 21>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page21 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=734, page=22, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 22>
+Package pdftex.def Info: masters.pdf , page22 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 22>
+Package pdftex.def Info: masters.pdf , page22 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 22>
+Package pdftex.def Info: masters.pdf , page22 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [73
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=832, page=22, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 22>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page22 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 22>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page22 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 22>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page22 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=739, page=23, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 23>
+Package pdftex.def Info: masters.pdf , page23 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 23>
+Package pdftex.def Info: masters.pdf , page23 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 23>
+Package pdftex.def Info: masters.pdf , page23 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [74
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=840, page=23, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 23>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page23 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 23>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page23 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 23>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page23 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=746, page=24, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 24>
+Package pdftex.def Info: masters.pdf , page24 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 24>
+Package pdftex.def Info: masters.pdf , page24 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 24>
+Package pdftex.def Info: masters.pdf , page24 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [75
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=848, page=24, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 24>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page24 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 24>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page24 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 24>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page24 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=751, page=25, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 25>
+Package pdftex.def Info: masters.pdf , page25 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 25>
+Package pdftex.def Info: masters.pdf , page25 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 25>
+Package pdftex.def Info: masters.pdf , page25 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [76
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=853, page=25, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 25>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page25 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 25>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page25 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 25>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page25 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=756, page=26, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 26>
+Package pdftex.def Info: masters.pdf , page26 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 26>
+Package pdftex.def Info: masters.pdf , page26 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 26>
+Package pdftex.def Info: masters.pdf , page26 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [77
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=859, page=26, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 26>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page26 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 26>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page26 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 26>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page26 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=767, page=27, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 27>
+Package pdftex.def Info: masters.pdf , page27 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 27>
+Package pdftex.def Info: masters.pdf , page27 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 27>
+Package pdftex.def Info: masters.pdf , page27 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [78
 
-[78
-
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=864, page=27, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 27>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page27 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 27>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page27 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 27>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page27 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=778, page=28, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 28>
+Package pdftex.def Info: masters.pdf , page28 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 28>
+Package pdftex.def Info: masters.pdf , page28 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 28>
+Package pdftex.def Info: masters.pdf , page28 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [79
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=870, page=28, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 28>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page28 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 28>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page28 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 28>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page28 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=788, page=29, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 29>
+Package pdftex.def Info: masters.pdf , page29 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 29>
+Package pdftex.def Info: masters.pdf , page29 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 29>
+Package pdftex.def Info: masters.pdf , page29 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [80
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=875, page=29, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 29>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page29 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 29>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page29 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 29>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page29 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [81
+ <./masters.pdf>]
+<masters.pdf, id=793, page=30, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 30>
+Package pdftex.def Info: masters.pdf , page30 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 30>
+Package pdftex.def Info: masters.pdf , page30 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 30>
+Package pdftex.def Info: masters.pdf , page30 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=880, page=30, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 30>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page30 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 30>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page30 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 30>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page30 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[81
+
+ <./masters.pdf>]
+<masters.pdf, id=803, page=31, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 31>
+Package pdftex.def Info: masters.pdf , page31 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 31>
+Package pdftex.def Info: masters.pdf , page31 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 31>
+Package pdftex.def Info: masters.pdf , page31 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [82
 
- <./FalcariusFinalPaper.pdf>]
-<FalcariusFinalPaper.pdf, id=885, page=31, 614.295pt x 794.97pt>
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 31>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page31 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 31>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page31 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-File: FalcariusFinalPaper.pdf Graphic file (type pdf)
-<use FalcariusFinalPaper.pdf, page 31>
-Package pdftex.def Info: FalcariusFinalPaper.pdf , page31 used on input line 72
-.
-(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ <./masters.pdf>]
+<masters.pdf, id=813, page=32, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 32>
+Package pdftex.def Info: masters.pdf , page32 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 32>
+Package pdftex.def Info: masters.pdf , page32 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 32>
+Package pdftex.def Info: masters.pdf , page32 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [83
 
+ <./masters.pdf>]
+<masters.pdf, id=824, page=33, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 33>
+Package pdftex.def Info: masters.pdf , page33 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 33>
+Package pdftex.def Info: masters.pdf , page33 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 33>
+Package pdftex.def Info: masters.pdf , page33 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [84
+
+ <./masters.pdf>]
+<masters.pdf, id=829, page=34, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 34>
+Package pdftex.def Info: masters.pdf , page34 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 34>
+Package pdftex.def Info: masters.pdf , page34 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 34>
+Package pdftex.def Info: masters.pdf , page34 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [85
+
+ <./masters.pdf>]
+<masters.pdf, id=839, page=35, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 35>
+Package pdftex.def Info: masters.pdf , page35 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 35>
+Package pdftex.def Info: masters.pdf , page35 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 35>
+Package pdftex.def Info: masters.pdf , page35 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [86
+
+ <./masters.pdf>]
+<masters.pdf, id=845, page=36, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 36>
+Package pdftex.def Info: masters.pdf , page36 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 36>
+Package pdftex.def Info: masters.pdf , page36 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 36>
+Package pdftex.def Info: masters.pdf , page36 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [87
+
+ <./masters.pdf>]
+<masters.pdf, id=850, page=37, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 37>
+Package pdftex.def Info: masters.pdf , page37 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 37>
+Package pdftex.def Info: masters.pdf , page37 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 37>
+Package pdftex.def Info: masters.pdf , page37 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [88
+
+ <./masters.pdf>]
+<masters.pdf, id=858, page=38, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 38>
+Package pdftex.def Info: masters.pdf , page38 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 38>
+Package pdftex.def Info: masters.pdf , page38 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 38>
+Package pdftex.def Info: masters.pdf , page38 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [89
+
+ <./masters.pdf>]
+<masters.pdf, id=864, page=39, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 39>
+Package pdftex.def Info: masters.pdf , page39 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 39>
+Package pdftex.def Info: masters.pdf , page39 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 39>
+Package pdftex.def Info: masters.pdf , page39 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [90
+
+ <./masters.pdf>]
+<masters.pdf, id=869, page=40, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 40>
+Package pdftex.def Info: masters.pdf , page40 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 40>
+Package pdftex.def Info: masters.pdf , page40 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 40>
+Package pdftex.def Info: masters.pdf , page40 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [91
+
+ <./masters.pdf>]
+<masters.pdf, id=874, page=41, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 41>
+Package pdftex.def Info: masters.pdf , page41 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 41>
+Package pdftex.def Info: masters.pdf , page41 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 41>
+Package pdftex.def Info: masters.pdf , page41 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[92
+
+ <./masters.pdf>]
+<masters.pdf, id=879, page=42, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 42>
+Package pdftex.def Info: masters.pdf , page42 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 42>
+Package pdftex.def Info: masters.pdf , page42 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 42>
+Package pdftex.def Info: masters.pdf , page42 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [93
+
+ <./masters.pdf>]
+<masters.pdf, id=884, page=43, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 43>
+Package pdftex.def Info: masters.pdf , page43 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 43>
+Package pdftex.def Info: masters.pdf , page43 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 43>
+Package pdftex.def Info: masters.pdf , page43 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [94
+
+ <./masters.pdf>]
+<masters.pdf, id=889, page=44, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 44>
+Package pdftex.def Info: masters.pdf , page44 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 44>
+Package pdftex.def Info: masters.pdf , page44 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 44>
+Package pdftex.def Info: masters.pdf , page44 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [95
+
+ <./masters.pdf>]
+<masters.pdf, id=895, page=45, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 45>
+Package pdftex.def Info: masters.pdf , page45 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 45>
+Package pdftex.def Info: masters.pdf , page45 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 45>
+Package pdftex.def Info: masters.pdf , page45 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [96
+
+ <./masters.pdf>]
+<masters.pdf, id=900, page=46, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 46>
+Package pdftex.def Info: masters.pdf , page46 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 46>
+Package pdftex.def Info: masters.pdf , page46 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 46>
+Package pdftex.def Info: masters.pdf , page46 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [97
+
+ <./masters.pdf>]
+<masters.pdf, id=905, page=47, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 47>
+Package pdftex.def Info: masters.pdf , page47 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 47>
+Package pdftex.def Info: masters.pdf , page47 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 47>
+Package pdftex.def Info: masters.pdf , page47 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [98
+
+ <./masters.pdf>]
+<masters.pdf, id=910, page=48, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 48>
+Package pdftex.def Info: masters.pdf , page48 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 48>
+Package pdftex.def Info: masters.pdf , page48 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 48>
+Package pdftex.def Info: masters.pdf , page48 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [99
+
+ <./masters.pdf>]
+<masters.pdf, id=915, page=49, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 49>
+Package pdftex.def Info: masters.pdf , page49 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 49>
+Package pdftex.def Info: masters.pdf , page49 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 49>
+Package pdftex.def Info: masters.pdf , page49 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [100
+
+ <./masters.pdf>]
+<masters.pdf, id=920, page=50, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 50>
+Package pdftex.def Info: masters.pdf , page50 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 50>
+Package pdftex.def Info: masters.pdf , page50 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 50>
+Package pdftex.def Info: masters.pdf , page50 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [101
+
+ <./masters.pdf>]
+<masters.pdf, id=926, page=51, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 51>
+Package pdftex.def Info: masters.pdf , page51 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 51>
+Package pdftex.def Info: masters.pdf , page51 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 51>
+Package pdftex.def Info: masters.pdf , page51 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [102
+
+ <./masters.pdf>]
+<masters.pdf, id=931, page=52, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 52>
+Package pdftex.def Info: masters.pdf , page52 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 52>
+Package pdftex.def Info: masters.pdf , page52 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 52>
+Package pdftex.def Info: masters.pdf , page52 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[103
+
+ <./masters.pdf>]
+<masters.pdf, id=936, page=53, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 53>
+Package pdftex.def Info: masters.pdf , page53 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 53>
+Package pdftex.def Info: masters.pdf , page53 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 53>
+Package pdftex.def Info: masters.pdf , page53 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [104
+
+ <./masters.pdf>]
+<masters.pdf, id=941, page=54, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 54>
+Package pdftex.def Info: masters.pdf , page54 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 54>
+Package pdftex.def Info: masters.pdf , page54 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 54>
+Package pdftex.def Info: masters.pdf , page54 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [105
+
+ <./masters.pdf>]
+<masters.pdf, id=946, page=55, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 55>
+Package pdftex.def Info: masters.pdf , page55 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 55>
+Package pdftex.def Info: masters.pdf , page55 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 55>
+Package pdftex.def Info: masters.pdf , page55 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [106
+
+ <./masters.pdf>]
+<masters.pdf, id=951, page=56, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 56>
+Package pdftex.def Info: masters.pdf , page56 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 56>
+Package pdftex.def Info: masters.pdf , page56 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 56>
+Package pdftex.def Info: masters.pdf , page56 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [107
+
+ <./masters.pdf>]
+<masters.pdf, id=957, page=57, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 57>
+Package pdftex.def Info: masters.pdf , page57 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 57>
+Package pdftex.def Info: masters.pdf , page57 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 57>
+Package pdftex.def Info: masters.pdf , page57 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [108
+
+ <./masters.pdf>]
+<masters.pdf, id=962, page=58, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 58>
+Package pdftex.def Info: masters.pdf , page58 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 58>
+Package pdftex.def Info: masters.pdf , page58 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 58>
+Package pdftex.def Info: masters.pdf , page58 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [109
+
+ <./masters.pdf>]
+<masters.pdf, id=968, page=59, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 59>
+Package pdftex.def Info: masters.pdf , page59 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 59>
+Package pdftex.def Info: masters.pdf , page59 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 59>
+Package pdftex.def Info: masters.pdf , page59 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[110
+
+ <./masters.pdf>]
+<masters.pdf, id=973, page=60, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 60>
+Package pdftex.def Info: masters.pdf , page60 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 60>
+Package pdftex.def Info: masters.pdf , page60 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 60>
+Package pdftex.def Info: masters.pdf , page60 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [111
+
+ <./masters.pdf>]
+<masters.pdf, id=978, page=61, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 61>
+Package pdftex.def Info: masters.pdf , page61 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 61>
+Package pdftex.def Info: masters.pdf , page61 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 61>
+Package pdftex.def Info: masters.pdf , page61 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [112
+
+ <./masters.pdf>]
+<masters.pdf, id=983, page=62, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 62>
+Package pdftex.def Info: masters.pdf , page62 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 62>
+Package pdftex.def Info: masters.pdf , page62 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 62>
+Package pdftex.def Info: masters.pdf , page62 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [113
+
+ <./masters.pdf>]
+<masters.pdf, id=989, page=63, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 63>
+Package pdftex.def Info: masters.pdf , page63 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 63>
+Package pdftex.def Info: masters.pdf , page63 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 63>
+Package pdftex.def Info: masters.pdf , page63 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [114
+
+ <./masters.pdf>]
+<masters.pdf, id=994, page=64, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 64>
+Package pdftex.def Info: masters.pdf , page64 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 64>
+Package pdftex.def Info: masters.pdf , page64 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 64>
+Package pdftex.def Info: masters.pdf , page64 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [115
+
+ <./masters.pdf>]
+<masters.pdf, id=999, page=65, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 65>
+Package pdftex.def Info: masters.pdf , page65 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 65>
+Package pdftex.def Info: masters.pdf , page65 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 65>
+Package pdftex.def Info: masters.pdf , page65 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [116
+
+ <./masters.pdf>]
+<masters.pdf, id=1004, page=66, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 66>
+Package pdftex.def Info: masters.pdf , page66 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 66>
+Package pdftex.def Info: masters.pdf , page66 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 66>
+Package pdftex.def Info: masters.pdf , page66 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+[117
+
+ <./masters.pdf>]
+<masters.pdf, id=1009, page=67, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 67>
+Package pdftex.def Info: masters.pdf , page67 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 67>
+Package pdftex.def Info: masters.pdf , page67 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 67>
+Package pdftex.def Info: masters.pdf , page67 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [118
+
+ <./masters.pdf>]
+<masters.pdf, id=1014, page=68, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 68>
+Package pdftex.def Info: masters.pdf , page68 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 68>
+Package pdftex.def Info: masters.pdf , page68 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 68>
+Package pdftex.def Info: masters.pdf , page68 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [119
+
+ <./masters.pdf>]
+<masters.pdf, id=1020, page=69, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 69>
+Package pdftex.def Info: masters.pdf , page69 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 69>
+Package pdftex.def Info: masters.pdf , page69 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 69>
+Package pdftex.def Info: masters.pdf , page69 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [120
+
+ <./masters.pdf>]
+<masters.pdf, id=1025, page=70, 597.50829pt x 845.0471pt>
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 70>
+Package pdftex.def Info: masters.pdf , page70 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 70>
+Package pdftex.def Info: masters.pdf , page70 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: masters.pdf Graphic file (type pdf)
+<use masters.pdf, page 70>
+Package pdftex.def Info: masters.pdf , page70 used on input line 70.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [121
+
+ <./masters.pdf>] [122
+
+]
+Chapter 7.
+[123]
+<USETposter.pdf, id=1048, 3468.96pt x 2601.72pt>
+File: USETposter.pdf Graphic file (type pdf)
+<use USETposter.pdf>
+Package pdftex.def Info: USETposter.pdf  used on input line 74.
+(pdftex.def)             Requested size: 3468.95158pt x 2601.71368pt.
+File: USETposter.pdf Graphic file (type pdf)
+<use USETposter.pdf>
+Package pdftex.def Info: USETposter.pdf  used on input line 74.
+(pdftex.def)             Requested size: 3468.95158pt x 2601.71368pt.
+<USETposter.pdf, id=1051, page=1, 3468.96pt x 2601.72pt>
+File: USETposter.pdf Graphic file (type pdf)
+<use USETposter.pdf, page 1>
+Package pdftex.def Info: USETposter.pdf , page1 used on input line 74.
+(pdftex.def)             Requested size: 3468.95158pt x 2601.71368pt.
+File: USETposter.pdf Graphic file (type pdf)
+<use USETposter.pdf, page 1>
+Package pdftex.def Info: USETposter.pdf , page1 used on input line 74.
+(pdftex.def)             Requested size: 597.65521pt x 448.24141pt.
+File: USETposter.pdf Graphic file (type pdf)
+<use USETposter.pdf, page 1>
+Package pdftex.def Info: USETposter.pdf , page1 used on input line 74.
+(pdftex.def)             Requested size: 597.65521pt x 448.24141pt.
+File: USETposter.pdf Graphic file (type pdf)
+<use USETposter.pdf, page 1>
+Package pdftex.def Info: USETposter.pdf , page1 used on input line 74.
+(pdftex.def)             Requested size: 597.65521pt x 448.24141pt.
+File: USETposter.pdf Graphic file (type pdf)
+<use USETposter.pdf, page 1>
+Package pdftex.def Info: USETposter.pdf , page1 used on input line 74.
+(pdftex.def)             Requested size: 597.65521pt x 448.24141pt.
+ [124
+
+ <./USETposter.pdf>]
+<FalcariusFinalPaper.pdf, id=1124, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf>
+Package pdftex.def Info: FalcariusFinalPaper.pdf  used on input line 75.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf>
+Package pdftex.def Info: FalcariusFinalPaper.pdf  used on input line 75.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<FalcariusFinalPaper.pdf, id=1127, page=1, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 1>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 75.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 1>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 1>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 1>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 1>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page1 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [125
+
  <./FalcariusFinalPaper.pdf>]
-<figures/mask.jpeg, id=891, 1812.7725pt x 1814.78pt>
+<FalcariusFinalPaper.pdf, id=1150, page=2, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 2>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page2 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 2>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page2 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 2>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page2 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [126
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1155, page=3, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 3>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page3 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 3>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page3 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 3>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page3 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [127
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1160, page=4, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 4>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page4 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 4>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page4 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 4>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page4 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [128
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1177, page=5, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 5>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page5 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 5>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page5 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 5>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page5 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [129
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1188, page=6, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 6>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page6 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 6>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page6 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 6>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page6 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [130
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1196, page=7, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 7>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page7 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 7>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page7 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 7>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page7 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+
+[131
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1208, page=8, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 8>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page8 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 8>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page8 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 8>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page8 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [132
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1219, page=9, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 9>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page9 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 9>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page9 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 9>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page9 used on input line 75.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [133
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1230, page=10, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 10>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page10 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 10>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page10 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 10>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page10 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [134
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1244, page=11, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 11>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page11 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 11>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page11 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 11>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page11 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [135
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1261, page=12, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 12>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page12 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 12>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page12 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 12>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page12 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [136
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1275, page=13, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 13>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page13 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 13>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page13 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 13>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page13 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [137
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1287, page=14, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 14>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page14 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 14>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page14 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 14>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page14 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[138
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1295, page=15, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 15>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page15 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 15>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page15 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 15>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page15 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [139
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1300, page=16, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 16>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page16 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 16>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page16 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 16>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page16 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [140
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1308, page=17, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 17>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page17 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 17>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page17 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 17>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page17 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [141
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1316, page=18, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 18>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page18 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 18>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page18 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 18>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page18 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [142
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1327, page=19, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 19>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page19 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 19>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page19 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 19>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page19 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [143
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1336, page=20, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 20>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page20 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 20>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page20 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 20>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page20 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [144
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1347, page=21, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 21>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page21 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 21>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page21 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 21>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page21 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[145
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1355, page=22, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 22>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page22 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 22>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page22 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 22>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page22 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [146
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1363, page=23, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 23>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page23 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 23>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page23 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 23>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page23 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [147
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1371, page=24, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 24>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page24 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 24>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page24 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 24>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page24 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [148
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1376, page=25, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 25>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page25 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 25>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page25 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 25>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page25 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [149
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1382, page=26, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 26>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page26 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 26>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page26 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 26>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page26 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [150
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1387, page=27, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 27>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page27 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 27>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page27 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 27>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page27 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [151
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1392, page=28, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 28>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page28 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 28>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page28 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 28>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page28 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[152
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1397, page=29, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 29>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page29 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 29>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page29 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 29>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page29 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [153
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1402, page=30, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 30>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page30 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 30>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page30 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 30>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page30 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [154
+
+ <./FalcariusFinalPaper.pdf>]
+<FalcariusFinalPaper.pdf, id=1407, page=31, 614.295pt x 794.97pt>
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 31>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page31 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 31>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page31 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: FalcariusFinalPaper.pdf Graphic file (type pdf)
+<use FalcariusFinalPaper.pdf, page 31>
+Package pdftex.def Info: FalcariusFinalPaper.pdf , page31 used on input line 75
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [155
+
+ <./FalcariusFinalPaper.pdf>]
+<figures/mask.jpeg, id=1414, 1812.7725pt x 1814.78pt>
 File: figures/mask.jpeg Graphic file (type jpg)
 <use figures/mask.jpeg>
-Package pdftex.def Info: figures/mask.jpeg  used on input line 79.
+Package pdftex.def Info: figures/mask.jpeg  used on input line 82.
 (pdftex.def)             Requested size: 362.37569pt x 362.75574pt.
- (./book.bbl [84 <./figures/mask.jpeg>]
-[85
+ (./book.bbl [156 <./figures/mask.jpeg>] [157
 
-]) [86]
+]) [158]
 Appendix A.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
-<figures/utah.png, id=910, 2743.24875pt x 1815.78375pt>
+<figures/utah.png, id=1433, 2743.24875pt x 1815.78375pt>
 File: figures/utah.png Graphic file (type png)
 <use figures/utah.png>
-Package pdftex.def Info: figures/utah.png  used on input line 113.
+Package pdftex.def Info: figures/utah.png  used on input line 116.
 (pdftex.def)             Requested size: 362.37569pt x 239.85597pt.
-<figures/aocp.jpg, id=912, 1505.625pt x 1296.845pt>
+<figures/aocp.jpg, id=1435, 1505.625pt x 1296.845pt>
 File: figures/aocp.jpg Graphic file (type jpg)
 <use figures/aocp.jpg>
-Package pdftex.def Info: figures/aocp.jpg  used on input line 119.
+Package pdftex.def Info: figures/aocp.jpg  used on input line 122.
 (pdftex.def)             Requested size: 362.37569pt x 312.11984pt.
-<figures/rumi_gold.png, id=914, 560.0925pt x 835.12pt>
+<figures/rumi_gold.png, id=1437, 560.0925pt x 835.12pt>
 File: figures/rumi_gold.png Graphic file (type png)
 <use figures/rumi_gold.png>
-Package pdftex.def Info: figures/rumi_gold.png  used on input line 125.
+Package pdftex.def Info: figures/rumi_gold.png  used on input line 128.
 (pdftex.def)             Requested size: 362.37569pt x 540.3367pt.
-[87
+[159
 
 
-] [88 <./figures/utah.png (PNG copy)> <./figures/aocp.jpg>] [89 <./figures/rumi
-_gold.png>] (./book.aux)
+] [160 <./figures/utah.png (PNG copy)> <./figures/aocp.jpg>] [161 <./figures/ru
+mi_gold.png>] (./book.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12863 strings out of 474116
- 201535 string characters out of 5743682
+ 13158 strings out of 474116
+ 208457 string characters out of 5743682
  1942187 words of memory out of 5000000
- 34824 multiletter control sequences out of 15000+600000
+ 35045 multiletter control sequences out of 15000+600000
  566212 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,79p,1079b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
-al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loca
-l/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (91 pages, 53347833 bytes).
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+24/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/
+texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on book.pdf (163 pages, 54204841 bytes).
 PDF statistics:
- 1191 PDF objects out of 1200 (max. 8388607)
- 820 compressed objects within 9 object streams
- 198 named destinations out of 1000 (max. 500000)
- 808 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1740 PDF objects out of 2073 (max. 8388607)
+ 1173 compressed objects within 12 object streams
+ 272 named destinations out of 1000 (max. 500000)
+ 1189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
