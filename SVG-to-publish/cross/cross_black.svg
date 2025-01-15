@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with matplotlib (https://matplotlib.org/) -->
+<svg height="1008pt" version="1.1" viewBox="0 0 792 1008" width="792pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+*{stroke-linecap:butt;stroke-linejoin:round;}
+  </style>
+ </defs>
+ <g id="figure_1">
+  <g id="axes_1">
+   <g id="LineCollection_1">
+    <path clip-path="url(#p7fa4a4375e)" d="M 772.2 982.8 
+L 772.2 25.2 
+L 19.8 25.2 
+L 19.8 982.8 
+L 772.2 982.8 
+" style="fill:none;stroke:#000000;stroke-opacity:0.7;stroke-width:0.850394;"/>
+    <path clip-path="url(#p7fa4a4375e)" d="M 528.473939 488.261125 
+L 33.935065 982.8 
+L 19.8 982.8 
+L 19.8 691.464935 
+L 375.738875 335.526061 
+L 65.412814 25.2 
+L 370.882943 25.2 
+L 528.473939 182.790996 
+L 686.064935 25.2 
+L 772.2 25.2 
+L 772.2 244.535065 
+L 681.209004 335.526061 
+L 772.2 426.517057 
+L 772.2 731.987186 
+L 528.473939 488.261125 
+" style="fill:none;stroke:#000000;stroke-opacity:0.7;stroke-width:0.850394;"/>
+    <path clip-path="url(#p7fa4a4375e)" d="M 528.347555 447.658159 
+L 19.8 956.205714 
+L 19.8 732.194286 
+L 416.341841 335.652445 
+L 105.889397 25.2 
+L 329.900825 25.2 
+L 528.347555 223.64673 
+L 726.794286 25.2 
+L 772.2 25.2 
+L 772.2 203.805714 
+L 640.35327 335.652445 
+L 772.2 467.499175 
+L 772.2 691.510603 
+L 528.347555 447.658159 
+" style="fill:none;stroke:#000000;stroke-opacity:0.7;stroke-width:0.850394;"/>
+    <path clip-path="url(#p7fa4a4375e)" d="M 528.221172 407.055192 
+L 19.8 915.476364 
+L 19.8 772.923636 
+L 456.944808 335.778828 
+L 146.36598 25.2 
+L 288.918707 25.2 
+L 528.221172 264.502465 
+L 767.523636 25.2 
+L 772.2 25.2 
+L 772.2 163.076364 
+L 599.497535 335.778828 
+L 772.2 508.481293 
+L 772.2 651.03402 
+L 528.221172 407.055192 
+" style="fill:none;stroke:#000000;stroke-opacity:0.7;stroke-width:0.850394;"/>
+    <path clip-path="url(#p7fa4a4375e)" d="M 528.094788 366.452225 
+L 19.8 874.747013 
+L 19.8 813.652987 
+L 497.547775 335.905212 
+L 186.842563 25.2 
+L 247.936589 25.2 
+L 528.094788 305.358199 
+L 772.2 61.252987 
+L 772.2 122.347013 
+L 558.641801 335.905212 
+L 772.2 549.463411 
+L 772.2 610.557437 
+L 528.094788 366.452225 
+" style="fill:none;stroke:#000000;stroke-opacity:0.7;stroke-width:0.850394;"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7fa4a4375e">
+   <rect height="957.6" width="752.4" x="19.8" y="25.2"/>
+  </clipPath>
+ </defs>
+</svg>
