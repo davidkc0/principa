@@ -9,45 +9,46 @@ Warning--empty publisher in bhavana
 Warning--empty year in bhavana
 Warning--empty publisher in teapot
 Warning--empty year in teapot
-You've used 19 entries,
+Warning--can't use both author and editor fields in rumi_moses
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            576 strings with 5673 characters,
-and the built_in function-call counts, 4290 in all, are:
-= -- 385
-> -- 166
+            585 strings with 5819 characters,
+and the built_in function-call counts, 4727 in all, are:
+= -- 423
+> -- 180
 < -- 0
-+ -- 71
-- -- 50
-* -- 177
-:= -- 740
-add.period$ -- 60
-call.type$ -- 19
-change.case$ -- 74
++ -- 78
+- -- 54
+* -- 196
+:= -- 816
+add.period$ -- 66
+call.type$ -- 21
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 183
-empty$ -- 419
-format.name$ -- 50
-if$ -- 911
+cite$ -- 26
+duplicate$ -- 207
+empty$ -- 463
+format.name$ -- 54
+if$ -- 1003
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 20
-newline$ -- 101
-num.names$ -- 38
-pop$ -- 165
+int.to.str$ -- 21
+missing$ -- 24
+newline$ -- 111
+num.names$ -- 42
+pop$ -- 180
 preamble$ -- 1
-purify$ -- 63
+purify$ -- 69
 quote$ -- 0
-skip$ -- 121
+skip$ -- 133
 stack$ -- 0
-substring$ -- 97
-swap$ -- 19
+substring$ -- 108
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
-warning$ -- 4
-while$ -- 38
-width$ -- 21
-write$ -- 199
-(There were 5 warnings)
+type$ -- 60
+warning$ -- 5
+while$ -- 42
+width$ -- 23
+write$ -- 219
+(There were 6 warnings)

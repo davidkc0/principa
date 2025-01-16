@@ -95,4 +95,4 @@
 \contentsline {chapter}{\numberline {15}Well it's Greek to me now..}{281}{chapter.15}%
 \contentsline {chapter}{Well it's Greek to me now..}{282}{section*.48}%
 \contentsline {chapter}{\numberline {16}Phantasmagoria}{297}{chapter.16}%
-\contentsline {chapter}{\numberline {A}Dedication outro.}{301}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Dedication outro.}{303}{appendix.A}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  14 JAN 2025 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.13)  15 JAN 2025 23:37
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -4407,6 +4407,16 @@ File: figures/mask.jpg Graphic file (type jpg)
 <use figures/mask.jpg>
 Package pdftex.def Info: figures/mask.jpg  used on input line 311.
 (pdftex.def)             Requested size: 362.37569pt x 362.38568pt.
+<figures/silk_moth.jpg, id=2644, 1393.205pt x 2023.56pt>
+File: figures/silk_moth.jpg Graphic file (type jpg)
+<use figures/silk_moth.jpg>
+Package pdftex.def Info: figures/silk_moth.jpg  used on input line 322.
+(pdftex.def)             Requested size: 362.37569pt x 526.32933pt.
+<figures/lion_poem.png, id=2646, 532.99126pt x 797.98125pt>
+File: figures/lion_poem.png Graphic file (type png)
+<use figures/lion_poem.png>
+Package pdftex.def Info: figures/lion_poem.png  used on input line 328.
+(pdftex.def)             Requested size: 362.37569pt x 542.55919pt.
 (./book.bbl [297] [298
 pdfTeX warning (ext4): destination with the same identifier (name{figure.16.1})
  has been already used, duplicate ignored
@@ -4414,56 +4424,68 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.16.1})
                                                   \__shipout_drop_firstpage_...
 l.1 \begin{thebibliography}{10}
                                 <./figures/mask.jpg>] [299
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16.2})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1 \begin{thebibliography}{10}
+                                <./figures/silk_moth.jpg>] [300
+pdfTeX warning (ext4): destination with the same identifier (name{figure.16.3})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1 \begin{thebibliography}{10}
+                                <./figures/lion_poem.png>] [301
 
-]) [300]
+]) [302]
 Appendix A.
-<figures/utah.png, id=2665, 2743.24875pt x 1815.78375pt>
+<figures/utah.png, id=2682, 2743.24875pt x 1815.78375pt>
 File: figures/utah.png Graphic file (type png)
 <use figures/utah.png>
-Package pdftex.def Info: figures/utah.png  used on input line 331.
+Package pdftex.def Info: figures/utah.png  used on input line 345.
 (pdftex.def)             Requested size: 362.37569pt x 239.85597pt.
-<figures/aocp.jpg, id=2667, 1505.625pt x 1296.845pt>
+<figures/aocp.jpg, id=2684, 1505.625pt x 1296.845pt>
 File: figures/aocp.jpg Graphic file (type jpg)
 <use figures/aocp.jpg>
-Package pdftex.def Info: figures/aocp.jpg  used on input line 337.
+Package pdftex.def Info: figures/aocp.jpg  used on input line 351.
 (pdftex.def)             Requested size: 362.37569pt x 312.11984pt.
-<figures/rumi_gold.png, id=2669, 560.0925pt x 835.12pt>
+<figures/rumi_gold.png, id=2686, 560.0925pt x 835.12pt>
 File: figures/rumi_gold.png Graphic file (type png)
 <use figures/rumi_gold.png>
-Package pdftex.def Info: figures/rumi_gold.png  used on input line 343.
+Package pdftex.def Info: figures/rumi_gold.png  used on input line 357.
 (pdftex.def)             Requested size: 362.37569pt x 540.3367pt.
-[301
+[303
 
 
-] [302
+] [304
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.347 \clearpage
+l.361 \clearpage
                 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.347 \clearpage
-                 <./figures/utah.png (PNG copy)> <./figures/aocp.jpg>] [303
+l.361 \clearpage
+                 <./figures/utah.png (PNG copy)> <./figures/aocp.jpg>] [305
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.3}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.347 \clearpage
+l.361 \clearpage
                  <./figures/rumi_gold.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 367--368
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
-[304
+[306
 
 ] (./book.aux)
  ***********
@@ -4474,10 +4496,10 @@ runsystem(rm book.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 16698 strings out of 474116
- 298835 string characters out of 5743682
+ 16720 strings out of 474116
+ 299315 string characters out of 5743682
  1943187 words of memory out of 5000000
- 38241 multiletter control sequences out of 15000+600000
+ 38257 multiletter control sequences out of 15000+600000
  566677 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,17n,79p,1079b,824s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -4508,10 +4530,10 @@ st/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/texmf
 -dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2024/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on book.pdf (306 pages, 125156345 bytes).
+Output written on book.pdf (308 pages, 127101262 bytes).
 PDF statistics:
- 3165 PDF objects out of 3580 (max. 8388607)
- 2101 compressed objects within 22 object streams
- 480 named destinations out of 1000 (max. 500000)
- 2060 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3184 PDF objects out of 3580 (max. 8388607)
+ 2115 compressed objects within 22 object streams
+ 486 named destinations out of 1000 (max. 500000)
+ 2070 words of extra memory for PDF output out of 10000 (max. 10000000)
 
